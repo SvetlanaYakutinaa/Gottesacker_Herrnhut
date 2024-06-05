@@ -13,11 +13,11 @@ if selection == "Karte":
 
      # Die Karte auf der Webseite posten
      with st.container():
-          st.title("Karte des Gottesackers in Herrnhut")
+          st.title("Karte des Gottesackers Herrnhut")
           
           # Koordinaten für die Anfangsanzeige der Karte (zum Beispiel: Berlin)
           start_coordinates = (51.019419, 14.748778)
-          m = folium.Map(location=start_coordinates, zoom_start=19)
+          m = folium.Map(location=start_coordinates, zoom_start=18)
 
           # Speichere die Karte in einer HTML-Datei
           m.save("map.html")
@@ -28,6 +28,8 @@ if selection == "Karte":
 
           # Zeige die HTML-Karte in der Streamlit-Anwendung
           html(map_html, height=500)
+
+
 elif selection == "Analyse":
      st.title ("keine Ahnung")
 
