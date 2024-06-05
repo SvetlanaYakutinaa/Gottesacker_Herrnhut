@@ -31,5 +31,5 @@ if selection == "Karte":
 
 
 elif selection == "Analyse":
-     st.title ("keine Ahnung")
+     st.title ("In Arbeit")
 
