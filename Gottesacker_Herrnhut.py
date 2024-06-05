@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_folium import st_folium
 import folium
 from streamlit.components.v1 import html
 
