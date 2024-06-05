@@ -29,4 +29,6 @@ if selection == "Karte":
 
           # Zeige die HTML-Karte in der Streamlit-Anwendung
           html(map_html, height=500)
+elif selection == "Analyse":
+     st.title ("keine Ahnung")
 
