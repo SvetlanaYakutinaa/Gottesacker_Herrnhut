@@ -1,7 +1,7 @@
 import streamlit as st
-from streamlit_folium import st_folium
+
 import folium
-import streamlit.components.v1 as components
+
 import json
 from streamlit.components.v1 import html
 
