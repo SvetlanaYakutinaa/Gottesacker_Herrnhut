@@ -17,7 +17,7 @@ if selection == "Karte":
           
           # Koordinaten für die Anfangsanzeige der Karte (zum Beispiel: Berlin)
           start_coordinates = (51.019419, 14.748778)
-          m = folium.Map(location=start_coordinates, zoom_start=12)
+          m = folium.Map(location=start_coordinates, zoom_start=19)
 
           # Speichere die Karte in einer HTML-Datei
           m.save("map.html")
