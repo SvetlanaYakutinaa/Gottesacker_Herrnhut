@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_03b976bec682b08325bbac42e67b7839 {
+                #map_2c45d4aba431953b73c63d6f50e9c239 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,18 +39,18 @@
 <body>
     
     
-            <div class="folium-map" id="map_03b976bec682b08325bbac42e67b7839" ></div>
+            <div class="folium-map" id="map_2c45d4aba431953b73c63d6f50e9c239" ></div>
         
 </body>
 <script>
     
     
-            var map_03b976bec682b08325bbac42e67b7839 = L.map(
-                "map_03b976bec682b08325bbac42e67b7839",
+            var map_2c45d4aba431953b73c63d6f50e9c239 = L.map(
+                "map_2c45d4aba431953b73c63d6f50e9c239",
                 {
-                    center: [51.019419, 14.748778],
+                    center: [48.8566, 2.3522],
                     crs: L.CRS.EPSG3857,
-                    zoom: 18,
+                    zoom: 12,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -60,31 +60,97 @@
 
         
     
-            var tile_layer_2b72143d4e139028278cc9f9bbf163ad = L.tileLayer(
+            var tile_layer_d32815a84413e3d5f5a4ac4d7b411e54 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_03b976bec682b08325bbac42e67b7839);
+            ).addTo(map_2c45d4aba431953b73c63d6f50e9c239);
         
     
-            var marker_a52b0eba9e977db3682e78f6cc08c4d7 = L.marker(
-                [51.05853, 14.4437662],
+            var marker_7950beaff6e84ef4723c6e49bd6f4810 = L.marker(
+                [48.8566, 2.3522],
                 {}
-            ).addTo(map_03b976bec682b08325bbac42e67b7839);
+            ).addTo(map_2c45d4aba431953b73c63d6f50e9c239);
         
     
-        var popup_efe434efebc8aaaab42b5dbe506238f0 = L.popup({"maxWidth": "100%"});
+        var popup_10b4a477d5c308e80e1ced0ebd889847 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_32b65a2680aa5458b14f55f8110391a8 = $(`<div id="html_32b65a2680aa5458b14f55f8110391a8" style="width: 100.0%; height: 100.0%;">Andersen<br>© Julius Titz<br><img src='Gottesacker_Julius_Titz/Andersen.jpeg' width='150'></div>`)[0];
-                popup_efe434efebc8aaaab42b5dbe506238f0.setContent(html_32b65a2680aa5458b14f55f8110391a8);
+                var html_12f76b7b6718cdd2b8ca8fa0dc22c499 = $(`<div id="html_12f76b7b6718cdd2b8ca8fa0dc22c499" style="width: 100.0%; height: 100.0%;">Paris</div>`)[0];
+                popup_10b4a477d5c308e80e1ced0ebd889847.setContent(html_12f76b7b6718cdd2b8ca8fa0dc22c499);
             
         
 
-        marker_a52b0eba9e977db3682e78f6cc08c4d7.bindPopup(popup_efe434efebc8aaaab42b5dbe506238f0)
+        marker_7950beaff6e84ef4723c6e49bd6f4810.bindPopup(popup_10b4a477d5c308e80e1ced0ebd889847)
         ;
 
         
     
+    
+            marker_7950beaff6e84ef4723c6e49bd6f4810.bindTooltip(
+                `<div>
+                     Klicken für mehr Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b2785aac9855003a08def250a42178e = L.marker(
+                [48.8584, 2.2945],
+                {}
+            ).addTo(map_2c45d4aba431953b73c63d6f50e9c239);
+        
+    
+        var popup_c14f4f8262d8de7abe6f6453d320191a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dacd6dab2a55e24a7edbc00f3d67b075 = $(`<div id="html_dacd6dab2a55e24a7edbc00f3d67b075" style="width: 100.0%; height: 100.0%;">Eiffelturm</div>`)[0];
+                popup_c14f4f8262d8de7abe6f6453d320191a.setContent(html_dacd6dab2a55e24a7edbc00f3d67b075);
+            
+        
+
+        marker_4b2785aac9855003a08def250a42178e.bindPopup(popup_c14f4f8262d8de7abe6f6453d320191a)
+        ;
+
+        
+    
+    
+            marker_4b2785aac9855003a08def250a42178e.bindTooltip(
+                `<div>
+                     Klicken für mehr Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff15d5b238454b2edb1b725297957d8b = L.marker(
+                [48.853, 2.3499],
+                {}
+            ).addTo(map_2c45d4aba431953b73c63d6f50e9c239);
+        
+    
+        var popup_e3a63ca890e6eebb290c086eea3f8d18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a2c1ff6ed08522de86c29adb7708bd5 = $(`<div id="html_4a2c1ff6ed08522de86c29adb7708bd5" style="width: 100.0%; height: 100.0%;">Notre-Dame</div>`)[0];
+                popup_e3a63ca890e6eebb290c086eea3f8d18.setContent(html_4a2c1ff6ed08522de86c29adb7708bd5);
+            
+        
+
+        marker_ff15d5b238454b2edb1b725297957d8b.bindPopup(popup_e3a63ca890e6eebb290c086eea3f8d18)
+        ;
+
+        
+    
+    
+            marker_ff15d5b238454b2edb1b725297957d8b.bindTooltip(
+                `<div>
+                     Klicken für mehr Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
 </script>
 </html>
