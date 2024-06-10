@@ -21,7 +21,7 @@ if selection == "Karte":
         start_coordinates = (51.019419, 14.748778)
         m = folium.Map(location=start_coordinates, zoom_start=18)
 
-        folium.Marker([51.019529, 14.748889], popup="<a href='https://drive.google.com/file/d/1NpY7mNy_bght-UEDiEVmRJY94n0maSP0/view'>Knud Andersen</a>").add_to(m)
+        folium.Marker([51.019529, 14.748889], popup="<a href='https://github.com/SvetlanaYakutinaa/Gottesacker_Herrnhut/blob/main/Gottesacker_Julius_Titz/Andersen.jpg'>Knud Andersen</a>").add_to(m)
         
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
