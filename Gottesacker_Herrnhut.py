@@ -1,8 +1,6 @@
 import streamlit as st
 import folium
 from streamlit.components.v1 import html
-import pandas as pd
-import streamlit_pandas as sp
 import json
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
@@ -50,7 +48,7 @@ if selection == "Karte":
                 <strong>Urheberrecht:</strong> {item['Uhrheberecht']}
                 """,
                 tooltip=item["name"]
-                
+
             ).add_to(m)
 
 
