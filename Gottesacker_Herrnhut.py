@@ -23,24 +23,7 @@ if selection == "Karte":
         start_coordinates = (51.019419, 14.748778)
         m = folium.Map(location=start_coordinates, zoom_start=18)
 
-        # HTML-Code für das Popup ohne Bild
-        html = """
-        <h2>Knud Andersen</h2>
-        <p>1741</p>
-        <p><a href="https://zenodo.org/records/10850114">Index der Gemein-Nachrichten (ab 1765): 2541</a></p>
-        <p><a href="https://sachsen.digital/werkansicht?tx_dlf[id]=344562&tx_dlf[page]=66"> Digitalisat</a></p>
-        <p>Stein:7, Reihe: R3, Feld: B2</p>
-        """
-
-        # IFrame erstellen
-        iframe = branca.element.IFrame(html=html, width=300, height=150)
-
-        # Popup mit dem IFrame erstellen
-        popup = folium.Popup(iframe, max_width=500)
-
-        # Marker mit Popup zur Karte hinzufügen 
-        marker_coordinates = [51.019529, 14.748889]  # Koordinaten des Markers
-        folium.Marker(marker_coordinates, popup=popup).add_to(m)
+        folium.Marker([51.019529, 14.748889], popup="Knud Andersen").add_to(m)
 
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
