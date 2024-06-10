@@ -33,7 +33,7 @@ if selection == "Karte":
         """
         
         # IFrame erstellen
-        iframe = branca.element.IFrame(html=html, width=500, height=350)
+        iframe = branca.element.IFrame(html=html, width=400, height=250)
         
         # Popup mit dem IFrame erstellen
         popup = folium.Popup(iframe, max_width=500)
