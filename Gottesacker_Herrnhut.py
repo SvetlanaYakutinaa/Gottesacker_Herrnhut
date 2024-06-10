@@ -34,7 +34,7 @@ if selection == "Karte":
         folium.Marker([51.019115, 14.748836], popup="Anna Magdalena Elisabeth Weiss. Stein: 15, Reihe: R2, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         folium.Marker([51.019036, 14.748669], popup="Dorothea Maria Ahlsleb. Stein: 1, Reihe: R1, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         folium.Marker([51.019050, 14.748683], popup="Mädgen Cornelia Louisa von Goldenberg. Stein: 2, Reihe: R1, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
-        folium.Marker([51.019057, 14.748774], popup=" Maria Luley. Stein: 7, Reihe: R4, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
+        folium.Marker([51.019057, 14.748774], popup="Maria Luley. Stein: 7, Reihe: R4, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         folium.Marker([51.019082, 14.748807], popup="Maria Magdalena Bezold. Stein: 11, Reihe: R4, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         
         # Speichere die Karte in einer HTML-Datei
@@ -51,11 +51,61 @@ if selection == "Karte":
             st.title("Digitale Friedhof")
             
             st.write("Hans Hansen")
-            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=250)
-            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/")
+            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
             
             st.write("Knud Andersen")
-            st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=250)
+            st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
+            
+            st.write("Johann Sebald Ringmacher")
+            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
+            
+            st.write("Johann Sebald Ringmacher")
+            st.image("Gottesacker_Julius_Titz/Ringmacher.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/743")
+            
+            st.write("Abraham Dürninger")
+            st.image("Gottesacker_Julius_Titz/20240525_160853.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/182")
+            
+            st.write("Johann Sebald Ringmacher")
+            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
+            
+            st.write("Benigna Schüz")
+            st.image("Gottesacker_Julius_Titz/S1R103.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766025684/140")
+            
+            st.write("Christa Dorothea Lintrup")
+            st.image("Gottesacker_Julius_Titz/S1R83.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766034756/143")
+            
+            st.write("Maria Magdalena Richter")
+            st.image("Gottesacker_Julius_Titz/S1R813.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/28")
+            
+            st.write("Anna Magdalena Elisabeth Weiss")
+            st.image("Gottesacker_Julius_Titz/S3R215.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1745048901/837")
+            
+            st.write("Dorothea Maria Ahlsleb")
+            st.image("Gottesacker_Julius_Titz/20240525_154421.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/394")
+            
+            st.write("Mädgen Cornelia Louisa von Goldenberg")
+            st.image("Gottesacker_Julius_Titz/S3R12.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/527")
+            
+            st.write("Maria Luley")
+            st.image("Gottesacker_Julius_Titz/S3R47.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/628")
+            
+            st.write("Maria Magdalena Bezold")
+            st.image("Gottesacker_Julius_Titz/S3R411.jpg", width=350)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/180")
+            
 
 
 elif selection == "Analyse":
