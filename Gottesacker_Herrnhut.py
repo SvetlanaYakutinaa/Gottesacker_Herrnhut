@@ -26,7 +26,7 @@ if selection == "Karte":
         # HTML-Code für das Popup mit der JPEG-Datei
         html = """
         <h1>Ein Bild in einem Popup</h1><br>
-        <img src="Gottesacker_Julius_Titz/Andersen.jpeg" alt="Dein Bild" width="400" height="300">
+        <img src="https://github.com/SvetlanaYakutinaa/Gottesacker_Herrnhut/blob/main/Gottesacker_Julius_Titz/Andersen.jpeg" alt="Dein Bild" width="400" height="300">
         <p>
         Hier ist etwas Beispieltext.
         </p>
@@ -42,37 +42,6 @@ if selection == "Karte":
         #Marker mit Popup zur Karte hinzufügen
         marker_coordinates = [51.019529, 14.748889]  # Koordinaten des Markers
         folium.Marker(marker_coordinates, popup=popup).add_to(m)
-
-
-
-
-        #hier ist neuer code
-        # Karte erstellen
-        
-        m = folium.Map(location=[51.019574, 14.748516], zoom_start=18)
-        
-        # HTML-Code für das Popup mit der JPEG-Datei
-        popup_content = """
-        <h1>Ein Bild in einem Popup</h1><br>
-        <img src="Gottesacker_Julius_Titz/Andersen.jpeg" alt="Dein Bild" width="400" height="300">
-        <p>
-        Hier ist etwas Beispieltext.
-        </p>
-        """
-        
-        # IFrame erstellen
-        iframe = branca.element.IFrame(html=popup_content, width=500, height=350)
-        
-        # Popup mit dem IFrame erstellen
-        popup = folium.Popup(iframe, max_width=500)
-        
-        # Marker mit Popup zur Karte hinzufügen
-        folium.Marker([51.019574, 14.748516], popup=popup).add_to(m)
-
-
-
-
-        #hier ist das ende
 
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
