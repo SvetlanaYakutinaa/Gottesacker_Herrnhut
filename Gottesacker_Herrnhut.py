@@ -51,23 +51,23 @@ if selection == "Karte":
             st.title("Digitale Friedhof")
             
             st.write("Hans Hansen")
-            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=350, use_column_width="always")
+            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
             
             st.write("Knud Andersen")
-            st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=350, use_column_width="auto")
+            st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=150, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
             
             st.write("Johann Sebald Ringmacher")
-            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=350, use_column_width="never")
+            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
             
             st.write("Johann Sebald Ringmacher")
-            st.image("Gottesacker_Julius_Titz/Ringmacher.jpg", width=350)
+            st.image("Gottesacker_Julius_Titz/Ringmacher.jpg", width=150, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/743")
             
             st.write("Abraham Dürninger")
-            st.image("Gottesacker_Julius_Titz/20240525_160853.jpg", width=350)
+            st.image("Gottesacker_Julius_Titz/20240525_160853.jpg", length=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/182")
             
             st.write("Johann Sebald Ringmacher")
