@@ -2,6 +2,7 @@ import streamlit as st
 import folium
 from streamlit.components.v1 import html
 import json
+from folium import IFrame
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
@@ -22,7 +23,30 @@ if selection == "Karte":
 
         folium.Marker([51.019529, 14.748889], popup="Knud Andersen").add_to(m)    
         
-        
+        # Bild-URL
+        img_url = 'Gottesacker_Julius_Titz/Andersen.jpg'  # Ersetze durch die tatsächliche URL deines Bildes
+
+        # HTML-Code für das Bild
+        html = f'<img src="{img_url}" width="300" height="200">'
+
+        # Erstelle ein IFrame-Objekt
+        iframe = IFrame(html, width=310, height=210)
+
+        # Erstelle ein Popup mit dem IFrame
+        popup = folium.Popup(iframe, max_width=310)
+
+        # Erstelle den Marker mit dem Popup
+        folium.Marker([51.019529, 14.748889], popup=popup).add_to(m)
+
+        # Speichere die Karte in einer HTML-Datei
+        m.save("map.html")
+
+        # Lese die HTML-Datei und zeige sie in Streamlit an
+        with open("map.html", "r", encoding="utf-8") as f:
+            map_html = f.read()
+
+        # Zeige die HTML-Karte in der Streamlit-Anwendung
+        st.components.v1.html(map_html, height=500)
 
 
         # Speichere die Karte in einer HTML-Datei
