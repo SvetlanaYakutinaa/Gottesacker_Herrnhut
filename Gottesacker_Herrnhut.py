@@ -58,6 +58,7 @@ elif selection == "Analyse":
     # Bild hochladen
 image = st.file_uploader("Gottesacker_Julius_Titz/Andersen.jpeg", type=["jpg", "png", "jpeg"])
 
-if image is not None:
-    # Bild anzeigen
-    st.image(image, caption='Hochgeladenes Bild', use_column_width=True)
+st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=300, caption="Bildunterschrift")
+
+# Bild mit Alternativtext anzeigen
+st.image("Gottesacker_Julius_Titz/Andersen.jpeg", caption="Bildunterschrift", alt="Alternativtext")
