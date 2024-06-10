@@ -13,6 +13,7 @@ selection = st.sidebar.radio("Gehe zu", ["Karte", "Analyse"])
 
 # Seiteninhalt basierend auf der Auswahl des Benutzers aktualisieren
 if selection == "Karte":
+    
 
     # Die Karte auf der Webseite posten
     with st.container():
@@ -22,7 +23,6 @@ if selection == "Karte":
         start_coordinates = (51.019419, 14.748778)
         m = folium.Map(location=start_coordinates, zoom_start=18)
         
-        #ab hier neuer code
         # HTML-Code für das Popup mit der JPEG-Datei
         html = """
         <h1>Ein Bild in einem Popup</h1><br>
@@ -33,20 +33,14 @@ if selection == "Karte":
         """
         
         # IFrame erstellen
-        
         iframe = branca.element.IFrame(html=html, width=500, height=350)
         
         # Popup mit dem IFrame erstellen
         popup = folium.Popup(iframe, max_width=500)
         
-        # Marker mit Popup zur Karte hinzufüge
+        # Marker mit Popup zur Karte hinzufügen
         folium.Marker([51.019529, 14.748889], popup=popup).add_to(m)
 
-
-
-
-        #hier ist das ende
-        
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
 
@@ -55,9 +49,10 @@ if selection == "Karte":
             map_html = f.read()
 
         # Zeige die HTML-Karte in der Streamlit-Anwendung
-        st.components.v1.html(map_html, height=500)    
-        
-        
+        st.components.v1.html(map_html, height=500)
+
+
+       
      
 
 
