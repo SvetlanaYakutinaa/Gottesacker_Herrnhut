@@ -25,14 +25,15 @@ if selection == "Karte":
 
         # HTML-Code für das Popup ohne Bild
         html = """
-        <h1>Knud Andersen</h1>
+        <h2>Knud Andersen</h2>
         <p>1741</p>
-        <p><a href="https://zenodo.org/records/10850114">"Index der Gemein-Nachrichten (ab 1765): 2541"</a></p>
-        <p><a href="https://sachsen.digital/werkansicht?tx_dlf[id]=344562&tx_dlf[page]=66"> "Digitalisat"</a></p>
+        <p><a href="https://zenodo.org/records/10850114">Index der Gemein-Nachrichten (ab 1765): 2541</a></p>
+        <p><a href="https://sachsen.digital/werkansicht?tx_dlf[id]=344562&tx_dlf[page]=66"> Digitalisat</a></p>
+        <p>Stein:7, Reihe: R3, Feld: B2</p>
         """
 
         # IFrame erstellen
-        iframe = branca.element.IFrame(html=html, width=400, height=250)
+        iframe = branca.element.IFrame(html=html, width=300, height=150)
 
         # Popup mit dem IFrame erstellen
         popup = folium.Popup(iframe, max_width=500)
