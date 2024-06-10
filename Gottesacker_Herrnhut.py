@@ -35,21 +35,6 @@ if selection == "Karte":
 elif selection == "Analyse":
     st.title("In Arbeit")
     
-    file = "top_words.csv"
-    df = pd.read_csv(file)
-    
-    # Erstelle Widgets für die Interaktion
-    all_widgets = sp.create_widgets(df)
-    
-    # Wende Filter auf den DataFrame an
-    res = sp.filter_df(df, all_widgets)
-    
-    # Zeige den Original-DataFrame an
-    st.header("Original DataFrame")
-    st.write(df)
-
-    # Zeige den gefilterten DataFrame an
-    st.header("Result DataFrame")
-    st.write(res)
+   
   
      
