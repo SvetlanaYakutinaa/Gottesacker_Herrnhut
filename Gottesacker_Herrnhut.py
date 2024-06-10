@@ -18,7 +18,29 @@ if selection == "Karte":
         
         # Koordinaten für die Anfangsanzeige der Karte (zum Beispiel: Berlin)
         start_coordinates = (51.019419, 14.748778)
-        m = folium.Map(location=start_coordinates, zoom_start=18)
+        m = folium.Map(location=start_coordinates, zoom_start=18)    
+        
+        # Marker hinzufügen
+        popup_html = f""" 
+        <strong>Name:</strong> {marker_data['name']}<br>
+        <strong>Datum:</strong> {marker_data['Datum']}<br>
+        <strong>Stein:</strong> {marker_data['Stein']}<br>
+        <strong>Reihe:</strong> {marker_data['Reihe']}<br>
+        <strong>Feld:</strong> {marker_data['Feld']}<br>
+        <strong>Index der Gemein-Nachrichten (ab 1765):</strong> {marker_data['Index der Gemein-Nachrichten (ab 1765)']}<br>
+        <strong>URL Index:</strong> <a href="{marker_data['URL_Index']}" target="_blank">Link</a><br>
+        <strong>Digitalisat:</strong> <a href="{marker_data['Digitalisat']}" target="_blank">Link</a><br>
+        <strong>Bild:</strong> <img src="{marker_data['bild']}" alt="Bild" style="width:100px;"><br>
+        <strong>Urheberecht:</strong> {marker_data['Urheberecht']} """
+        
+        folium.Marker(
+            location=[marker_data['latitude'], marker_data['longitude']],
+            popup=folium.Popup(popup_html, max_width=300)
+            ).add_to(m)
+        
+        # Zeige die Folium-Karte direkt in Streamlit an
+        folium_static(m, height=500)
+
 
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
