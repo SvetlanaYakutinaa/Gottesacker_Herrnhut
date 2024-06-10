@@ -36,7 +36,7 @@ if selection == "Karte":
         folium.Marker([51.019057, 14.748774], popup=" Maria Luley", icon=folium.Icon(color='red')).add_to(m)
         folium.Marker([51.019082, 14.748807], popup="Maria Magdalena Bezold", icon=folium.Icon(color='red')).add_to(m)
         #probe 
-        folium.Marker([51.019529, 14.748889], popup='<a href="https://example.com">Klicken Sie hier für weitere Informationen</a>').add_to(m)
+        folium.Marker([51.019529, 14.748889], popup='<a href="https://sachsen.digital/werkansicht?tx_dlf[id]=344562&tx_dlf[page]=66">Klicken Sie hier für weitere Informationen</a>').add_to(m)
         #'<a href="https://example.com">Klicken Sie hier für weitere Informationen</a>'
 
         # Speichere die Karte in einer HTML-Datei
