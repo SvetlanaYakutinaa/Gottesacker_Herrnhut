@@ -33,6 +33,6 @@ if selection == "Karte":
 elif selection == "Analyse":
      st.title ("In Arbeit")
   
-     df = "(/Users/svetlana/Desktop/Webseite_Gottesacker Kopie/Sorabicon/top_words.csv)"
+     df = "(top_words.csv)"
      st.write(df)
 
