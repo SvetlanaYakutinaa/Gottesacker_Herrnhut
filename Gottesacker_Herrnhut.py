@@ -21,14 +21,14 @@ if selection == "Karte":
 
         # Koordinaten für die Anfangsanzeige der Karte
         start_coordinates = (51.019419, 14.748778)
-        m = folium.Map(location=start_coordinates, zoom_start=16)
+        m = folium.Map(location=start_coordinates, zoom_start=18)
 
         # HTML-Code für das Popup ohne Bild
         html = """
-        <h1>Popup ohne Bild</h1>
-        <p>
-        Hier ist etwas Beispieltext.
-        </p>
+        <h1>Knud Andersen</h1>
+        <p>1741</p>
+        <p><a href="https://zenodo.org/records/10850114">"Index der Gemein-Nachrichten (ab 1765): 2541"</a></p>
+        <p><a href="https://sachsen.digital/werkansicht?tx_dlf[id]=344562&tx_dlf[page]=66"> "Digitalisat"</a></p>
         """
 
         # IFrame erstellen
