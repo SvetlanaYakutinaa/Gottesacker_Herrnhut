@@ -4,6 +4,7 @@ from streamlit.components.v1 import html
 import json
 from folium import IFrame
 import branca
+import streamlit.components.v1 as components
 
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
@@ -48,10 +49,16 @@ if selection == "Karte":
 
         with st.container():
             st.title("Digitale Friedhof")
+
+            with st.container():
+                st.title("Hans Hansen")
+                st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=300)
+                components.iframe("http://digital.slub-dresden.de/id1766125301/", height=500)
             
             with st.container():
-                st.write("Knud Andersen")
+                st.title("Knud Andersen")
                 st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=300)
+
 
 elif selection == "Analyse":
     st.title("In Arbeit")
