@@ -49,8 +49,8 @@ if selection == "Karte":
         with st.container():
             st.title("Digitale Friedhof")
             
-            with st.container("Knud Andersen"):
-                st.write("Datum")
+            with st.container():
+                st.write("Knud Andersen")
                 st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=300)
 
 elif selection == "Analyse":
