@@ -46,7 +46,14 @@ if selection == "Karte":
         # Zeige die HTML-Karte in der Streamlit-Anwendung
         st.components.v1.html(map_html, height=500)
 
+        with st.container():
+            st.title("Digitale Friedhof")
+            
+            with st.container("Knud Andersen"):
+                st.write("Datum")
+                st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=300)
+
 elif selection == "Analyse":
     st.title("In Arbeit")
     
-    st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=300, caption="Bildunterschrift")
+    
