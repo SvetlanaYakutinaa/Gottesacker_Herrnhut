@@ -51,10 +51,11 @@ if selection == "Karte":
             st.title("Digitale Friedhof")
             
             st.write("Hans Hansen")
-            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150)
+            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=250)
+            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/")
             
             st.write("Knud Andersen")
-            st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=150)
+            st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=250)
 
 
 elif selection == "Analyse":
