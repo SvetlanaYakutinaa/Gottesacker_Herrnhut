@@ -32,24 +32,46 @@ if selection == "Karte":
         
         json_data = load_json_data("Daten.json")
         
-        for item in json_data:
-            folium.Marker(
-                location=[item["latitude"], item["longitude"]],
-                popup=f"""
-                <strong>Name:</strong> {item['name']}<br>
-                <strong>Datum:</strong> {item['Datum']}<br>
-                <strong>Stein:</strong> {item['Stein']}<br>
-                <strong>Reihe:</strong> {item['Reihe']}<br>
-                <strong>Feld:</strong> {item['Feld']}<br>
-                <strong>Index der Gemein-Nachrichten (ab 1765):</strong> {item['Index der Gemein-Nachrichten (ab 1765)']}<br>
-                <strong>URL Index:</strong> <a href="{item['URL_Index']}" target="_blank">Link</a><br>
-                <strong>Digitalisat:</strong> <a href="{item['Digitalisat']}" target="_blank">Link</a><br>
-                <strong>Bild:</strong> <img src="{item['bild']}" width="100"><br>
-                <strong>Urheberrecht:</strong> {item['Uhrheberecht']}
-                """,
-                tooltip=item["name"]
+        if json_data:
+            for item in json_data:
+                try:
+                    # Überprüfen der notwendigen Felder
+                    name = item.get("name", "Unbekannt")
+                    latitude = item.get("latitude")
+                    longitude = item.get("longitude")
+                    if latitude and longitude:
+                        folium.Marker(
+                            location=[latitude, longitude],
+                            popup=f"""
+                            <strong>Name:</strong> {name}<br>
+                            <strong>Datum:</strong> {item.get('Datum', 'Unbekannt')}<br>
+                            <strong>Stein:</strong> {item.get('Stein', 'Unbekannt')}<br>
+                            <strong>Reihe:</strong> {item.get('Reihe', 'Unbekannt')}<br>
+                            <strong>Feld:</strong> {item.get('Feld', 'Unbekannt')}<br>
+                            <strong>Index der Gemein-Nachrichten (ab 1765):</strong> {item.get('Index der Gemein-Nachrichten (ab 1765)', 'Unbekannt')}<br>
+                            <strong>URL Index:</strong> <a href="{item.get('URL_Index', '#')}" target="_blank">Link</a><br>
+                            <strong>Digitalisat:</strong> <a href="{item.get('Digitalisat', '#')}" target="_blank">Link</a><br>
+                            <strong>Bild:</strong> <img src="{item.get('bild', '')}" width="100"><br>
+                            <strong>Urheberrecht:</strong> {item.get('Uhrheberecht', 'Unbekannt')}
+                            """,
+                            tooltip=name
+                        ).add_to(m)
+                    else:
+                        st.warning(f"Fehlende Koordinaten für {name}")
+                except Exception as e:
+                    st.error(f"Fehler beim Hinzufügen des Markers für {name}: {e}")
+        else:
+            st.error("Keine Daten in der JSON-Datei gefunden")
+        
+        # Speichere die Karte in einer HTML-Datei
+        m.save("map.html")
 
-            ).add_to(m)
+        # Lese die HTML-Datei und zeige sie in Streamlit an
+        with open("map.html", "r", encoding="utf-8") as f:
+            map_html = f.read()
+
+        # Zeige die HTML-Karte in der Streamlit-Anwendung
+        st.components.v1.html(map_html, height=500)
 
 
 elif selection == "Analyse":
