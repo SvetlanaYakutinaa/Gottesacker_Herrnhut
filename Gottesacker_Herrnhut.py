@@ -50,51 +50,51 @@ if selection == "Karte":
         with st.container():
             st.title("Digitale Friedhof")
             
-            st.title("Hans Hansen")
+            st.subheader("Hans Hansen")
             st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
             
-            st.title("Knud Andersen")
+            st.subheader("Knud Andersen")
             st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
             
-            st.title("Johann Sebald Ringmacher")
+            st.subheader("Johann Sebald Ringmacher")
             st.image("Gottesacker_Julius_Titz/Ringmacher.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/743")
             
-            st.title("Abraham Dürninger")
+            st.subheader("Abraham Dürninger")
             st.image("Gottesacker_Julius_Titz/20240525_160853.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/182")
             
-            st.title("Benigna Schüz")
+            st.subheader("Benigna Schüz")
             st.image("Gottesacker_Julius_Titz/S1R103.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766025684/140")
             
-            st.title("Christa Dorothea Lintrup")
+            st.subheader("Christa Dorothea Lintrup")
             st.image("Gottesacker_Julius_Titz/S1R83.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766034756/143")
             
-            st.title("Maria Magdalena Richter")
+            st.subheader("Maria Magdalena Richter")
             st.image("Gottesacker_Julius_Titz/S1R813.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/28")
             
-            st.title("Anna Magdalena Elisabeth Weiss")
+            st.subheader("Anna Magdalena Elisabeth Weiss")
             st.image("Gottesacker_Julius_Titz/S3R215.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1745048901/837")
             
-            st.title("Dorothea Maria Ahlsleb")
+            st.subheader("Dorothea Maria Ahlsleb")
             st.image("Gottesacker_Julius_Titz/20240525_154421.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/394")
             
-            st.title("Mädgen Cornelia Louisa von Goldenberg")
+            st.subheader("Mädgen Cornelia Louisa von Goldenberg")
             st.image("Gottesacker_Julius_Titz/S3R12.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/527")
             
-            st.title("Maria Luley")
+            st.subheader("Maria Luley")
             st.image("Gottesacker_Julius_Titz/S3R47.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/628")
             
-            st.title("Maria Magdalena Bezold")
+            st.subheader("Maria Magdalena Bezold")
             st.image("Gottesacker_Julius_Titz/S3R411.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/180")
             
