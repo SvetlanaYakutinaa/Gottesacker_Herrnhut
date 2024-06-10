@@ -29,12 +29,12 @@ if selection == "Karte":
         folium.Marker([51.019577, 14.748488], popup="Abraham Dürninger").add_to(m)
         folium.Marker([51.019103, 14.748604], popup="Benigna Schüz").add_to(m)
         folium.Marker([51.019112, 14.748551], popup="Christa Dorothea Lintrup", icon=folium.Icon(color='red')).add_to(m)
-        folium.Marker([51.019203, 14.748634], popup="Maria Magdalena Richter").add_to(m)
-        folium.Marker([51.019115, 14.748836], popup="Anna Magdalena Elisabeth Weiss").add_to(m)
-        folium.Marker([51.019036, 14.748669], popup="Dorothea Maria Ahlsleb").add_to(m)
-        folium.Marker([51.019050, 14.748683], popup="Mädgen Cornelia Louisa von Goldenberg").add_to(m)
-        folium.Marker([51.019057, 14.748774], popup=" Maria Luley").add_to(m)
-        folium.Marker([51.019082, 14.748807], popup="Maria Magdalena Bezold").add_to(m)
+        folium.Marker([51.019203, 14.748634], popup="Maria Magdalena Richter", icon=folium.Icon(color='red')).add_to(m)
+        folium.Marker([51.019115, 14.748836], popup="Anna Magdalena Elisabeth Weiss", icon=folium.Icon(color='red')).add_to(m)
+        folium.Marker([51.019036, 14.748669], popup="Dorothea Maria Ahlsleb", icon=folium.Icon(color='red')).add_to(m)
+        folium.Marker([51.019050, 14.748683], popup="Mädgen Cornelia Louisa von Goldenberg", icon=folium.Icon(color='red')).add_to(m)
+        folium.Marker([51.019057, 14.748774], popup=" Maria Luley", icon=folium.Icon(color='red')).add_to(m)
+        folium.Marker([51.019082, 14.748807], popup="Maria Magdalena Bezold", icon=folium.Icon(color='red')).add_to(m)
         
 
         # Speichere die Karte in einer HTML-Datei
