@@ -3,6 +3,7 @@ import folium
 from streamlit.components.v1 import html
 import json
 from folium import IFrame
+import branca
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
@@ -23,21 +24,30 @@ if selection == "Karte":
 
         folium.Marker([51.019529, 14.748889], popup="<a href='Gottesacker_Julius_Titz/Andersen.jpg'>Knud Andersen</a>").add_to(m)
         
-        icon_image = "Gottesacker_Julius_Titz/Andersen.jpg"
+        #ab hier neuer code
+        # HTML-Code für das Popup mit der JPEG-Datei
+        html = """
+        <h1>Ein Bild in einem Popup</h1><br>
+        <img src="Gottesacker_Julius_Titz/Andersen.jpg" alt="Dein Bild" width="400" height="300">
+        <p>
+        Hier ist etwas Beispieltext.
+        </p>
+        """
         
-        coordinates = [51.019529, 14.748889]
+        # IFrame erstellen
         
-        # Benutzerdefiniertes Symbol erstellen
-        icon = folium.CustomIcon(
-             icon_image,
-             icon_size=(38, 95),
-             icon_anchor=(22, 94),
-             popup_anchor=(-3, -76),
-             )
-        # Marker mit benutzerdefiniertem Symbol hinzufüge
-        folium.Marker(
-            location=coordinates, icon=icon, popup="Dein Ort"
-            ).add_to(m)
+        iframe = branca.element.IFrame(html=html, width=500, height=350)
+        
+        # Popup mit dem IFrame erstellen
+        popup = folium.Popup(iframe, max_width=500)
+        
+        # Marker mit Popup zur Karte hinzufüge
+        folium.Marker([51.019529, 14.748889], popup=popup).add_to(m)
+
+
+
+
+        #hier ist das ende
         
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
