@@ -38,8 +38,10 @@ if selection == "Karte":
         # Popup mit dem IFrame erstellen
         popup = folium.Popup(iframe, max_width=500)
         
-        # Marker mit Popup zur Karte hinzufügen
-        folium.Marker([51.019529, 14.748889], popup=popup).add_to(m)
+        # Marker mit Popup zur Karte hinzufügen 
+        #Marker mit Popup zur Karte hinzufügen
+        marker_coordinates = [51.019529, 14.748889]  # Koordinaten des Markers
+        folium.Marker(marker_coordinates, popup=popup).add_to(m)
 
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
