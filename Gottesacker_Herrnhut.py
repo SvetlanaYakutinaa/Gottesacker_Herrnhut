@@ -1,8 +1,7 @@
 import streamlit as st
 import folium
 from streamlit.components.v1 import html
-import pandas as pd
-import streamlit_pandas as sp 
+ 
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
