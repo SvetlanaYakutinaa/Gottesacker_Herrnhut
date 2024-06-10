@@ -1,6 +1,7 @@
 import streamlit as st
 import folium
 from streamlit.components.v1 import html
+import panda as pd
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
@@ -33,6 +34,6 @@ if selection == "Karte":
 elif selection == "Analyse":
      st.title ("In Arbeit")
   
-     df = "(top_words.csv)"
+     df = pd.read_csv('top_words.csv')
      st.write(df)
 
