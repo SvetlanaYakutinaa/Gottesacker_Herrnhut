@@ -33,6 +33,6 @@ if selection == "Karte":
 elif selection == "Analyse":
      st.title ("In Arbeit")
   
-     df = "(/top_words.csv)"
+     df = "(top_words.csv)"
      st.write(df)
 
