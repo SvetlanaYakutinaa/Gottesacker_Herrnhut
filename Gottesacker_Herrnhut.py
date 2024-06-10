@@ -49,7 +49,7 @@ if selection == "Karte":
         #hier ist neuer code
         # Karte erstellen
         
-        m = folium.Map(location=[51.019574, 14.748516], zoom_start=12)
+        m = folium.Map(location=[51.019574, 14.748516], zoom_start=18)
         
         # HTML-Code für das Popup mit der JPEG-Datei
         popup_content = """
