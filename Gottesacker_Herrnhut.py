@@ -23,6 +23,22 @@ if selection == "Karte":
 
         folium.Marker([51.019529, 14.748889], popup="<a href='Gottesacker_Julius_Titz/Andersen.jpg'>Knud Andersen</a>").add_to(m)
         
+        icon_image = "Gottesacker_Julius_Titz/Andersen.jpg"
+        
+        coordinates = [51.019529, 14.748889]
+        
+        # Benutzerdefiniertes Symbol erstellen
+        icon = folium.CustomIcon(
+             icon_image,
+             icon_size=(38, 95),
+             icon_anchor=(22, 94),
+             popup_anchor=(-3, -76),
+             )
+        # Marker mit benutzerdefiniertem Symbol hinzufüge
+        folium.Marker(
+            location=coordinates, icon=icon, popup="Dein Ort"
+            ).add_to(m)
+        
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
 
@@ -34,7 +50,7 @@ if selection == "Karte":
         st.components.v1.html(map_html, height=500)    
         
         
-        
+     
 
 
 elif selection == "Analyse":
