@@ -28,7 +28,7 @@ if selection == "Karte":
         # HTML-Code für das Popup mit der JPEG-Datei
         html = """
         <h1>Ein Bild in einem Popup</h1><br>
-        <img src="/Gottesacker_Julius_Titz/Andersen.jpg" alt="Dein Bild" width="400" height="300">
+        <img src="Andersen.jpg" alt="Dein Bild" width="400" height="300">
         <p>
         Hier ist etwas Beispieltext.
         </p>
