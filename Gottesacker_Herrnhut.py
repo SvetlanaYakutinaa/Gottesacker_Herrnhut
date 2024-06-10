@@ -59,20 +59,12 @@ if selection == "Karte":
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
             
             st.title("Johann Sebald Ringmacher")
-            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=350, use_column_width="always")
-            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
-            
-            st.title("Johann Sebald Ringmacher")
             st.image("Gottesacker_Julius_Titz/Ringmacher.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/743")
             
             st.title("Abraham Dürninger")
             st.image("Gottesacker_Julius_Titz/20240525_160853.jpg", width=350, use_column_width="always")
             st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/182")
-            
-            st.title("Johann Sebald Ringmacher")
-            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=350, use_column_width="always")
-            st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
             
             st.title("Benigna Schüz")
             st.image("Gottesacker_Julius_Titz/S1R103.jpg", width=350, use_column_width="always")
