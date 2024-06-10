@@ -18,7 +18,9 @@ if selection == "Karte":
         
         # Koordinaten für die Anfangsanzeige der Karte (zum Beispiel: Berlin)
         start_coordinates = (51.019419, 14.748778)
-        m = folium.Map(location=start_coordinates, zoom_start=18)    
+        m = folium.Map(location=start_coordinates, zoom_start=18)
+
+        folium.Marker([51.019529, 14.748889], popup="Knud Andersen").add_to(m)    
         
         
 
