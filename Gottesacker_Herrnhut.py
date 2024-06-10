@@ -24,6 +24,7 @@ if selection == "Karte":
         m = folium.Map(location=start_coordinates, zoom_start=18)
 
         folium.Marker([51.019529, 14.748889], popup="Knud Andersen").add_to(m)
+        folium.Marker([51.019574, 14.748516], popup="Hans Hansen").add_to(m)
 
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
