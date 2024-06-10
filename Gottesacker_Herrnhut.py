@@ -23,7 +23,7 @@ if selection == "Karte":
         start_coordinates = (51.019419, 14.748778)
         m = folium.Map(location=start_coordinates, zoom_start=18)
 
-        #folium.Marker([51.019529, 14.748889], popup="Knud Andersen").add_to(m)
+        folium.Marker([51.019529, 14.748889], popup="Knud Andersen").add_to(m)
         folium.Marker([51.019574, 14.748516], popup="Hans Hansen").add_to(m)
         folium.Marker([51.019477, 14.748506], popup="Johann Sebald Ringmacher").add_to(m)
         folium.Marker([51.019577, 14.748488], popup="Abraham Dürninger").add_to(m)
@@ -35,10 +35,7 @@ if selection == "Karte":
         folium.Marker([51.019050, 14.748683], popup="Mädgen Cornelia Louisa von Goldenberg", icon=folium.Icon(color='red')).add_to(m)
         folium.Marker([51.019057, 14.748774], popup=" Maria Luley", icon=folium.Icon(color='red')).add_to(m)
         folium.Marker([51.019082, 14.748807], popup="Maria Magdalena Bezold", icon=folium.Icon(color='red')).add_to(m)
-        #probe 
-        folium.Marker([51.019529, 14.748889], popup='<a href="https://sachsen.digital/werkansicht?tx_dlf[id]=344562&tx_dlf[page]=66">Klicken Sie hier für weitere Informationen</a>').add_to(m)
-        #'<a href="https://example.com">Klicken Sie hier für weitere Informationen</a>'
-
+        
         # Speichere die Karte in einer HTML-Datei
         m.save("map.html")
 
