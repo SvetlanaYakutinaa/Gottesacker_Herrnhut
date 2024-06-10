@@ -54,3 +54,10 @@ if selection == "Karte":
 
 elif selection == "Analyse":
     st.title("In Arbeit")
+
+    # Bild hochladen
+image = st.file_uploader("Gottesacker_Julius_Titz/Andersen.jpeg", type=["jpg", "png", "jpeg"])
+
+if image is not None:
+    # Bild anzeigen
+    st.image(image, caption='Hochgeladenes Bild', use_column_width=True)
