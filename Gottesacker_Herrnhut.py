@@ -50,12 +50,11 @@ if selection == "Karte":
         with st.container():
             st.title("Digitale Friedhof")
             
-            st.title("Hans Hansen")
-            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=300)
-            components.iframe("http://digital.slub-dresden.de/id1766125301/", height=500)
+            st.write("Hans Hansen")
+            st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150)
             
-            st.title("Knud Andersen")
-            st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=300)
+            st.write("Knud Andersen")
+            st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=150)
 
 
 elif selection == "Analyse":
