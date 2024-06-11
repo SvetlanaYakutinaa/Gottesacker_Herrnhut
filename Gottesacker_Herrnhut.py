@@ -15,7 +15,28 @@ selection = st.sidebar.radio("Gehe zu", ["Karte", "Analyse"])
 
 # Seiteninhalt basierend auf der Auswahl des Benutzers aktualisieren
 if selection == "Karte":
-    
+    col1, col2 = st.columns(2)
+
+    with st.container():
+        with col1:
+            option = st.selectbox(
+                "Wählen Sie den Name",
+                ("Knud Andersen", "Hans Hansen"),
+                label_visibility=st.session_state.visibility,
+                disabled=st.session_state.disabled,
+                )
+        with col2:
+            if option == "Hans Hansen":
+                st.subheader("Hans Hansen")
+                st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150, use_column_width="always")
+                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
+
+            elif option == "Knud Andersen":
+                st.subheader("Knud Andersen")
+                st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=350, use_column_width="always")
+                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
+                
+        
     # Die Karte auf der Webseite posten
     with st.container():
         st.title("Karte des Gottesackers Herrnhut")
