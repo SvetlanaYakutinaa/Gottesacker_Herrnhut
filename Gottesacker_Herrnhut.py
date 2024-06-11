@@ -16,6 +16,13 @@ selection = st.sidebar.radio("Gehe zu", ["Karte", "Analyse"])
 # Seiteninhalt basierend auf der Auswahl des Benutzers aktualisieren
 if selection == "Karte":
      with st.container():
+
+          if 'visibility' not in st.session_state:
+               st.session_state.visibility = "visible"
+          if 'disabled' not in st.session_state:
+               st.session_state.disabled = False
+
+
           option = st.selectbox(
                "Wählen Sie den Name",
                ("Knud Andersen", "Hans Hansen"),
