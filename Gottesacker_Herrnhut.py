@@ -30,7 +30,7 @@ if selection == "Karte":
 
      option = st.selectbox(
                "Wählen Sie den Name",
-               ("Knud Andersen", "Hans Hansen", "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", "Christa Dorothea Lintrup", "Maria Magdalena Richter", "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"),
+               ("Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", "Christa Dorothea Lintrup", "Maria Magdalena Richter", "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"),
                label_visibility=st.session_state.visibility,
                disabled=st.session_state.disabled,
                )
@@ -105,6 +105,19 @@ if selection == "Karte":
                st.image("Gottesacker_Julius_Titz/S3R12.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/527") 
                folium.Marker([51.019050, 14.748683], popup="Mädgen Cornelia Louisa von Goldenberg. Stein: 2, Reihe: R1, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
+       
+        
+     elif option == "Gottfried Clemens":
+               st.subheader("Gottfried Clemens")
+               st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766148077/273") 
+               folium.Marker([51.019578, 14.748048], popup="Gottfried Clemens. Stein: 25, Reihe: R5, Feld: B3").add_to(m)
+
+          
+     elif option == "Herrmann Reinhard Schick":
+               st.subheader("Herrmann Reinhard Schick")
+               st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419") 
+               folium.Marker([51.019360, 14.748201], popup="Herrmann Reinhard Schick. Stein: 10, Reihe: R7, Feld: B1").add_to(m)
+     
        
             
     
