@@ -5,7 +5,9 @@ import json
 from folium import IFrame
 import branca
 import streamlit.components.v1 as components
-
+import streamlit as st
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
@@ -125,6 +127,33 @@ if selection == "Karte":
 
 elif selection == "Analyse":
     st.title("In Arbeit")
+    
+    # Daten für die Wortwolke
+    words = {
+    "Robinhood": 16000,
+    "Personio": 8500,
+    "Boohoo": 6700,
+    "Deliveroo": 13400,
+    "SumUp": 8300,
+    "CureVac": 12400,
+    "Deezer": 10300,
+    "Eurazeo": 31,
+    "Drift": 6000,
+    "Twitch": 4500,
+    "Plaid": 5600
+    }
+    
+    # Erstelle die Wortwolke
+    wordcloud = WordCloud(width=800, height=400, colormap='Greens').generate_from_frequencies(words)
+    
+    # Zeige die Wortwolke in Streamlit an
+    st.title("Word Cloud Example")
+    fig, ax = plt.subplots()
+    ax.imshow(wordcloud, interpolation='bilinear')
+    ax.axis('off')
+    
+    st.pyplot(fig)
+
     
     
         
