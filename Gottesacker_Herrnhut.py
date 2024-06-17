@@ -7,6 +7,7 @@ import branca
 import streamlit.components.v1 as components
 import streamlit as st
 from wordcloud import WordCloud
+import plotly.express as px
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
