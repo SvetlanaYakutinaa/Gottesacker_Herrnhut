@@ -4,8 +4,8 @@ from streamlit.components.v1 import html
 import branca
 import streamlit.components.v1 as components
 
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
+import streamlit as st 
+import streamlit_wordcloud as wordcloud
 
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
@@ -136,31 +136,20 @@ if selection == "Karte":
 elif selection == "Analyse":
     st.title("In Arbeit")
     
-    # Die gegebenen Daten
     words = [
-       dict(text="Robinhood", value=16000, color="#b5de2b", country="US", industry="Cryptocurrency"),
-       dict(text="Personio", value=8500, color="#b5de2b", country="DE", industry="Human Resources"),
-       dict(text="Boohoo", value=6700, color="#b5de2b", country="UK", industry="Beauty"),
-       dict(text="Deliveroo", value=13400, color="#b5de2b", country="UK", industry="Delivery"),
-       dict(text="SumUp", value=8300, color="#b5de2b", country="UK", industry="Credit Cards"),
-       dict(text="CureVac", value=12400, color="#b5de2b", country="DE", industry="BioPharma"),
-       dict(text="Deezer", value=10300, color="#b5de2b", country="FR", industry="Music Streaming"),
-       dict(text="Eurazeo", value=31, color="#b5de2b", country="FR", industry="Asset Management"),
-       dict(text="Drift", value=6000, color="#b5de2b", country="US", industry="Marketing Automation"),
-       dict(text="Twitch", value=4500, color="#b5de2b", country="US", industry="Social Media"),
-       dict(text="Plaid", value=5600, color="#b5de2b", country="US", industry="FinTech"),
-       ]
-
-    # Extrahiere die Texte und Werte für die Wordcloud
-    texts = [word['text'] for word in words]
-    values = [word['value'] for word in words]
+    dict(text="Robinhood", value=16000, color="#b5de2b", country="US", industry="Cryptocurrency"),
+    dict(text="Personio", value=8500, color="#b5de2b", country="DE", industry="Human Resources"),
+    dict(text="Boohoo", value=6700, color="#b5de2b", country="UK", industry="Beauty"),
+    dict(text="Deliveroo", value=13400, color="#b5de2b", country="UK", industry="Delivery"),
+    dict(text="SumUp", value=8300, color="#b5de2b", country="UK", industry="Credit Cards"),
+    dict(text="CureVac", value=12400, color="#b5de2b", country="DE", industry="BioPharma"),
+    dict(text="Deezer", value=10300, color="#b5de2b", country="FR", industry="Music Streaming"),
+    dict(text="Eurazeo", value=31, color="#b5de2b", country="FR", industry="Asset Management"),
+    dict(text="Drift", value=6000, color="#b5de2b", country="US", industry="Marketing Automation"),
+    dict(text="Twitch", value=4500, color="#b5de2b", country="US", industry="Social Media"),
+    dict(text="Plaid", value=5600, color="#b5de2b", country="US", industry="FinTech"),
+    ]
     
-    # Erstelle die Wordcloud
-    wordcloud_data = {texts[i]: values[i] for i in range(len(texts))}
-    wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(wordcloud_data)
-    
-    # Zeige die Wordcloud an
-    plt.figure(figsize=(10, 5))
-    plt.imshow(wordcloud, interpolation='bilinear')
-    plt.axis('off')
-    plt.show()
+    return_obj = wordcloud.visualize(words, tooltip_data_fields={
+    'text':'Company', 'value':'Mentions', 'country':'Country of Origin', 'industry':'Industry'
+    }, per_word_coloring=False)
