@@ -46,6 +46,13 @@ if selection == "Karte":
                 st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=350, use_column_width="always", caption= "© Julius Titzt")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
                 folium.Marker([51.019529, 14.748889], popup="Knud Andersen. Stein: 7, Reihe: R3, Feld: B2").add_to(m)
+                
+                with open("Text/02541.txt", "rb") as file:
+                       btn = st.download_button(
+                               label="Download Text",
+                               data= file,
+                               file_name="02541.txt"
+                       )
                 with open("XML/02541.xml", "rb") as file:
                        btn = st.download_button(
                                label="Download XML",
@@ -100,6 +107,12 @@ if selection == "Karte":
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/180")
                st.image("Gottesacker_Julius_Titz/S3R411.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                folium.Marker([51.019082, 14.748807], popup="Maria Magdalena Bezold. Stein: 11, Reihe: R4, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
+               with open("Text/02445.txt", "rb") as file:
+                       btn = st.download_button(
+                               label="Download Text",
+                               data= file,
+                               file_name="02445.txt"
+                       )
                with open("XML/02445.xml", "rb") as file:
                        btn = st.download_button(
                                label="Download XML",
@@ -124,6 +137,13 @@ if selection == "Karte":
                st.subheader("Gottfried Clemens")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766148077/273") 
                folium.Marker([51.019578, 14.748048], popup="Gottfried Clemens. Stein: 25, Reihe: R5, Feld: B3").add_to(m)
+               with open("Text/05198.txt", "rb") as file:
+                       btn = st.download_button(
+                               label="Download Text",
+                               data= file,
+                               file_name="05198.txt"
+                       )
+
                with open("XML/05198.xml", "rb") as file:
                        btn = st.download_button(
                                label="Download XML",
