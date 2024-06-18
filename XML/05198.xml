@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Beylagen 1776. - GN.C.201 Nachrichten aus der Brüder-Gemeine</title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <resp>Transcription from eScriptorium compiled by</resp>
+          <name>Julius Titzt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Header and text compiled by</resp>
+          <name>Julius Titzt</name>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">17</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1776</date>
+        <idno type ="Index-ID" source="https://zenodo.org/records/8228850">05198</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Nachrichten aus der Brüder-Gemeine</title>
+        <biblScope unit="pages">269-285</biblScope> 
+        <idno type="shelfmark">GN.C.201</idno> 
+      </seriesStmt>                                     
+      <sourceDesc>    
+        <bibl>Beylagen 1776. - GN.C.201 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend = "Handschrift"> 
+          <msIdentifier> 
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type ="URN">urn:nbn:de:bsz:14-db-id17661480776</idno>
+            <idno type ="PURL">http://digital.slub-dresden.de/id1766148077</idno>
+            <idno type = "shelfmark"> GN.C.201 </idno>
+          </msIdentifier> 
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc> 
+      <langUsage> 
+        <language ident ="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Lebensbeschreibung</term>
+          <term>in Herrnhut begraben</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p n="269">
+          <lb/>3) Der am 23. März in Herrnhut von ſeinem
+          <lb/>Herrn heimberufene Br. Gottfried Clemens
+          <lb/>war 1706 d. 1. Sept. zu Berlin geboren, wo⸗
+          <lb/>ſelbſt ſein Vater Stadt-Lieutenant u. Obermei⸗
+          <lb/>ster des Gewerks der Bekker war. Seine Mut⸗
+          <lb/>ter war eine geborne, Firchowin, welche 1761
+          <lb/>in Berthelsdorf sel entschlafen, nachdem ihr
+          <lb/>Man̅ ſchon 1733 als ein seliger u. abſolvirter
+          <lb/>Sünder ihr vorangegangen. Dieſelben gaben
+          <lb/>ihm eine ihrem Wohlſtande, worin ſie ſich damals
+          <lb/>befanden, gemäſſe Erziehung, welche nicht der
+        </p>
+        <p n="270">
+          <lb/>Seelen Seligkeit zum eigentlichen Zweck hatte.
+          <lb/>Er hatte von seiner zarten Kindheit an bey einer
+          <lb/>ſehr groſſen Flüchtigkeit einen ungemeinen Trieb
+          <lb/>zum lernen u., wie er ſelbſt bezeugt, ein gros‗
+          <lb/>ſes Misfallen über die ſchlechte Lebensart
+          <lb/>der Menschen, deren unsinniges Verhalten er
+          <lb/>täglich ſehen u. hören mußte. Er war noch
+          <lb/>nicht 3 Jahr alt, als ihn ein mit 4 Pferden be-
+          <lb/>spannter leerer Holzwagen, wie er allein in
+          <lb/>die Schule zu gehen begriffen war, überfuhr,
+          <lb/>wobey er aber durch des XXX ſonderbare Be-
+          <lb/>wahrung vor Beſchädigung ſeiner Glieder geſi-
+          <lb/>chert wurde. Er sahX ſchon in ſeiner zarten Jugend
+          <lb/>lauter ärgerliche u. ſchädliche Beyſpiele, u. wur„
+          <lb/>de durch das in ihm rege gemachte Verderben
+          <lb/>auch zeitig zu Sünden hingeriſſen, worüber er
+          <lb/>Beſtrafungen in ſeinem Gewiſſen empfand,
+          <lb/>u. gegen die xxx Erinnerungen der um
+          <lb/>ſein Heil beküm̄erten Mutter nicht unempfind
+          <lb/>lich war. Er bat es dem l. Gott mit Thränen
+          <lb/>ab, u. continuirte eine Weile sich mit seinem
+          <lb/>Bruder an einem verborgenen Ort im Ge‗
+          <lb/>bet zu vereinigen. Allein dieſe Regungen
+          <lb/>wurden gar bald wieder xxx, u. er zu sei
+          <lb/>nen vorigen Ausſchweifungen durch die böſen
+          <lb/><fw type="catch">Dinge</fw>
+        </p>
+        <p n="271">
+          <lb/>Dinge, die er täglich vor Augen ſehen mußte, aufs
+          <lb/>neue hingeriſſen. Der Hld trat ihm aber von
+          <lb/>Zeit zu Zeit näher ans Herz, einmal bey dem
+          <lb/>ſehr erbaulichen Ableben seines abgedachten? Bru
+          <lb/>ders, u. dann bey dem Auffliegen eines Pulver-
+          <lb/>thurms zu Berlin, wodurch ſein liebster Camer
+          <lb/>rad u. 80 Schulkinder umkam̄en, u. welches ihn
+          <lb/>auch betreffen müſſen, wen er nicht aus ſeinem
+          <lb/>Wege, mit ſeinem Cameraden nach dem Orte,
+          <lb/>wo dieſer zerrchmettert worden, weiter zu ge„
+          <lb/>hen abgehalten worden.
+          <lb/>Dis waren nur ſo Ersſchütterungen, die ihn
+          <lb/>auf kurze zeit zum Beſinnen brachten. Als
+          <lb/>er aber in ſeinem 16. Jahre zum Genuß des
+          <lb/>H. Amahls gelangte, ſo wurde er bey demſchönen
+          <lb/>Gebrauch der Confirmation der Jugend aufs
+          <lb/>kräftigste gerührt. Der ſel. Probst Seidel,
+          <lb/>ein venerabler Man Gottes, verrichtete dieſelbe
+          <lb/>mit ſo viel Beweis des Geiſtes u. der Kraft,
+          <lb/>daß alles in Thränen zerfloß.  Mein mit ei=
+          <lb/>nem Handschlag verbundenes Gelübde; ſchriebt
+          <lb/>der ſel. Bruder, zu meinem Taufbunde nun
+          <lb/>ſelbt Ja zu ſagen, u. mich meinem Erlöſer
+          <lb/>auf ewig zum Eigenthum zu ergeben, blieb sich?
+          <lb/>in meinem ſerzen häften. Der an meines
+        </p>
+        <p n="272">
+          <lb/>Herzens Thür ſtark u. empfindlich anklopfende Hei
+          <lb/>land verſuchte beym erſten Amahl bey mit ein„
+          <lb/>zugehen. Ich ward dabey ſo hingenomen, daß
+          <lb/>ſich nicht wußte, wie mir geſchah. Er hat ſich da„
+          <lb/>mals einen Plaz in meinem Herzen bereitet,
+          <lb/>den Er ſich durch die Thorheit u. Eitelkeit mei„
+          <lb/>ner Jugend, durch meinen Leichtsinn u. Un-
+          <lb/>treue nicht wieder hat nehmen laſſen. Wenig-
+          <lb/>ſtens war ich von da an allemal geſchlagen,
+          <lb/>ich konnte nicht mehr mit Ruhe sündigen, noch
+          <lb/>es jemals vergeſſen, was bey mir vorgegangen
+          <lb/>war.&amp;quot;
+          <lb/>Bis zu dieſem ſeinem 16. Jahr
+          <lb/>war es noch imer unentschiedent geblieben,
+          <lb/>zu welchem Metier er greiffen würde. Sein
+          <lb/>Vater wolte ſeine Lust u. Trieb zum ſündigen
+          <lb/>mit Gewalt unterdrücken, u. ihn zum Bekker-
+          <lb/>Handwerk zwingen; wozu er ihn auch wirklich
+          <lb/>ſo lange anhielt, bis er überzeugt ward, daß
+          <lb/>ſeine Conſtitution dazu zu schwach ſey. End-
+          <lb/>lich gab dersſelbe dem zureden der Lehrer ſei,
+          <lb/>nes Sohns, die ihm das Gewesſen ſchärften,
+          <lb/>nach, daß derſelbe mit ſeiner Bewilligung
+          <lb/>ſich dem Studieren widmen durfte. Darauf
+          <lb/>zog er in das graue Kloſter zu Berlin, worin=
+          <lb/><fw type="catch">in.</fw>
+        </p>
+        <p n="273">
+          <lb/>in er bis 1726 verblieb, da er auf die Uni‗
+          <lb/>versität nach Jena ging. Er war in dieſen ſei
+          <lb/>nen Schuljahren unermüdet, die verfäumte Zeit
+          <lb/>wieder einzubringen; aber das Herz gewan da„
+          <lb/>bey nicht. Er ſagt davon: „So ſehr ich mich
+          <lb/>bemühte dem Willen des Fleiches zu entsagen,
+          <lb/>u. so groß meine Flucht vor aller ſchlechten Ge
+          <lb/>ſellschaft war: eben so ſehr fing ich an, den
+          <lb/>Willen der Vernunft zu thun. Hierin würde
+          <lb/>ich von meinen Vorgeſezten unterhalten, welche
+          <lb/>nur das Gift der ambition u. amulation
+          <lb/>ſorgfältig beybrachten, und mich u. meine
+          <lb/>Mitschüler nur durch dieſe Bezauberung
+          <lb/>regierten. Sie ſtellten mich andern als ein
+          <lb/>Muster der Gottesfurcht u. des Fleisses vor.
+          <lb/>Dadurch wurde mein hochmuthiges Herz voll?
+          <lb/>vereitelt u. ſo trunken gemacht, daß keine gu-
+          <lb/>te Bewegung mehr bey mir Plaz fand.&amp;quot;
+          <lb/>Um diese Zeit stellte man in Berlin
+          <lb/>den jungen Bruten, die von inniger Gröſſe
+          <lb/>waren, ſehr nach, wie ihm dan ſein liebſter
+          <lb/>Schul Camerad von der Seite weggenomen
+          <lb/>würde. Dieſes versezte seine Eltern u. ihn
+          <lb/>so in Furcht, daß er um nicht länger verzog
+          <lb/>nach Jena abzugehen. Er mußte aber noch
+        </p>
+        <p n="274">
+          <lb/>mit seiner Familie eine Widerwärtigkeit erfah-
+          <lb/>ren, welche ſein Vorhaben hätte hintertreiben
+          <lb/>können. Seine Eltern, die sich bisher in äus=
+          <lb/>serlichem Wohlstande befunden hatten, komen
+          <lb/>durch einen beſonderen Unglücksfall auf ein-
+          <lb/>mal um alle das Jhrige?. Es belebte ihn aber un=
+          <lb/>ter dieſen Uamſtänden ein ſolches Vertrauen
+          <lb/>zu der Vorſorge Gotres, daß er ſelbst seine El-
+          <lb/>tern trösten konte, und diese konten ihm aus-
+          <lb/>ser den wenigen Thalern, die ſie ihm mitgaben,
+          <lb/>nichts mehr nachſchicken, und doch konte er, wie
+          <lb/>er Jena 1730 verließ, dem Hld nachrühmen,
+          <lb/>daß er die ganzen 4 Jahre über nie einigen
+          <lb/>Mangel gehabt. Er ließ ihm aber in die-
+          <lb/>ſer Zeit eine noch viel grössere Gnade wider-
+          <lb/>fahren: Er bemeisterte ſich ſeines Herzens u.
+          <lb/>ſchulte ihm den Sinn, nur dem zu leben, der
+          <lb/>für ihn geſtorben. Der Umgang u. die Vor
+          <lb/>träge des ſel. Dr. Buddeus u. des Pahtor
+          <lb/>Brunhardts in Wenigen=Jena waren ihm hir-
+          <lb/>zu gesegnet. &amp;quot;Lezterer schreibt er, ist mir
+          <lb/>der sel Wegweiser geweſen, der nur den Weg
+          <lb/>zu Chriſto u. ſeiner Verſöhrung gewiesen hat,
+          <lb/>bey dem och mein Herz ausschütten, Rath u. Un‗
+          <lb/><fw type="catch">terricht</fw>
+        </p>
+        <p n="275">
+          <lb/>terricht suchen u. mich ihm ganz anvertrauen
+          <lb/>konte. Der h. Geist arbeitete so kräftig an
+          <lb/>meinem armen Herzen, daß die mit nur vorge„
+          <lb/>gangene Sinnesänderung nicht mehr verborgen
+          <lb/>bleiben konte. Der Hld hat mich auch von der
+          <lb/>Zeit an nicht mehr gelaſſen, noch ſein Herz u.
+          <lb/>Hand mir entzogen. “
+          <lb/>Jm. Nov. dieſes 1726. Jahres kam der sel. Graf
+          <lb/>v. Zinzendorf nach Jena. Da lernte er ihn ken‗
+          <lb/>nen, u. wurde bey Gelegenheit eines ſehr begna„
+          <lb/>digten Vortrags deſſelben über ?h. 5,?,?  an
+          <lb/>eine Verſam̄lung erweckter Studenten mit
+          <lb/>allen Anweſenden ſo hingenom̄en, daß ſie
+          <lb/>ſich mit ihm inng verbanden u. an die Gemei-
+          <lb/>ne in Herrnhut anschloſſen. Im J. 1727 ließ
+          <lb/>ihn Dr. Buddeus durch den Br. Spangenberg
+          <lb/>zu einem Mitarbeiter an den armenz? Frey=
+          <lb/>ſchulen in den Jenaiſchen Vorſtädten, woraus
+          <lb/>die gesegnete Verbindung der Jenaischen Brü
+          <lb/>der erwachſen iſt, auffordern, welches er wil„
+          <lb/>lig annahm. In dieſem Jahre wurde er auch
+          <lb/>mit dem Br. Spangenberg aufs genauſte be=
+          <lb/>kannt u. innig verbunden. Ihr Hauptgeſchäft
+          <lb/>war, in der Erkentniß Chriſti erſt gegründet
+        </p>
+        <p n="276">
+          <lb/>zu werden, welcher ſich ihnen auch in ſeiner un
+          <lb/>aussprechlichen Sünders Liebe offfenbarte.
+          <lb/>Als im J. 1728 der Graf von Zinzendorf wie„
+          <lb/>der nach Jena kam, war der sel Bruder viel
+          <lb/>um ſeine Perſon. Dieser geſegnete Aufent-
+          <lb/>halt brachte die brüderliche Verbindung von
+          <lb/>mehr als 100 Studioſis in einem Sinn mit
+          <lb/>der Gemeine in Hhut zu ſtande, welche sich
+          <lb/>alle in einem gemeinschaftlichen Schreiben
+          <lb/>namentlich unterzeichnet haben.
+          <lb/>Im J. 1729 reiſte er mit dem Br. Spangenberg
+          <lb/>zum Beſuch der Gemeine nach Hhut. &amp;quot; hier
+          <lb/>wurden wir, meldet er davon, in herzlicher xxx
+          <lb/>be aufgenomen fanden die Gemeine in ihrer
+          <lb/>erſten Einfalt u. brennenden Liebe zum Hld,
+          <lb/>beſuchten u. sprachen die ganze Gemeine Per„
+          <lb/>ſon vor Person, u. gingen mit ihr in Ber-
+          <lb/>thelsdorf zum h. Amahl.&amp;quot;
+          <lb/>Um diese Zeit war er bereits aufgefordert
+          <lb/>eine Voiation nach Venedig? in das Haus eines
+          <lb/>Kaufmanns zu seinen 3 Kindern anzuneh-
+          <lb/>men. Dieſen Ruf volte er erſt ablehnen;
+          <lb/>als er aber endlich von des Hlds Willen ver
+          <lb/><fw type="catch">führet</fw>
+        </p>
+        <p n="277">
+          <lb/>fühert worden: ſo trat er d. 9. May 1130 ſeine
+          <lb/>Reise dahin an über Saalfeld. Ebersdorf,
+          <lb/>Bayreuth, Nürnberg, Augspurg, wo er al,
+          <lb/>ber Orten reale Bekanntsſchacft machte, theils
+          <lb/>mit erweckten Leuten, theils mit angeſehenen
+          <lb/>Theologis; In den 4 Jahren seines Aulenthalts
+          <lb/>in Venedig hatte er mit dem damaligen Luther-
+          <lb/>schen Prediger Wendrich u. 18 erweckten Kauf
+          <lb/>mans Dienern vielen Umgang, welche Leztern
+          <lb/>sich fleieſſig zu ihm hielten. Er kam auch mit
+          <lb/>angeſehenen Italiäniſchen Gelehrten in gros
+          <lb/>se u. intime Bekantſchaft, welche, wie er
+          <lb/>ſelbſt bezeuget, ihm zum Schaden gereichen
+          <lb/>können, wen er nicht von Venidig weggekom=
+          <lb/>men wäre. Dieſe Abreise erfolgte im März
+          <lb/>1734. Jezt war er willens noch einmal eine
+          <lb/>Academie zu beſuchen, um das Studium der
+          <lb/>Kirchen Hiſtorie fortzuſezen, in welches er
+          <lb/>in Venedig tief hereingegangen war. Da-
+          <lb/>her ſchlug er die vocation zum Prediger
+          <lb/>nach Hhut aus; und als dieſer Ruf durch
+          <lb/>ſeinen alten verbundenen Freund, den Br.
+          <lb/>Spangenberg, bey einer geſegnelen Underre‗
+        </p>
+        <p n="278">
+          <lb/>dung mit ihm auf deſſen Reiſe nach America
+          <lb/>in Graffenthal, zum andern mal an ihn er-
+          <lb/>ging: ſo konte er ſich gleichwol auch jezt nicht
+          <lb/>entſchlieſſen ihn anzunehmen. Eine Haupturſache
+          <lb/>davon mochte wol geweſen ſeyn, daß er von
+          <lb/>einem angeſehenen Theglogo, den er vinerir-
+          <lb/>te, vor einer allzu genauen Verbindung mit
+          <lb/>Herrnhut gewarnt worden. Er ging dar⸗
+          <lb/>auf Ebersdorf beſuchen, wo ihn der regie⸗
+          <lb/>rende Graf von Lobenſtein, Heinrich der 15,
+          <lb/>der ihn kennen gelernt, zu ſeinem Hofprediger
+          <lb/>auserſah. Er trat dieſe Station 1735 an,
+          <lb/>in welcher er bis ao. 38 blieb, u. mit der
+          <lb/>Ebersdorfſchen Gemeine in herzlicher Verbin⸗
+          <lb/>dung lebte, aus welcher er auch ao 37. die
+          <lb/>led. Schw. frdm. Magdal.Völkeln heyrathete.
+          <lb/>in Lobenſtein war ſein Evangeliſches Zeug
+          <lb/>niß von der Verſöhnung ſehr geſegnet, und
+          <lb/>es tom eine Verbindung unter den erweck⸗
+          <lb/>ten zu ſtande, welcher er sich mit vieler Treue
+          <lb/>annahm; er blieb aber nicht lange an dieſem
+          <lb/>Orte. Der regierende Graf von Promniz
+          <lb/>gewann ihn bey einem Beſuch in Lobenstein
+          <lb/><fw type="catch">ſo</fw>
+        </p>
+        <p n="279">
+          <lb/>ſo lieb, daß er ihr zu ſeinem Hofprediger
+          <lb/>nach Sorau verlangte. Es kam zwar um dieſel⸗
+          <lb/>be Zeit auch ein Ruf an ihn nach Hhut u. Ber„
+          <lb/>thelsdorf; allein er folgie der Urberzeugung,
+          <lb/>die er damals hatte, u. ging alſo 1738 nach
+          <lb/>Sorau. Der Hld hat ſich zu ſeiner Arbeit
+          <lb/>daſelbſt in Gnaden bekan̅t, u. ſein Zeugniß
+          <lb/>von Jeſu hat manchen zur Errettung gedient,
+          <lb/>die gegenwärtig würdige Glieder der Brüder„
+          <lb/>Gemeine ſind. Bey dem Jahre 1745 hat
+          <lb/>der ſel Br. Clemens angemerkt: &amp;quot;Zu dieſer
+          <lb/>Zeit kamen allerley Anforderungen an mich,
+          <lb/>der eine Veränderung in meiner hieſigen Sta⸗
+          <lb/>tion andeuteten. Ich folgte der Warnung, die
+          <lb/>mein Herz inne würde, u. nahm die nur ange
+          <lb/>botene Hofprediger⸗Stelle zu Ebersdorf u.
+          <lb/>den Dienſt bey diſiger Gemeine an des ſel.
+          <lb/>Br. Steinhofers Stelle willig an.&amp;quot;
+          <lb/>Da im J. 1746 die Vereinigung der Gemeine
+          <lb/>a Ebersdorf mit den Brüder⸗Gemeinen er-
+          <lb/>folger: ſo kam unſer ſel. Bruder dadurch
+          <lb/>auch wieder in eine nähere Cominpion mit
+          <lb/>denſelben, u. wohnte 1747 dem Synodus der
+        </p>
+        <p n="280">
+          <lb/>Brüder in Herrnhaag bey. Hier entriete er ſo ganz
+          <lb/>in die Brüdersache;; daß er auch vom Synodo ei⸗
+          <lb/>nen Auftrag annahm, eine Besuchreiſe nach Halle,
+          <lb/>Kloſter Burgen u. Berlin zu thun, um das
+          <lb/>gute Vernehmen herzuſtellen; worin er aber
+          <lb/>nicht nach dem Wunſch ſeines Herzens reushirte.
+          <lb/>er ſagt ſelbſt davon: Die ganze Sache die da⸗
+          <lb/>mals in fervore controverſia ſtand, lief frucht⸗
+          <lb/>los ab. Nach Beendigung einer beſchwerlichen
+          <lb/>Reiſe zog er von Ebersdorf, wo mit den Ab„
+          <lb/>leben des regierenden Herrn Grafen Hinrich 29
+          <lb/>auch ſeine Arbeir aufhörte, nach der Wetterau,
+          <lb/>u. lebte in der Stille im Schloß Marinborn.
+          <lb/>Von dorten berief ihn der ſel. Jünger 1749 nach
+          <lb/>London, wo er einen ſehr vergnügten Aufenthalt
+          <lb/>hatte u. die Engliſchen Gemeinen besuchte.
+          <lb/>1750 kehrte er nach Deutſchland zurück auf den
+          <lb/>für ihn beſtim̅ten Poſten in Barbig. Hier ließ
+          <lb/>er ſich das Gedeyhen? immer?, die im Collegio, wo⸗
+          <lb/>von ihm die Direction übertragen war, den ſtu⸗
+          <lb/>diis oblagen, ſehr angelegen ſeyn. Er war Pre⸗
+          <lb/>diger der Gemeine u. bey dortiger Lutheriſcher
+          <lb/>Sylaßkirche, worinnen er, nachdem ſie den Brü‗
+          <lb/>dann eingeräumt worden, am 24. Junij 1751. die
+          <lb/>erſte Predigt hielt. Während dieſem ſeinem
+          <lb/>Aufenthalt zu Barbig half er auch dem ſel. Jün
+          <lb/><fw type="catch">ger</fw>
+        </p>
+        <p n="281">
+          <lb/>ger ſeine Schriften reridiren?.
+          <lb/>Im J. 1755 d. 23. Junij ging ſeine geliebte Frau
+          <lb/>auf der Reiſe nach Hhut in Kleinwelke heim,
+          <lb/>nachdem ſie ihm das 8te Kind geboren, welches
+          <lb/>6 Stunden nach der Geburt auch entſchlief.
+          <lb/>Nachdem beyde Leichen auf dem Hutberg zu
+          <lb/>Hhut beerdigt worden, kehrte er nach Barby
+          <lb/>zurück u. blieb im Witwerſtande bis d. 3.
+          <lb/>Junij 1758, da er mit der Schw. Joh. Juliana
+          <lb/>Wrech zu Hhut getraut wurde. Dieſe vergnüg⸗
+          <lb/>te Ehe war aber von kurzer Dauer; denn ſie
+          <lb/>ging nach der Entbindung mit einer Tochter,
+          <lb/>welche etliche Wochen darauf heimging, am 4.
+          <lb/>May 1759 in die Arme ihres Erlöſers über„
+          <lb/>Darauf beſchloß er 1760 ſein bisher gehabtes,
+          <lb/>Geſchäfte in Barby, u. ging nach Hhut, wo er beym
+          <lb/>Heimruf des ſel. Jüngers zugegen war u. ihn
+          <lb/>beerdigen half. Er genoß im hieſigen Chorhauſe
+          <lb/>der Witwer 3 Jahre lang einen ſeligen Sabbath,
+          <lb/>in beſchäftigte ſich mit Verfertigung der Aus⸗
+          <lb/>züge aus des sel. Jüngers Reden, um einem
+          <lb/>jeden das Beſte u. Nuzbarſte daraus in die
+          <lb/>Hände zu geben. Damit hat er in der folgenden
+          <lb/>Zeit bis an ſein Ende fortgefahren.
+          <lb/>Im J. 1763 brauchte es das Amt eines Predigers
+          <lb/>in der Gemeine zu Gnadenfrey, zu welchem ihn
+        </p>
+        <p n="282">
+          <lb/>unſer l. Herr auserſehen hatte, mit ſich, daß er
+          <lb/>zur dritten Ehe ſchritte. Er heyrathete am 25, Oct.
+          <lb/>die Sefm. Friedercia Henriette Eleonore Schärffin,
+          <lb/>ſeine jezt hinterlaſſene Witwe, welche ihn mit
+          <lb/>unermüdeter Treue u. Sorgfalt in ſeiner groſſen
+          <lb/>Schwachheit, die er in den lezten Jahren erfahren
+          <lb/>müſſen, gepflegt, worüber er sich oft sehr dank⸗
+          <lb/>bar ausgedrückt, In Gnadenfrey war sein Zeug⸗
+          <lb/>niß vom Hld mit vieler Gnade u. groſſem. Se⸗
+          <lb/>gen an den Herzen ſowol der Einwohner, als
+          <lb/>der Auswärtigen, die häufig ſeine Predigten
+          <lb/>zu hören dahin kamen, begleitet, u. er kam in
+          <lb/>eine groſſe Bekan̅tſchaft mit Leuten, von vor⸗
+          <lb/>nehmen u. niedrigem Stande, welche ihn bſon-
+          <lb/>ders liebten u. ehrten. Von hirraus wohnte er
+          <lb/>2 mal den geſegneten Synodis der Brüder⸗
+          <lb/>Unität, welche 1764 u. 69. im Schloß Mari⸗
+          <lb/>enborn gehalten worden, als ein geſegnetes
+          <lb/>Milglied dieſer Verſam̅lungen bey. Aber 1771
+          <lb/>muſte durch die Fügung des Hlds ſeine erſte
+          <lb/>Deſtination, wozu er ſchon vor vielen Jahren
+          <lb/>auserſehen worden, in die Erfüllung gehen,
+          <lb/>als er im Julij das Prediger Amt zu Hhut über⸗
+          <lb/>nahm, u. am 28t ſeine Anzugspredigt hielt.
+          <lb/>Hierzu wurde er der Gemeine durch ſeinen l.
+          <lb/>Br. Spangenberg vorgeſtellt, der ihm ſchon vor
+          <lb/><fw type="catch">bald</fw>
+        </p>
+        <p n="283">
+          <lb/>bald 40 Jahren den Ruf dazu überbracht hatte.
+          <lb/>Er war zwar in ſeiner conſtitution ſchon ſehr ge⸗
+          <lb/>ſchwächt; aber der Hld bekannte ſich zu ſeinem
+          <lb/>Vortrag in der Gemeine gleich vom Anfang aufs
+          <lb/>kräftigſte, u. ſegnete insbeſondere auch den Un⸗
+          <lb/>terricht der Jugend, welchen er ſich ſehr angelegen
+          <lb/>ſeyn ließ; aber ſeine öftern Krankheiten, die
+          <lb/>er ausgeſtanden. u. manche ein ſenſibles Gemüth
+          <lb/>angeriſſende Vorfallenheiten, die bey manchen
+          <lb/>Perſonen vorkamen, u. woran er groſſen Antheil
+          <lb/>nahm. entkräfteten ihn ſo, daß es allen ein
+          <lb/>Wunder war, wie er ſich entſchloß. dem 1775
+          <lb/>gehaltenen Synodus zu Barby perſönlich bey⸗
+          <lb/>zuwohnen. Bey der äuſſerſten Entkräftung war
+          <lb/>er daſelbſt, ſo viel möglich, bey allen Seſſionen
+          <lb/>zugegen, und der Hld unterſtüzte ihn ſo, daß er
+          <lb/>noch beym Abſchied ſein Herz den noch verſam̅leten
+          <lb/>Mitgliedern des Synodi in einer geſegneten
+          <lb/>Rede darlegte. Er ſah ſich aber auſſer Stand
+          <lb/>ſein Amt länger zu verwalten, u. erhielt die
+          <lb/>Diſpenſirung von demeſelben. Als er vom
+          <lb/>Synodo zurückgekom̄en, würde man gewahr, daß
+          <lb/>ſeine Gemüths- u. Leibes Kräfte im̄er mehr ab⸗
+          <lb/>nahmen. So groß auch ſein Verlangen war, der
+          <lb/>Gemeine noch bis zur Ankunft ſeines Nachfol⸗
+        </p>
+        <p n="284">
+          <lb/>gers im Amte zu dienen: ſo langten doch ſeine
+          <lb/>Kräfte nicht zu. Die Munterkeit ſeines Gemüths
+          <lb/>verließ ihn aber nicht. Aus ſeinen Aeuſſerungen
+          <lb/>gegen die ihn Beſuchenden leuchtete eine fröhli⸗
+          <lb/>che u. beſonders kindliche Gemüthsſtellung gegen
+          <lb/>den Hld hervor. Er ſah ſeiner Auflöſung mit
+          <lb/>groſſem Verlangen entgegen, u. unterhielt sich
+          <lb/>oct mit den Umſtehenden davon aufs lieblich-
+          <lb/>ſte u. eindrüklichſte. Sein Character war zum
+          <lb/>Liebhaben auſgelegt; daher waren ihm auch in
+          <lb/>ſeiner größten Schwachheit die Beſuche der Ge-
+          <lb/>ſchwr alle mal ſehr lieb u. angenehm.
+          <lb/>D, 15, dieſes Monats war der Anfall ſeiner
+          <lb/>trankheit ſo heftig, daß er auch die Sprache
+          <lb/>verlor, u. von da an mehrentheils. in einem
+          <lb/>ſanften Schlumer die noch übrige Zeit verbrachte.
+          <lb/>Zuweilen, wenn er erwachte, drückte er mit
+          <lb/>ſtam̄lender jünge ſein groſſes Verlangen u. ſei⸗
+          <lb/>ne nahe Hoffnung, balde beym Hld zu seyn, aus.
+          <lb/>Am 23. entſchlief er unter einer beſonders
+          <lb/>ſeligen Liturgie, nachdem ihm Br. Joſeph ſchon
+          <lb/>am 13. den Segen ſeines Chors u. der Gemeine
+          <lb/>ertheilt hatte.
+          <lb/>Er hinterläßt 2 Söhne, davon der älterte, Ehr.
+          <lb/>Gottfried dermalen der Gemeine zu Dublin
+          <lb/><fw type="catch">dient</fw>
+        </p>
+        <p n="285">
+          <lb/>dient; der zweyte Gottlieb Theodor in der Ge⸗
+          <lb/>meine zu Gnadenberg ſich befindet, u. mit der
+          <lb/>Schw. Charlotte v. Töpfer verheyrathet iſt, aus
+          <lb/>welcher Ehe er auch die Geburt eines Entelgen
+          <lb/>Carlatte Theodora erlebt hat; und eine Tochter
+          <lb/>Maria Sophia, die an den Br. Peter Swertur?
+          <lb/>zu Barby verheyrathet, u. deren Ehe auch bereits
+          <lb/>mit einem Töchtergen Joh. Chr. Throdora geſeg-
+          <lb/>net ist.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
