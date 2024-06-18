@@ -94,6 +94,12 @@ if selection == "Karte":
                st.image("Gottesacker_Julius_Titz/S3R411.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/180")
                folium.Marker([51.019082, 14.748807], popup="Maria Magdalena Bezold. Stein: 11, Reihe: R4, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
+               with open("XML/02445.xml", "rb") as file:
+                       btn = st.download_button(
+                               label="Download XML",
+                               data= file,
+                               file_name="02445.xml"
+                       )
         
      elif option == "Maria Magdalena Richter":
                st.subheader("Maria Magdalena Richter")
