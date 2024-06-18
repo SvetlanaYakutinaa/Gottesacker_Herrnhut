@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gemeinnachrichten-Beilagen - GN.A.164 </title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <respStmt>
+            <resp>Transcription from eScriptorium compiled by</resp>
+            <name>Julius Titzt</name>
+          </respStmt>
+          <respStmt>
+          <resp>Header and text compiled by</resp>
+          <name>Julius Titzt</name>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">7</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1772</date>
+        <idno type ="Index-ID" source="https://zenodo.org/records/8228850">02541</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Nachrichten aus der Brüder-Gemeine</title>
+        <biblScope unit="pages">66-72</biblScope> 
+        <idno type="shelfmark">GN.A.164 </idno> 
+      </seriesStmt>                                     
+      <sourceDesc>    
+        <bibl>Gemeinnachrichten - Beilagen - GN.A.164 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend = "Handschrift"> 
+          <msIdentifier> 
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type ="URN">urn:nbn:de:bsz:14-db-id17661164182</idno>
+            <idno type ="PURL">http://digital.slub-dresden.de/id1766116418</idno>
+            <idno type = "shelfmark"> GN.A.164 </idno>
+          </msIdentifier> 
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc> 
+      <langUsage> 
+        <language ident ="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Lebensbeschreibung</term>
+          <term>in Herrnhut begraben</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p n="62">
+          <lb/><head>9.) Der ledige Bruder Knud Anderſen in Herrnhut, schreibt von ſich:</head>
+          <lb/>Ich bin a.o. 1714 in dem Dorfe Schamby          
+          <lb/>auf der Inſsel Fühnen geboren.
+          <lb/><fw type="catch">Ich</fw>
+        </p>
+        <p n="63">
+          <lb/>Ich blieb bis in mein 15tes Jahr bey mei⸗
+          <lb/>nem Vater, und erlernte bey ihm das
+          <lb/>Schneider⸗Handwerk. Darauf kam
+          <lb/>ich nach Odenſee. In dieſer Zeit hat⸗
+          <lb/>te ich keine Herzens⸗Unruhe, ſondern
+          <lb/>nur zu aller Thorheit geneigt. Als
+          <lb/>ich aber darauf nach Copenhagen kam,
+          <lb/>ſpürte ich die ersten Rührungen in mei⸗
+          <lb/>ner Seele, hörte auch in der Zeit viel
+          <lb/>von einem neuen Glauben reden, und
+          <lb/>daß die, ſo ſolchen Glauben angenom⸗
+          <lb/>men, die Bibel verändert hätten, wel⸗
+          <lb/>ches mich in Verlegenheit ſezte, weil
+          <lb/>ich nicht gerne mit verführt werden
+          <lb/>mochte; daher ich mir auch eine Bibel
+          <lb/>kaufte, die vor der Zeit gedruckt war,
+          <lb/>xxx dieſer Glaube aufgekom̅en. Mit
+          <lb/>dieſer Bibel reiſte ich nach Hamburg,
+          <lb/>und wurde beym Leſen derſelben über⸗
+          <lb/>zeugt, daß ich noch unbelehrt wäre,
+          <lb/>und nicht in den Him̅el kom̅en kön̅te,
+          <lb/>weil ich ſolche Dinge that, von welchen
+          <lb/>es hieß, daß wer ſie thut, das Reich
+          <lb/>Gottes nicht xxx kön̅e. Da ging
+          <lb/>die die Noth an. Ich fing an, mich im
+          <lb/><fw type="catch">guten</fw>
+        </p>
+        <p n="64">
+          <lb/>guten zu üben, und von dem böſen zu
+          <lb/>hüten, auch andern zu predigen, daß
+          <lb/>ſie unbelehrt wärnn, weil ſie ſolche
+          <lb/>ſachen thäten, die gegen das Wort Got⸗
+          <lb/>tes angingen; und wolten ſie mich nicht
+          <lb/>glauben, ſo zeigte ich ihnen in der Bibel.
+          <lb/>Wan̅ ich über ihre Einwandungen
+          <lb/>böſe würde; ſo fühlte ich Beſtrafun⸗
+          <lb/>gen in meinem Herzen, daß ich andern
+          <lb/>predigte, und ſelbst noch unbelehrt
+          <lb/>sey. Der liebe Heiland war mir
+          <lb/>bey alledem oft ſo nahe, daß ich mich
+          <lb/>bisweilen vor Freude kaum zulaſſen
+          <lb/>mußte. Wan̅ man mir die ganze
+          <lb/>Welt hätte geben wollen, ſo würde
+          <lb/>ich ſie gegen eine ſolche Empfindung
+          <lb/>nicht geachtet haben. Nach einiger
+          <lb/>Zeit kam ich wiederum nach Copenhagen,
+          <lb/>und in Bekan̅tschaft mit Seelen, die
+          <lb/>um ihre ſeiligkeit verloren waren,
+          <lb/>welcher ſie die Brüder Praetorius
+          <lb/>und Jacob Splitt traulich annahmen.
+          <lb/>Bey ihrer Erzehlung, wie ſie den lie⸗
+          <lb/>ben Heiland und ſein Verdienst ken̅en
+          <lb/>gelernt, und dadurch Friede und xxx
+        </p>
+        <p n="65">
+          <lb/>heit ihrer Seligkeit erlangt hätten, ward
+          <lb/>mir klar, daß mir das noch fehlte.
+          <lb/>Ich hätte auch leicht dazu kom̅en kön̅en;
+          <lb/>allein ich wolte es lieber schwer haben,
+          <lb/>und aus eigener Kraft der Sünde los
+          <lb/>werden. Wan̅ meine Noth groß
+          <lb/>ward, wandte ich mich zwar zum Hei⸗
+          <lb/>land; aber mich mit Ihm ganz einzu⸗
+          <lb/>laſſen, ſtund mir noch nicht an. Daher
+          <lb/>kam es nie zum völligen Glaubens⸗
+          <lb/>Genuß.Unter den Brüdern in
+          <lb/>Copenhagen bin ich 20 Jahre geweſen,
+          <lb/>und habe von ihnen und dem Heiland
+          <lb/>viele Liebe und Geduld genoſſen.
+          <lb/>Als verschiedene Brüder zur Gemeine
+          <lb/>zogen, ſo entschloß ich mich endlich ao.
+          <lb/>1756, nach manchen Bedenklichkeiten
+          <lb/>auch nach Herrnhuth zu reiſen, wo
+          <lb/>ich bald Erlaubniß zum Dableiben
+          <lb/>erhielt. Noch in dem Jahre gelangte
+          <lb/>ich zur Aufnahme, und das Jahr darauf
+          <lb/>zum heiligen Abendmahl. Durch
+          <lb/>meine Eigengerechtigkeit, über die ich
+          <lb/>anfänglich sehr hielt, habe ich zwar mir
+          <lb/>und anderen das Leben oft schwer gemacht;
+          <lb/><fw type="catch">doch</fw>
+        </p>
+        <p n="66">
+          <lb/>doch bin ich auch darüber Sünder worden,
+          <lb/>und der liebe Heiland hat mich von Zeit
+          <lb/>zu Zeit im̅er näher an ſein Herz gezogen&amp;quot;.
+          <lb/>Soweit aus ſeinem Aufſsaz:
+          <lb/>Die Die Gnadenwahl unſeres lieben Herrn
+          <lb/>hat recht augenscheinlich auch in allen
+          <lb/>Gemüths⸗Verwirrungen über unſeren
+          <lb/>nunmehr ſeligen Bruder gewachet.
+          <lb/>Da sonst im̅er noch was trübes und
+          <lb/>unaufgeklärtes. darin man ſich nicht
+          <lb/>recht finden kön̅te, in ſeinem ganzen
+          <lb/>Gange? wahrzunehmen geweſen; ſo
+          <lb/>sehr man ihn ſeit ein paar Jahren mit
+          <lb/>wahren Vergnügen in einem einfälti⸗
+          <lb/>gen und kindlichen Weſen. Er krigte?
+          <lb/>die Gnade, lieb zu haben, und von
+          <lb/>anderen geliebt zu werden, und war
+          <lb/>jederman̅ in ſeiner Wille zur Erbau⸗
+          <lb/>ung; in der er viel für ſein Herz vom
+          <lb/>lieben Heiland genoß. Wiewol er
+          <lb/>schon lange an der Auszehrung krank
+          <lb/>war, ſo wolte er doch niemanden ger⸗
+          <lb/>ne beschwerlich fallen, ſondern erwarb
+          <lb/>ſich treu und fleiſſig seinen Unterhalt
+          <lb/>mit ſeiner Profeſſion, und reichte sich
+          <lb/><fw type="catch">dabey</fw>
+        </p>
+        <p n="67">
+          <lb/>dabey auf alle Weise ſparſam ein:
+          <lb/>Seit 2 Monaten aber bekam er gich⸗
+          <lb/>tige Zufälle an ſeinen Händen, ſo daß
+          <lb/>er nicht mehr arbeiten konte, und ſich
+          <lb/>meist auf der Krankenſtube aufhalten
+          <lb/>mußte. Er war in dieſer Zeit
+          <lb/>beſonders vergnügt, und beſuchte zu
+          <lb/>jederman̅s Vergnügen die Brüder fleiſ⸗
+          <lb/>ſig auf ihren Stuben. Es war ihm
+          <lb/>ganz ausgemacht, daß ihn der Hei⸗
+          <lb/>land bald zu ſich rufen würde,wo⸗
+          <lb/>zu er auch fertig war, und ſich recht
+          <lb/>kindlich darauf freute. Es lag ihm
+          <lb/>gar ſehr an, ja kein Misvergnügen
+          <lb/>gegen irgend jemand zu haben, und
+          <lb/>niemand mit etwas bechwerlich zu
+          <lb/>fallen, oder ihn zu beleidigen.
+          <lb/>Die lezte Zeit hatte er fast gar keine
+          <lb/>Schmerzen, und er beklagte ſich nur
+          <lb/>über Engbrüſtigkeit. Wer ihn be⸗
+          <lb/>ſuchte, muſſte ſich über die ſünderhaft
+          <lb/>ſelige Stellung ſeines Herzens freuen,
+          <lb/>in der er mit Verlangen auf ſein
+          <lb/>leztes Stündlein wartete. Er hatte
+          <lb/>die Verführung vom Heiland, daß
+          <lb/><fw type="catch">Ers</fw>
+        </p>
+        <p n="68">
+          <lb/>Ers ihm bis ans Ende leicht machen,
+          <lb/>und ihn ruft, ſondern Heimnehmen wer⸗
+          <lb/>de. Das geschah auch, fast jeder⸗
+          <lb/>man̅ unvermuthet, d. 29tn Nov. früh,
+          <lb/>da er, wie ein Licht erlosch.
+          <lb/>Sein Alter war 57 Jahre.
+          <lb/>xxx
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
