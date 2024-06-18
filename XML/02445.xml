@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gemeinnachrichten - Beilagen - GN.A.163 Nachrichten aus der Brüder-Gemeine</title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <respStmt>
+            <resp>Transcription from eScriptorium compiled by</resp>
+            <name>Julius Titzt</name>
+          </respStmt>
+          <respStmt>
+          <resp>Header and text compiled by</resp>
+          <name>Julius Titzt</name>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">4</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1772</date>
+        <idno type ="Index-ID" source="https://zenodo.org/records/8228850">02445</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Nachrichten aus der Brüder-Gemeine</title>
+        <biblScope unit="pages">28-31</biblScope> 
+        <idno type="shelfmark">GN.A.163</idno> 
+      </seriesStmt>                                     
+      <sourceDesc>    
+        <bibl> Gemeinnachrichten - Beilagen - GN.A.163 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend = "Handschrift"> 
+          <msIdentifier> 
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type ="URN">urn:nbn:de:bsz:14-db-id17661158373</idno>
+            <idno type ="PURL">http://digital.slub-dresden.de/id1766115837</idno>
+            <idno type = "shelfmark"> GN.A.163 </idno>
+          </msIdentifier> 
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc> 
+      <langUsage> 
+        <language ident ="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Lebensbeschreibung</term>
+          <term>in Herrnhut begraben</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+         <p n="24">
+           <lb/><head>7.) Die sel. Schw. Maria Magdal. Richterin in Herenhuth, hat folgendes von ihrem Lebenslauf aufgeschrieben.</head>
+          <lb/>Ich bin ao. 1750 d. 14ten Augh.
+          <lb/>zu Em̅erleff im Hollsteinischen geboren, wo mein
+          <lb/><fw type="catch">Vater</fw>
+         </p>
+         <p n="25">
+          <lb/>Vater ein Spizen⸗Händler ist. Meine liebe Eltern
+          <lb/>suchten mich vor dem Hld. zu erziehen u. ſo viel als
+          <lb/>mögl. zu Hauſe zu halten, auf daß ich nicht durch
+          <lb/>die Geſellschaft anderer Kinder verführt würde.
+          <lb/>Ich fühlte auch, daß der Hld. an meinem Herzen
+          <lb/>arbeitete u. wiewol ich ihn oft betrübte, ſo ließ
+          <lb/>er mich doch nicht, ſondern ging mir im̅er noch.
+          <lb/>Wen̅ ich meine liebe Eltern über mich weinen ſah,
+          <lb/>ſo ging mir das freilich ſehr zu Herzen ich schlug
+          <lb/>mirs aber auch wieder aus dem Gemüthe. Einmal
+          <lb/>bezeugte mir meine Mutter, daß es ihr ſehr wehe
+          <lb/>thäte, da ſie ſähe, daß ich bey zunehmenden Jahren
+          <lb/>nicht mehr das Gefühl u. die Zärtlichkeit zum Hld.
+          <lb/>hätte, u. ſie gäbe Ihm gewiß meinetwegen gar
+          <lb/>manches gutes Wörtgen, mir wieder auf die
+          <lb/>rechte Spur zu helfen. Einandermal ſagte ſie:
+          <lb/>Es gereichte mir doch zum wahren Troſt, daß mir
+          <lb/>der Hld. einmal versprochen hat, es solle keines
+          <lb/>von meinen Kindern verloren gehn! Darauf bau⸗
+          <lb/>ete ich u. dachte bey mir ſelbst: Der l. Heiland
+          <lb/>hält ja ſein Wort gewiß; ich darf mich alſo nicht
+          <lb/>ſehr um mich beküm̅ern. Er ließ mich aber nicht
+          <lb/>lange bey ſolchen Bedenken, ſondern zeigte mir
+          <lb/>gar bald, daß ich ohne Ihn nicht zurechtekom̅en
+          <lb/>würde. Wen̅ uns Geschwister aus der Gemeine
+          <lb/>beſuchten u. uns von derſelben erzehlten: ſo
+         </p>          
+        <p n="26">
+          <lb/>erregte das auch in mir ein Verlangen, unter Ge⸗
+          <lb/>schwiſtern zu wohnen. Ich bat daher meine Eltern,
+          <lb/>mir zu erlauben, nach Heppingen zu ziehen,
+          <lb/>welches auch im Jahr 1764 zu meiner großen
+          <lb/>Freude geschah. Ich war ſehr froh, daß ichs nur
+          <lb/>erst so weit hatte: den̅ vor die Zeit hatte ich in meinem
+          <lb/>Herzen noch keine Erlaubniß darum anzuhalten, in die
+          <lb/>Gemeine zu kom̄en, weil ich mich noch für zu schlecht
+          <lb/>dazu anſah u. glaubte, der Hld. müſte erst alles von
+          <lb/>mir nehmen, was Ihm nicht nach Seinem Sinne wäre,
+          <lb/>es wurde mir aber bald anders u. ich wurde überzeugt,
+          <lb/>daß der Hld. ja nur arme Sünder zum Lohne ſei⸗
+          <lb/>ner Schmerzen haben wolle, u. daß er seine xxx⸗
+          <lb/>Bedenken, die sich in seinem Herzen für mich regten,
+          <lb/>ausführen wolle. Ich bat Ihn daher unaufhörlich
+          <lb/>mein Verlangen zu ſtillen, u. mich in die Gem. zu
+          <lb/>bringen. Dieſes geschah auch im Jahr 1766 zu
+          <lb/>meiner großen Freude u. Beschämung u. zwar
+          <lb/>zu einer Zeit, da ich mirs am wenigsten vermu⸗
+          <lb/>thet hatte.&amp;quot; So weit ihre eigene Nachricht.
+          <lb/>Ihr lieber Vater brachte ſie, nebſt ihr 2 andern
+          <lb/>Schweſtern, im Junio beſagten Jahres hirher.
+          <lb/>Sie wurden vors erſte in die Diaſpora-Anſtalt
+          <lb/>nach Catharinenhof gethan, von wan̅en ſie, auf ihr
+          <lb/>anhaltendes bitten, hieher nach Herrnhuth genom⸗
+          <lb/>men wurde. Unſer ſel. Schweſter kam wors erſte
+          <lb/><fw type="catch">ins</fw>
+        </p>
+        <p n="27">
+          <lb/>ins Mädgenhaus u. war den Schweſtern die ſie
+          <lb/>in ihrer Pflege hatten, zu wahrer Freude. Im
+          <lb/>Jahr 1767 wurde ſie in die Gemeine aufgenom⸗
+          <lb/>men u. noch in demſelben Jahr des ſacrament⸗
+          <lb/>lichen Genußes am Leichnam u. Blut des Herrn
+          <lb/>zum erstenmal theilhaftig. ao. 1769 kam ſie
+          <lb/>unter die ledigen Schweſtern. Man nahm an
+          <lb/>ihrem Gang nicht viel ſonderliches wahr, als daß
+          <lb/>ſie ſtill u. herzlich war. Ihr zärtlicher Umgang
+          <lb/>mit dem Heiland aber war ihr gut abzufühlen
+          <lb/>u. zeigte ſich noch mehr in ihrem Thun u. Wandel,
+          <lb/>als ſie ſich mit Worten äuſſeren kon̅te. Jedoch
+          <lb/>bezeigte ſie bey manchen Gelegenheiten, daß
+          <lb/>das einige Verlangen ihres Herzens dahin gehe,
+          <lb/>nur eine recht gründliche arme Sünderin zu wer⸗
+          <lb/>den, um ihren Antheil an Jeſu Verſöhnung u.
+          <lb/>ſeinem Verdienſt noch hier vollkom̅en zu genieſ⸗
+          <lb/>ſen. Dahin sind auch folgende Verſe zu rechnen,
+          <lb/>die man auf ihrer Schreibtafel gefunden hat:
+          <lb/>Es iſt unbeschreiblich, ja es iſt kaum glaublich,
+          <lb/>wir ich dich geübt; aber deine Stunden gaben
+          <lb/>alle Stunden ſo oft ich dich betrübt mir der ar⸗
+          <lb/>men Sünderin̅, das ſo theuren Blutvergießen
+          <lb/>ſaftig zu genießen.
+          <lb/>Ach würd ich Ihm zur Freund auf Erd, daß er ſich
+          <lb/>laben kön̄t an mir, dem ärmſten, das nicht
+          
+        </p>
+        <p n="28">
+          <lb/>werth, daß man̅s ſein Schäflein nen̅t.
+          <lb/>Wie ich an dem Arlberg dort vollblut und
+          <lb/>??? find; da iſt u. bleibt mein lieb⸗
+          <lb/>ſter Ort da mir das Herz zerrin̅t.
+          <lb/>Kön̅t ich wie ich wolte, zu deinen Ehren mich einmal
+          <lb/>recht über dich erklären, mein treuster Freund!
+          <lb/>Allerliebſtes Herze, was ſoll ich machen, was ſoll
+          <lb/>ich die vor Lob⸗Wörtgen ſagen? Ach nim̅ vor lieb!
+          <lb/>Dich ſeh noch im̄er, daß ich zurück u. verscherz mir
+          <lb/>selbst gar manches Glücke in meinem Gang.
+          <lb/>Mein Herr Jeſu, xxx ohn&amp;#x27; all&amp;#x27; Verweilen, all&amp;#x27; mein
+          <lb/>Gebrechen gründlich zu heilen, wo mirs noch fehlt.
+          <lb/>Du weiſt wie ich pflege, mit dir zu reden, u.
+          <lb/>seufze oft: Herr, erhör mein beten, nim̅ mich zu dir!
+          <lb/>An dich, Man̅ der Schmerzen, mich recht verwöhnen;
+          <lb/>das iſt u. bleibet mein Wunsch u. Sehnen, bis du mich nim̅ſt:
+          <lb/>Am 2Oten Apr. dieſes Jahres muſte ſie ſich an den
+          <lb/>Blattern legen. Ihr ganzes Gemüth war gleich aufs
+          <lb/>Heimgehn gestellt. u. bekam auch davon eine Ge⸗
+          <lb/>wißheit in ihrem Herzen. Ahnerachtet derſel⸗
+          <lb/>ben aber ließ ſie ſich doch mit gröſter Willigkeit
+          <lb/>u. Gehorſam alles gefallen, was zu ihrer Gene⸗
+          <lb/>ſung angewendet wurde, ertrug auch die schmerz⸗
+          <lb/>haften Zufälle der Krankheit überaus geduldig.
+          <lb/>In ihren Phantasien war ſie nurr mit dem
+          <lb/>Heiland beschäftigt u. redete ſehr viel mit Ihm:
+          <lb/><fw type="catch">davon</fw>
+        </p>
+        <p n="29">
+          <lb/>davon man aber das wenigste verstehen kon̅te.
+          <lb/>Am 5tn May bekam ſie noch ihren Antheil am
+          <lb/>Chor⸗Abendmahl, welchen ſie mit hungriger u. dur⸗
+          <lb/>ſtiger Seele genoß. Für die Treue u. Mühe der Tren⸗
+          <lb/>kenwärterinnen kon̅te sie ſich nicht dankbar genug bezeigen,
+          <lb/>Auch ſagte ſie: Ich werde dem Heiland für die ganze
+          <lb/>Gemeine u. beſonders für mein Chor viele gute
+          <lb/>Worte geben. Ich bin doch dein armes Sünderlein,
+          <lb/>lieber Heiland! Dein Sehmerzenslohn, u. ich hofte, daß
+          <lb/>das, was die so viele Jahre her an mir gethan haſt,
+          <lb/>nicht vergeblich ſeyn ſoll. Ach was Schönheiten u.
+          <lb/>Niedlichkeiten! Wen̅ ich die XXX an Händ u.
+          <lb/>Füſſen auf ewig werde genieſſen. Mit solchen be‗
+          <lb/>merglichen Seufzern verbrachte ſie die schweren
+          <lb/>Tage u. Nächte ihrer Krankheit, bis ſie am 11tn May
+          <lb/>1771 ging in der Nähe grüßen die XXX an Händ
+          <lb/>u. Füßen, im 21ten Jahr ihres Alters.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
