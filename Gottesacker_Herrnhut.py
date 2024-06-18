@@ -37,15 +37,13 @@ if selection == "Karte":
                )
      if option == "Hans Hansen":
                 st.subheader("Hans Hansen")
-                st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150, use_column_width="always", caption= "© Julius Titzt")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
+                st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150, use_column_width="always", caption= "© Julius Titzt")
                 folium.Marker([51.019574, 14.748516], popup="Hans Hansen. Stein: 6, Reihe: R3, Feld: B2").add_to(m)
        
      elif option == "Knud Andersen":
                 st.subheader("Knud Andersen")
-                st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=350, use_column_width="always", caption= "© Julius Titzt")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
-                folium.Marker([51.019529, 14.748889], popup="Knud Andersen. Stein: 7, Reihe: R3, Feld: B2").add_to(m)
                 
                 with open("Text/02541.txt", "rb") as file:
                        btnn = st.download_button(
@@ -60,46 +58,49 @@ if selection == "Karte":
                                file_name="02541.xml"
                        )
         
+                st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=350, use_column_width="always", caption= "© Julius Titzt")
+                folium.Marker([51.019529, 14.748889], popup="Knud Andersen. Stein: 7, Reihe: R3, Feld: B2").add_to(m)
+                
      elif option== "Johann Sebald Ringmacher": 
                st.subheader("Johann Sebald Ringmacher")
-               st.image("Gottesacker_Julius_Titz/Ringmacher.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/743")
+               st.image("Gottesacker_Julius_Titz/Ringmacher.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                folium.Marker([51.019477, 14.748506], popup="Johann Sebald Ringmacher. Stein: 1, Reihe: R1, Feld: B3").add_to(m)
         
      elif option == "Abraham Dürninger":
                st.subheader("Abraham Dürninger")
-               st.image("Gottesacker_Julius_Titz/20240525_160853.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/182")
+               st.image("Gottesacker_Julius_Titz/20240525_160853.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                folium.Marker([51.019577, 14.748488], popup="Abraham Dürninger. Stein: 7, Reihe: R3, Feld: B2").add_to(m)
         
      elif option == "Anna Magdalena Elisabeth Weiss":
                 st.subheader("Anna Magdalena Elisabeth Weiss")
-                st.image("Gottesacker_Julius_Titz/S3R215.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1745048901/837")
+                st.image("Gottesacker_Julius_Titz/S3R215.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                 folium.Marker([51.019115, 14.748836], popup="Anna Magdalena Elisabeth Weiss. Stein: 15, Reihe: R2, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         
      elif option == "Benigna Schüz":
                st.subheader("Benigna Schüz")
-               st.image("Gottesacker_Julius_Titz/S1R103.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766025684/140")
+               st.image("Gottesacker_Julius_Titz/S1R103.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                folium.Marker([51.019103, 14.748604], popup="Benigna Schüz. Stein: 6, Reihe: R5, Feld: B3", icon=folium.Icon(color='red')).add_to(m)
         
      elif option == "Christa Dorothea Lintrup":
                st.subheader("Christa Dorothea Lintrup")
-               st.image("Gottesacker_Julius_Titz/S1R83.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766034756/143")
+               st.image("Gottesacker_Julius_Titz/S1R83.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                folium.Marker([51.019112, 14.748551], popup="Christa Dorothea Lintrup. Stein: 3, Reihe: R10, Feld: S1", icon=folium.Icon(color='red')).add_to(m)
         
      elif option == "Dorothea Maria Ahlsleb":
                st.subheader("Dorothea Maria Ahlsleb")
-               st.image("Gottesacker_Julius_Titz/20240525_154421.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/394")
+               st.image("Gottesacker_Julius_Titz/20240525_154421.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                folium.Marker([51.019036, 14.748669], popup="Dorothea Maria Ahlsleb. Stein: 1, Reihe: R1, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         
      elif option == "Maria Luley":
                st.subheader("Maria Luley")
-               st.image("Gottesacker_Julius_Titz/S3R47.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/628")
+               st.image("Gottesacker_Julius_Titz/S3R47.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                folium.Marker([51.019057, 14.748774], popup="Maria Luley. Stein: 7, Reihe: R4, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         
      elif option == "Maria Magdalena Bezold":
@@ -130,8 +131,8 @@ if selection == "Karte":
         
      elif option == "Mädgen Cornelia Louisa von Goldenberg":
                st.subheader("Mädgen Cornelia Louisa von Goldenberg")
-               st.image("Gottesacker_Julius_Titz/S3R12.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/527") 
+               st.image("Gottesacker_Julius_Titz/S3R12.jpg", width=350, use_column_width="always", caption= "© Julius Titzt")
                folium.Marker([51.019050, 14.748683], popup="Mädgen Cornelia Louisa von Goldenberg. Stein: 2, Reihe: R1, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
        
         
