@@ -21,18 +21,11 @@ if selection == "Karte":
     )
 
      if add_selectbox == "Digitalisat":
-             selection = st.selectbox(
-        "Wählen Sie einen Namen",
-        [
-            "Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
+            st.write ("Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
             "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", 
             "Christa Dorothea Lintrup", "Maria Magdalena Richter", 
             "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", 
-            "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"
-        ]
-    )
-             st.write(f"Sie haben {selection} ausgewählt.")       
-     
+            "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold")
 
      with st.container():
         
