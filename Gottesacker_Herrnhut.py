@@ -28,6 +28,10 @@ if selection == "Karte":
             "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"]
             for name in names:
                     st.sidebar.write(name)
+     elif add_selectbox == "Text" or "XML":
+             names = ["Knud Andersen", "Maria Magdalena Richter", "Gottfried Clemens"]
+             for name in names:
+                     st.sidebar.write(name)
                   
 
      with st.container():
