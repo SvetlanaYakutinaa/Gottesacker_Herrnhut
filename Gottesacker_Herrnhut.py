@@ -14,6 +14,13 @@ selection = st.sidebar.radio("Gehe zu", ["Karte", "Analyse"])
 
 # Seiteninhalt basierend auf der Auswahl des Benutzers
 if selection == "Karte":
+     
+     add_selectbox = st.sidebar.radio(
+        "How would you like to be contacted?",
+        ("Email", "Home phone", "Mobile phone")
+    )
+     
+     
      with st.container():
         
         st.title("Gottesacker Herrnhut")
@@ -175,11 +182,6 @@ if selection == "Karte":
 elif selection == "Analyse":
     st.title("In Arbeit")
     
-
-    add_selectbox = st.sidebar.radio(
-        "How would you like to be contacted?",
-        ("Email", "Home phone", "Mobile phone")
-    )
 
 
 
