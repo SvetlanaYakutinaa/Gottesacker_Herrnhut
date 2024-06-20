@@ -176,6 +176,8 @@ elif selection == "Analyse":
     st.title("In Arbeit")
 
     add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone"))
+        "How would you like to be contacted?",
+        ("Email", "Home phone", "Mobile phone")
+    )
+
     
