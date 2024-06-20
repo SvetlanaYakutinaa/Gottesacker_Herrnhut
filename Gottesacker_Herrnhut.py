@@ -16,11 +16,24 @@ selection = st.sidebar.radio("Gehe zu", ["Karte", "Analyse"])
 if selection == "Karte":
      
      add_selectbox = st.sidebar.radio(
-        "How would you like to be contacted?",
-        ("Email", "Home phone", "Mobile phone")
+        "Wählen Sie aus",
+        ("Digitalisat", "Text", "XML")
     )
+
+     if add_selectbox == "Digitalisat":
+             selection = st.selectbox(
+        "Wählen Sie einen Namen",
+        [
+            "Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
+            "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", 
+            "Christa Dorothea Lintrup", "Maria Magdalena Richter", 
+            "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", 
+            "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"
+        ]
+    )
+             st.write(f"Sie haben {selection} ausgewählt.")       
      
-     
+
      with st.container():
         
         st.title("Gottesacker Herrnhut")
