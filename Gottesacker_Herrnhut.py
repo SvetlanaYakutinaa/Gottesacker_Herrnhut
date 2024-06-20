@@ -174,10 +174,14 @@ if selection == "Karte":
 
 elif selection == "Analyse":
     st.title("In Arbeit")
-
-    add_selectbox = st.sidebar.selectbox(
-        "How would you like to be contacted?",
-        ("Email", "Home phone", "Mobile phone")
+    
+    st.checkbox("Disable selectbox widget", key="disabled")
+    st.radio(
+        "Set selectbox label visibility 👉",
+        key="visibility",
+        options=["visible", "hidden", "collapsed"],
     )
+
+    
 
     
