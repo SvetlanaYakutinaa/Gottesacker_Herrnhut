@@ -29,7 +29,7 @@ if selection == "Karte":
             for name in names:
                     st.sidebar.write(name)
      elif add_selectbox == "Text" or "XML":
-             names = ["Knud Andersen", "Maria Magdalena Richter", "Gottfried Clemens"]
+             names = ["Knud Andersen", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
              for name in names:
                      st.sidebar.write(name)
                   
@@ -84,6 +84,18 @@ if selection == "Karte":
      elif option== "Johann Sebald Ringmacher": 
                st.subheader("Johann Sebald Ringmacher")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/743")
+               with open("Text/03277.txt", "rb") as file:
+                       btnn = st.download_button(
+                               label="Download Text",
+                               data= file,
+                               file_name="03277.txt"
+                       )
+               with open("XML/03277.xml", "rb") as file:
+                       btn = st.download_button(
+                               label="Download XML",
+                               data= file,
+                               file_name="03277.xml"
+                       )
                st.image("Gottesacker_Julius_Titz/Ringmacher.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019477, 14.748506], popup="Johann Sebald Ringmacher. Stein: 1, Reihe: R1, Feld: B3").add_to(m)
         
@@ -102,6 +114,18 @@ if selection == "Karte":
      elif option == "Benigna Schüz":
                st.subheader("Benigna Schüz")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766025684/140")
+               with open("Text/00977.txt", "rb") as file:
+                       btnn = st.download_button(
+                               label="Download Text",
+                               data= file,
+                               file_name="00977.txt"
+                       )
+               with open("XML/00977.xml", "rb") as file:
+                       btn = st.download_button(
+                               label="Download XML",
+                               data= file,
+                               file_name="00977.xml"
+                       )
                st.image("Gottesacker_Julius_Titz/S1R103.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019103, 14.748604], popup="Benigna Schüz. Stein: 6, Reihe: R5, Feld: B3", icon=folium.Icon(color='red')).add_to(m)
         
