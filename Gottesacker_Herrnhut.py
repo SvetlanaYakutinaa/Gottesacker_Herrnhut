@@ -21,16 +21,16 @@ if selection == "Karte":
     )
 
      if add_selectbox == "Digitalisat":
-            names = ["Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
+            names_d = ["Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
             "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", 
             "Christa Dorothea Lintrup", "Maria Magdalena Richter", 
             "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", 
             "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"]
-            for name in names:
+            for name in names_d:
                     st.sidebar.write(name)
      elif add_selectbox == "Text" or "XML":
-             names = ["Knud Andersen", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
-             for name in names:
+             names_a = ["Knud Andersen", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
+             for name in names_a:
                      st.sidebar.write(name)
                   
 
