@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Gemeinnachrichten - Beilagen] - GN.A.153 Nachrichten aus der Brüder-Gemeine</title>
+        <editor>Evangelische Brüder-Unität</editor>
+          <respStmt>
+            <resp>Transcription from eScriptorium compiled by</resp>
+            <name>Julius Titz</name>
+          </respStmt>
+          <respStmt>
+            <resp>Header and text compiled by</resp>
+            <name>Julius Titz</name>
+            <name>Svetlana Yakutina</name>
+          </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">5</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1770</date>
+        <idno type ="Index-ID" source="https://zenodo.org/records/8228850">00977</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Nachrichten aus der Brüder-Gemeine</title>
+        <biblScope unit="pages">140-144</biblScope> 
+        <idno type="shelfmark">GN.A.153 </idno> 
+      </seriesStmt>                                     
+      <sourceDesc>    
+        <bibl> [Gemeinnachrichten - Beilagen] - GN.A.153 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend = "Handschrift"> 
+          <msIdentifier> 
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type ="URN">urn:nbn:de:bsz:14-db-id17660256840</idno>
+            <idno type ="PURL">http://digital.slub-dresden.de/id1766025684</idno>
+            <idno type = "shelfmark"> GN.A.153  </idno>
+          </msIdentifier> 
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc> 
+      <langUsage> 
+        <language ident ="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Lebensbeschreibung</term>
+          <term>in Herrnhut begraben</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p n="134">
+          <lb/><head>4. Die ledige Schweſter, Benigna Schüzin hat folgende schriftliche Nachricht von ſich hinterlaßen:</head>
+          <lb/>Ich ward d. 10ten Septr. 1745 zu Hhuth
+          <lb/>geboren, und brachte meine Kinder⸗Jahre
+          <lb/>zimlich ungefühlig zu.
+          <lb/>Im Jahr 1754 wurde ich, wegen meines
+          <lb/>ungeraden Weſens, von allen Verſam̅lungen
+          <lb/>aus geschloßen. Dieſes brachte mich auf mein
+          <lb/>Herz. Ich ſahe ein, daß ich noch ganz unbe⸗
+          <lb/>kehrt war, und bat den Heiland, er solle
+          <lb/>ſich meiner erbarmen, und mir ein gerades
+          <lb/>und gefühliges Herz ſchenken. Er erhörte auch
+          <lb/>meine bitte, und ich kam in einen ſeligen Gang.
+          <lb/>Am 25ten Mart 1758 wurde ich ins Mädgen⸗
+          <lb/>Chor aufgenom̅en, und es war mein Anliegen,
+          <lb/>dem Heiland zur Freude zu werden. Der
+          <lb/>??? war mir damals beſonders lieb: Der
+          <lb/>Umgang mit dem Schmerzens⸗Man̅ iſt alles, was
+          <lb/>ich wünschen kan, ich hatte dan̅ nur vergnügte
+          <lb/>Zeit, u. glaubte dabey daß niemand schlechter
+          <lb/><fw type="catch">ſeyn</fw>
+        </p>
+        <p n="135">
+          <lb/>ſeyn könne, als ich. Es war aber nichts bleiben⸗
+          <lb/>des, und dieſes machte mir ofte schoene Stunde;
+          <lb/>den̅ es lag mir doch an, daß ich gerne ganz
+          <lb/>des Heilands ſeyn wolt. Am 11ten Dec. 1758
+          <lb/>kam mir d. Hld. ſo nachdrücklich ans Herz,
+          <lb/>daß es mir war, als ob Er leibhaftig vor
+          <lb/>mir ſtünde. Am darauf folgenden 21tn Dec.
+          <lb/>ward ich in die Gemeine aufgenom̅en. Dieſe
+          <lb/>Gnade machte mich tief beschämt, aber
+          <lb/>auch zutraulicher zum Heiland, ſo daß
+          <lb/>ich mich ſeit dem als ein armes Sünderlein
+          <lb/>zu Ihm halten konte. Ich lernte von Zeit
+          <lb/>zu Zeit, meine Armuth und mein Grund⸗
+          <lb/>verderben im̅er mehr ken̅en, u. merkte
+          <lb/>ſonderlich den Haupt⸗Fehler an mir, daß
+          <lb/>ich gerne beßer von mir dachte, als ich war.
+          <lb/>Ich muſte lange aufs Heil. Abendmahl warten,
+          <lb/>u. die Zeit wolte mir ofte zu lange währen. Der
+          <lb/>Heiland aber wußte wol, daß mir das
+          <lb/>am Dienlichsten ſey, wen̅ Er mich genau nähme,
+          <lb/>u. Die Schuld lag doch bey mir ſelbst Am 19tn
+          <lb/>Nov. 1761 hatte ich einen Tag der mir unver⸗
+          <lb/>geßlich bleiben wird. Da machte ich einen Bund
+          <lb/>mit dem Heiland, daß ich ganz Seine ſeyn
+          <lb/>wolte, und noch denſelben Tag würde ich
+          <lb/>Candidatin zum heil. Abendmahl, deßen ich
+          <lb/>am 13tn Febr. 62 zum ersten mal theilhaftig wurde.
+        </p>
+        <p n="136">
+          
+          <lb/>Seit dem war mir jedes Abendmahl zum großen
+          <lb/>Segen u. ich konte mich dabey allemal dem Hld. aufs
+          <lb/>neue hingeben. Die Zeit nach dem im Jahr 1764
+          <lb/>gehaltenen Synodo, war mir auch ſehr geſegnet.
+          <lb/>Ich hielt eine gründliche und offenherzige Unter⸗
+          <lb/>redung mit meiner Arbeiterin, über meinen
+          <lb/>ganzen Zuſtand, und mein Herz wurde leicht.
+          <lb/>Zugleich gab ich mich dem Hld. von neuem hin,
+          <lb/>mit mir zu thun was Ihm beliebet, von
+          <lb/>mir zu nehmen was Ihn betrübet
+          <lb/>Die Reden des ſel. Jüngers, ſind mir zur
+          <lb/>Erbauung geweſen, u. in mancher Singſtunde habe
+          <lb/>ich dem Heiland ſo nahe gefühlt, daß ich mich
+          <lb/>de Thränen nicht verwehren konte. Ich habe man⸗
+          <lb/>che Proben der Treue des Heilands erfahren,
+          <lb/>und wen̅ ich mich nicht ſo veſte an Ihn halten
+          <lb/>können, und ſo gewiß gewußt hätte, daß
+          <lb/>Er mein beſter Freund iſt, dem ich alles
+          <lb/>klagen und ſagen kan: ſo wäre ich schlecht zu⸗
+          <lb/>rechte gekom̅en. Aber Seine Treue u. Liebe,
+          <lb/>die Er in aller Stille an mir armen Kindeſ
+          <lb/>bewieſen? kan ich mit Worten nicht beschreiben.
+          <lb/>Je schlechter ich von mir ſelbst dachte; deſto
+          <lb/>mehr hat Er mich Seine liebe Nähe immer
+          <lb/>werden laßen.
+          <lb/>So viel ſie ſelbſt.
+          <lb/>Sie war am 21ten May 1763 ins ledige
+          <lb/>Schweſter
+        </p>
+        <p n="137">
+          <lb/>Chor aufgenom̅en worden, in dieſem Chor
+          <lb/>ging eine beſonder Gnaden⸗Arbeit des Heil.
+          <lb/>Geiſtes in ihrem Herzen vor. Sie lernte
+          <lb/>im̅er mehr ſich, als eine Elende des Herrn,
+          <lb/>Gottes ihres Heilandes recht zu erfreuen.
+          <lb/>Ihr inniges Verlangen, welches sie ofte
+          <lb/>bezeugte, ging dahin: Die gnaden und
+          <lb/>Segen ganz zu erfahren und zu genießen,
+          <lb/>welche auch dieſem Stande, durch das Ver⸗
+          <lb/>dienſt der Heiligen Menschheit Jeſu er⸗
+          <lb/>worben ſind. Ihren lieben Eltern
+          <lb/>diente ſie mit großer Treue, Fleiß
+          <lb/>und Zuverläßigkeit und  wurde von
+          <lb/>ihren jüngeren Geschwiſtern, als eine
+          <lb/>Mutter angeſehen und reſpektiert.
+          <lb/>Am 6ten Apr. bekam ſie eine Geschwulſt
+          <lb/>am Fuß, darauf ſich ein hiziges Fieber
+          <lb/>einfand, welches ſie zu ihrer Auflöſung
+          <lb/>fertig machte. Die Schweſtern, welche
+          <lb/>während ihrer Krankheit bey ihr waren,
+          <lb/>können nicht genug bezeugen, was ſie für
+          <lb/>eine Nähe des Heilands bey Tag u. Nacht
+          <lb/>um dieſe liebe Kranke verſpürten. Sie
+          <lb/>unterſuchte ſich noch gründlich und beklagte,
+          <lb/>daß ſie ihren lieben Herrn und Heiland
+          <lb/>nicht noch viel zärtlicher hier geliebt hätte
+          <lb/>und manchmal schläfrig hingegangen ſey
+          
+        </p>
+        <p n="138">
+          
+          <lb/>Beſonders rief ſie den Heiland darum an, ſie
+          <lb/>von ihren Eltern und Geschwiſtern ganz los
+          <lb/>zu machen. Ueber dieſes alles, war ihr um
+          <lb/>Troſt bange. Einmal ſezte ſie ſich, mit einem
+          <lb/>aufgeklärten Blick im Bette auf, und ſagte:
+          <lb/>Ach wie wohl iſt mir! Nun bin ich recht Ver⸗
+          <lb/>gnügt, ich habe den Heiland geſehen, Er
+          <lb/>hat da geſtanden, und mich freundlich an⸗
+          <lb/>geblickt. Ach, wie gut that das ſo meinem
+          <lb/>armen Herzen!
+          <lb/>Ihr gröſtes Labsaal war, wen̅ man ihr
+          <lb/>verſe ſang, und ſie ſtim̅te ohngeachtet ihrer
+          <lb/>Schwäche im̅er mit ein.
+          <lb/>Dieſes iſt auch, in ihren geſunden Tagen,
+          <lb/>ihr liebſtes geschäfte geweſen.
+          <lb/>Am 21ten April entschlief ſie ſanft und
+          <lb/>ſelig im 25ten Jahr ihres Alters.
+        </p>    
+      </div>
+    </body>
+  </text>
+</TEI>

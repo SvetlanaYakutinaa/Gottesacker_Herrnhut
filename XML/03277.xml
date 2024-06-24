@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Gemeinnachrichten - Beilagen] - GN.A.167 Nachrichten aus der Brüder-Gemeine</title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <resp>Transcription from eScriptorium compiled by</resp>
+          <name>Julius Titz</name>
+        </respStmt>
+        <respStmt>
+          <resp>Header and text compiled by</resp>
+          <name>Julius Titz</name>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">15</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1773</date>
+        <idno type ="Index-ID" source="https://zenodo.org/records/8228850">00977</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Nachrichten aus der Brüder-Gemeine</title>
+        <biblScope unit="pages">739-753</biblScope> 
+        <idno type="shelfmark">GN.A.167 </idno> 
+      </seriesStmt>                                     
+      <sourceDesc>    
+        <bibl> [Gemeinnachrichten - Beilagen] - GN.A.167 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend = "Handschrift"> 
+          <msIdentifier> 
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type ="URN">urn:nbn:de:bsz:14-db-id17661253019</idno>
+            <idno type ="PURL">http://digital.slub-dresden.de/id1766125301</idno>
+            <idno type = "shelfmark"> GN.A.167 </idno>
+          </msIdentifier> 
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc> 
+      <langUsage> 
+        <language ident ="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Lebensbeschreibung</term>
+          <term>in Herrnhut begraben</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p n="739">
+          <lb/><head>7.) Der am 6ten Dec zu Herrnhut ſel. in ſeines Herrn Freude eingegangenen led. Br. Johan Sebald Ringmacher hat folgende eigenhändige Nachricht von ſeinem Gang durch dieſe Zeit hinterlaſſen:</head>
+          <lb/>Ich bin ao. 1706 d. 24ten Jul. zu Lyon in Frankreich
+          <lb/>geboren, alwo mein Vater ein angeſehener Kaufman̅ war.
+          <lb/>Die Heil. Taufe empfing ich durch die Wehmutter, weil
+          <lb/>kein proteſtantischer Geistl.er da geduldet wurde.
+          <lb/>Da ich ein Jahr alt war, ging meine Mutter aus der
+          <lb/>Zeit, u. hinterließ meinem Vater 3 Söhne u. 2 Töchter.
+          <lb/>Ich wurde darauf meinem Großelter in ??? zur
+          <lb/>Erziehung übergeben, kam aber nach deſſen Hinscheiden
+          <lb/><fw type="catch">wieder</fw>
+          </p>
+        <p n="740">
+          
+          <lb/>wieder nach Lyon u. von da ao. 19 aufs Gymnaſium nach
+          <lb/>Geneve. In demſelben Jahr ging auch mein Vater aus der
+          <lb/>Zeit, u. weil er mich einige Zeit vorher an He. Jonas
+          <lb/>Paul Weihs in Nürnberg, bey deſſen Aufenthalt zu
+          <lb/>Lyon empfohlen hatte, ſo fügte ſichs ao. 20., daß ich nach
+          <lb/>Nürnberg kam, u. in ſeiner u. ſeines He. Schwieger⸗Vaters
+          <lb/>Schobers Hände meine Lehr⸗Jahre u. noch ein Jahr drüber,
+          <lb/>bis 1725 zubrachte. Beym Unterricht in der Lutherischen
+          <lb/>Religion, u. beſonders bey der erſten Beichte wurde mein
+          <lb/>Herz weich u. ich genoß darauf das Heil. Abdmhl. mit
+          <lb/>Freuden. Ich habe mir nachher vielmals wieder ſo ein zer⸗
+          <lb/>floßens Herz gewünscht; aber mehrentheils ohne Effectm
+          <lb/>u. wurde wohl in̅e, daß ich mir daſſelbe mit allem mei⸗
+          <lb/>nem Selbstwirken nicht geben kön̅e. Mein Haupt???
+          <lb/>ging indeſſen dahin, etwas rechtes zu lernen, verließ
+          <lb/>also ao. 25 Nürnberg, ging nach Leipzig, u. von da
+          <lb/>ao. 26 nach Görliz. Hier bekam ich die erſte Nach⸗
+          <lb/>richt von den Brrn. in Hhut, hörte auch den Mag. Schaefer
+          <lb/>predigen. ao. 27 begab ich mich auf Reiſen, kam bey der
+          <lb/>Gelegenheit durch Hhut und hörte in Schleſien den Mag. Schwed⸗
+          <lb/>ler predigen. Ich wäre gern in Schleſien geblieben;
+          <lb/>weil aber mein älteſter Br. in Lyon nach mir verlangte;
+          <lb/>ſo reiſte ich zu ihm u. wir waren 2 Jahre beyſam̅en.
+          <lb/>Jedoch da es mit unſerer Hand. nicht nach Wunsch gehen
+          <lb/>wolte, ſo entschloßen wir uns Lyon zu verlaßen.
+          <lb/><fw type="catch">Mein</fw>
+        </p>
+        <p n="741">
+          
+          <lb/>Mein Br. ging nach ???, u. ich wieder nach Deutschland,
+          <lb/>kon̅te aber nirgends Ruhe finden u. gedachte endl. solche in
+          <lb/>America zu suchen, wozu mich noch einige Forderun⸗
+          <lb/>gen auf der Insel St. Domingo mit antrieben. Ich
+          <lb/>ſegelte demnach ao. 31 dahin ab, fand daſelbst verschiedene
+          <lb/>gute Freunde, die mir mit gutem Rath an die Hand gingen,
+          <lb/>u. mein erſter Vorſatz war hier zu bleiben. Ich bekam
+          <lb/>zwar die Landes⸗Krankheit, wurde aber dich nach 4 Mona⸗
+          <lb/>ten wieder geſund u. kam zu einem Kaufman He. ???
+          <lb/>in Condition. Dieser Man̅ konte mich gut leiden
+          <lb/>u. versprach mir auf alle Weiſe zu meinem Glück
+          <lb/>befördert zu ſeyn, Inzwischen bekam ich Briefe
+          <lb/>vom Hen. Lippe aus Leipzig, welcher mich mit den
+          <lb/>zärtlichſten Ausdrücken in ſein Haus einlud. So erſuch⸗
+          <lb/>te mich auch ein Schiffs⸗Capitain auf die freundschaft⸗
+          <lb/>lichſte Weiſe, wieder mit ihm nach Frankreich zurück
+          <lb/>zu reiſen. Dieſes zuſam̅en bewegte mich auch
+          <lb/>wirkl. meinen Vorſaz zu ändern. Allein mein Herr
+          <lb/>wolte davon nichts wiſſen, bis er jemanden in meiner
+          <lb/>Stelle bekom̅en habe, u. als ſolches erfolgt: ſo reiſte ich
+          <lb/>mit beſagtem Capitain ao. 32 ab, lebten unterwegens
+          <lb/>wie Brr. zuſammen, u. kamen im Augh. wohlbehalten in
+          <lb/>Bourdeaux an. Ich hatte aber keine Neigung da
+          <lb/>zu bleiben, ſonder begab mich nach einem kurzen Auf⸗
+          <lb/>enthalt nach Hamburg, u. von da nach Warschau, Breslau,
+          <lb/><fw type="catch">u.</fw>
+        </p>
+        <p n="742">
+          
+          <lb/>u. Oberschleſien. ao. 34 reiſte ich nach Leipzig, allein
+          <lb/>es wurde aus allen Vorschlägen nichts. Ich kon̅te zu
+          <lb/>keiner Ruhe kom̅en, den̅ ich fühlte was anders, deswegen
+          <lb/>verließ ich Leipzig voller Unruhe, u. kam nach Nürnberg
+          <lb/>in mein altes Haus. Hier fing ich an über mich und
+          <lb/>meinen Gang zu denken, überdachte alle Religionen,
+          <lb/>die ich geſehen, u. las fleiſſig die Bibel u. andre geistl.
+          <lb/>Bücher, Ich ſagte erſt, daß die Furcht Gottes der
+          <lb/>Weisheit Anfang wäre, fing auch an, den l. Gott
+          <lb/>in meinen Geschäften zu Hülfe zu nehmen; allein
+          <lb/>wen̅ das Geſez zu fordern anfing, ſo war kein
+          <lb/>Nachſaz da. Die Welt hatte ich lieb, u. dieſes
+          <lb/>machte mir große Noth u. Confusion, welche noch är⸗
+          <lb/>ger wurde, als ich mich ao. 38 abermals nach Leipzig
+          <lb/>zu, Hen. Buckard begab. Alles würde mir
+          <lb/>zur Sünde u. ich ſahe gar kein Durchkom̅en, fand
+          <lb/>auch bey den from̅en Leuten keinen Rath mehr, kurz
+          <lb/>ich fühlte nichts als Verdam̅ung u. eine unerträgl.
+          <lb/>Angst. Der treue Hld. aber ließ mich nicht ganz
+          <lb/>ohne Gnadenblicke, u. da die Wehmuth mein Herz berufen
+          <lb/>wolte: ſo nahm Er ſich meiner an, u. ließ mir endl.
+          <lb/>Herrnhut einfallen, von da ich den Apotheker Dürr
+          <lb/>ken̅en lernte. Weil ich ihn aber in der Neujahrs⸗
+          <lb/>Meſſe nicht zu ſprechen krigte, ſo entschloß ich mich
+          <lb/>nach Hhut zu reiſen, u. einige Wochen da zu verbleiben.
+          <lb/><fw type="catch">Allein</fw>
+        </p>
+        <p n="743">
+          
+          <lb/>Allein He. Burkhard, bey dem ich war, u. der mir alle Liebe
+          <lb/>erwieß, wolte mich vor der Oſtermeſſe nicht von ſich laſſen,
+          <lb/>u. ich mußte auch darin willigen. Endl. kam die angenehme
+          <lb/>Stunde meines Abschieds aus Leipzig, u. ich kam d. 4ten Jun.
+          <lb/>1739 glückl. in Hhut an. Br. Dürr erblickte mich ſogl.,
+          <lb/>bewillkom̅te mich aufs herzl.ſte u. ließ mich nicht lange im
+          <lb/>Gaſthofe, ſondern gab mir ein Logis im Flügel. Als ich
+          <lb/>bey ihm das Lied las: Du unſer auserwehltes Haupt.
+          <lb/>wurde ich wie aufs neue erweckt u. der ganze Inhalt
+          <lb/>deſſelben wurde mir beſonders eindrückl. u. klar. Ich
+          <lb/>fühlte, daß ich mich unter einem Volk Gottes befand.
+          <lb/>Hier, dachte ich, habe ich gefunden, was ich ſo lange ge⸗
+          <lb/>ſucht; u. darf ich nur hier bleiben, ſo iſt mirs die
+          <lb/>größte Gnade. Meine Erklärung war dem damal.en
+          <lb/>Richter⸗Collegio, des Hlds. ganz zu ſeyn, gefiel den
+          <lb/>Brrn. wohl, u. ich kriegte Erlaubniß zum bleiben. Der
+          <lb/>l. Hld. brachte mich darauf auf mein tiefes Grund⸗Ver⸗
+          <lb/>derben, weil ich mich aber ſo ſündig, wie ich war,
+          <lb/>zu Ihm traute, wen̅ gleich vielmal geſagt u. geſungen
+          <lb/>wurde: Man darf ſo wie man ist, zum Lam̅e kom̅en.
+          <lb/>So blieb mir die Sünderschaft im̅er ein Räthſel.
+          <lb/>Br. Hehl, als damal.er Wäiſen⸗Vater, brauchte mich
+          <lb/>im Wäiſenhaus zur Informazion der Knaben, im
+          <lb/>französischen u. rechnen. Dieſes waren mir zwar
+          <lb/>angenehme Beschäftigungen, allein die Hauptſache, als
+          <lb/><fw type="catch">ein</fw>
+        </p>
+        <p n="744">
+          
+          <lb/>ein Armer u. Elender an den Hld. zu glauben, fehlte mir
+          <lb/>noch. Indeſſen ging die Arbeit des Heil. Geiſtes, im̅er
+          <lb/>dahin; ich aber wolte das Gefühl meines Elends weg
+          <lb/>haben, u. war alſo vielen Veränderungen unterworfen.
+          <lb/>Ich ließ mir daher auch nichts weniger einfallen, als
+          <lb/>in die Gem. aufgenom̅en zu werden, ſondern als ich dem
+          <lb/>Br. Mart. Dober meinen ganzen Lebenslauf schriftl.
+          <lb/>gegeben hatte: ſo erwartete ich vielmehr einen Tag
+          <lb/>nach dem andern, in denen drauf folgenden Gemein⸗
+          <lb/>Gelegenheiten, daß ich öffentl. meinen Abschied bekom̅en
+          <lb/>würde. Allein der 17te Oct. war der Tag, an wel⸗
+          <lb/>chem ich durch die Aufnahme in die Gem. zu der Familie
+          <lb/>des Herrn gezehlt wurde. Br. Jonas Paul Weihs
+          <lb/>schrieb darauf an die Gem.. daß wen̅ ſie mich zu Be⸗
+          <lb/>ſorgung ſeiner oeconomischen Umſtände nach Nürnberg
+          <lb/>schicken wolten, ſo wolte er dagegen zur Gem. kom̅en,
+          <lb/>welches auch zu Anfang des Jahres 1740 geschah.
+          <lb/>Mir wurde inzwischen in Nürnberg die Zeit zu
+          <lb/>lange; ich fing an, mich bey dieſem u. jenem aufzu⸗
+          <lb/>halten, u. kam endl. aus der Zärtlichkeit gegen den Hld.
+          <lb/>u. die Gem. heraus. Ich schrieb daher an Br. Weihs,
+          <lb/>daß ich es nicht länger in Nürnberg ausſtehen kön̅te;
+          <lb/>er kam nach Hauſe, u. ich begab mich nach dem Hhaag,
+          <lb/>wo ich gerade zum erſten Aelteſten⸗Feſt zurechte kam.
+          <lb/>Aller Gnade aber ohngeachtet verließ ich ao. 41 die
+          <lb/><fw type="catch">Gem.</fw>
+        </p>
+        <p n="745">
+          <lb/>Gem. wieder, u. reißte nach Straßburg. So bald
+          <lb/>der junge He. Schober das erfuhr, glaubte er, die
+          <lb/>guten Ideen ſeines ſel.en He. Vaters nun ins Werk
+          <lb/>richten zu kön̅en, u. ich kam auch ao. 1742 zu ihm
+          <lb/>nach Nürnberg; allein er ging bald darauf
+          <lb/>aus der Zeit. Bey allen darauf erfolgten
+          <lb/>annehmlichen Anerbietungen war ich doch nicht
+          <lb/>ruhig, ſondern dachte: &amp;quot; Was hülfs dem Men⸗
+          <lb/>schen, wen̅ er die ganze Welt gewäne, u. litte
+          <lb/>Schaden an ſeiner Seele&amp;quot;? Ich entschloß mich
+          <lb/>daher, des He. Schobers Frau ??? ſo lange
+          <lb/>traulich beyzuſtehen, bis ihre Sachen ins Geraume
+          <lb/>seyn würden: ſodan̅ aber zur Gemeine zurück
+          <lb/>zu kehren; welches auch im Merz ao. 1743 nach
+          <lb/>vielen Schwierigkeiten geschah, nachdem ich einen
+          <lb/>14 tägigen feindſeligen Haus⸗Arreſt habe aus⸗
+          <lb/>ſtehen müſſen, u. kam glücklich auf dem Hhaag an.
+          <lb/>Wie mir bey meinem Eintritt in der Gemeine
+          <lb/>zu Muthe geweſen, kan ich nicht beschreiben, ich fühlte
+          <lb/>ein beſonders Wehen des Geiſtes, u. die Liebe
+          <lb/>der Geschwiſter beschämte mich gar ſehr. Bey dem
+          <lb/>Fußmaschen am grünen Don̅erstag, u. dem drauf
+          <lb/>folgenden Abdmhl. war ich zum erſtenmal mit der
+          <lb/>Gemeine dabey. Um die Zeit kam der ſel.
+          <lb/>Jünger aus Penſylvanien zurück, ich wurde ihm
+          <lb/><fw type="catch">vorgeſtellt,</fw>
+        </p>
+        <p n="746">
+          
+          <lb/>vorgeſellt, u. bekam einen Plan zu dem Hen.
+          <lb/>Grafen v. Bromniz nach Lührau. Auf der
+          <lb/>Reiſe dahin, genoß ich einige Tage den Synodum
+          <lb/>in Hirschberg mit, begab mich ſodan̅ nach Gotha
+          <lb/>u. Erfurth, um daſelbst auf Ordre des Hen. Gra⸗
+          <lb/>fen v. Gotter mit dem Baron v. Keller wegen des
+          <lb/>Ankaufs von Neudietendorf zu liquidieren, u. nach
+          <lb/>erfolgter Berichtigung, ſezte ich über Herrnhut u.
+          <lb/>Niesky meine Reiſe nach Bührau weiter fort,
+          <lb/>wo ich am 19ten Jul ankam. Im Monat Aug.
+          <lb/>kam auch der ſel Jünger mit ſeiner Geſellschaft
+          <lb/>dahin. Da ging die ſelige Zeit in Gnadek an,
+          <lb/>die mir u. allen, die dabey geweſen, in unvergeß⸗
+          <lb/>lichem Andenken bleiben wird. Es wurde mir
+          <lb/>ſodan̅ aufgetragen, die Neudietendorfische Sache
+          <lb/>vollends zu Ende zu bringen, welches auch im Nov.
+          <lb/>geschah, u. ich kehrte wieder nach Gnadek zurück.
+          <lb/>Von da aus reiſte ich im April ao. 1744 nach
+          <lb/>Ojas, dem Hen. Baron v. Bibran zugehörig, er⸗
+          <lb/>kundigte mich genau nach allen ſeinen Umſtänden,
+          <lb/>ſtattete davon im Marienborn Bericht ab, reiſte im
+          <lb/>Jul. wieder dahin, u. that verschiedene Reiſen in
+          <lb/>deſſen Angelegenheiten, u. hätte mir der Heiland
+          <lb/>nicht traulich beygeſtanden: ſo wäre ich unter man⸗
+          <lb/>cherley Umſtänden muthlos geworden.
+          <lb/><fw type="catch">Im</fw>
+        </p>
+        <p n="747">
+          <lb/>Im Jun. 1745 reiſte ich noch nach Marienborn. Hier
+          <lb/>genoß ich gar vieles für mein Herz, zu meinem
+          <lb/>ewigen Segen, wurde auch im Merz 1746 zu einem
+          <lb/>Diacono eingeſegnet. Verschiedene Umſtände
+          <lb/>veranlaßten mich in dem Jahr eine Reiſe zu meinem
+          <lb/>Bruder nach London zu thun, ich reißte zu ihm,
+          <lb/>und ſowol er, als die Englischen Geschwiſter bewie⸗
+          <lb/>ſen mir alle Liebe u. Freundschaft. Hier überdach
+          <lb/>te ich meinen ganzen Gang vor dem Heiland, und
+          <lb/>Er wirkte in mit die erſte Ueberzeugung, daß
+          <lb/>ich zu Seinem Volke gehörte. Ich reißte alſo
+          <lb/>gegens Ende des Jahres 1746 von London ab, kam
+          <lb/>wohlbehalten auf dem Herrnhaag an, half daſelbſt
+          <lb/>dem Br. Franz im Laden, bis ich im May 1748
+          <lb/>mit der Pilger⸗Gemeine nach Herrnhut, im
+          <lb/>Septbr deſſelben Jahres abermal nach dem Herrn⸗
+          <lb/>haag u. bald darauf nach Zeist reißte, wo ich
+          <lb/>in das neu eingerichtete Adminiſtrations⸗Colle⸗
+          <lb/>gium kam, u. zu Beſorgung der Geschäfte dieſes
+          <lb/>Collegii in Amsterdam wohnen mußte; wo ich mich
+          <lb/>zugleich der dortigen ledigen Brüder mit annahm.
+          <lb/>Im Jahr 1749 that ich einige Reiſen in Diacondis⸗
+          <lb/>Sachen, ſonderlich nach Leipzig u. Frankfurth, bey
+          <lb/>welcher Gelegenheit ich auch auf dem Herrnhaag be⸗
+          <lb/>ſuchte. Der liebe Heiland trat mir in Seiner
+          <lb/><fw type="catch">Leidens</fw>
+        </p>
+        <p n="748">
+          
+          <lb/>Leidens⸗Schöne am Kreuz deutlicher und eindrücklicher
+          <lb/>als jemals vors Herz, u. schenkte mir ein unaus⸗
+          <lb/>ſprechliches Gefühl Seiner Liebe und Gegenwart.
+          <lb/>Ueberhaupt war dieſes eine eigene Zeit für mich.
+          <lb/>Aeuſſerlich und in̅erlich gedrückt, aber auch von
+          <lb/>dem ſeligen Gefühle der nahen Gegenwart des
+          <lb/>Heilands durchdrungen u. aufgerichtet, wechſelte
+          <lb/>beſtändig mit einander ab, daß ich den Heiland
+          <lb/>nicht genug dafür anbeten kon̅te, u. dieſer ſelige
+          <lb/>Gang continuirte auch im Jahr 1750. Die drücken⸗
+          <lb/>den Umſtände des Adminiſtrations⸗Collegii machten
+          <lb/>mir viel zu schaffen. Hierzu kam der Auszug
+          <lb/>aus dem Herrnhaag, u. dieſe Schwierigkeiten schienen
+          <lb/>zu Anfang des Jahres 1751 noch unüberſteiglicher
+          <lb/>zu werden. Meine beſondere Beschäftigung
+          <lb/>war indeß, den Zustand des General⸗Diaconats
+          <lb/>aus den Büchern ins rechte Licht zu ſezen. Wegen
+          <lb/>beſonderer Widerwärtigkeiten in Holland, wurde
+          <lb/>unſer Collegium ao. 1752 nach Barby, u. von da
+          <lb/>ao. 1753 nach Herrnhut verlegt. Hier ging es
+          <lb/>mit mir äuſſerlich u. in̅erlich Gemeinmäſſiger, und
+          <lb/>der ſo lange gewünschte Umgang mit meinen Brüdern
+          <lb/>war mir zum Segen. Ich lernte mich im̅er beſſer
+          <lb/>ken̅en, u. die Zuverſicht zum Heiland, u. der Troſt
+          <lb/>aus Seinem Tode machte mir alles leicht.
+        </p>
+        <p n="749">
+          <lb/>In dieſem Jahre hatte ich verschiedene harte Krank⸗
+          <lb/>heiten auszuſtehen. Nach meiner Geneſung rehol⸗
+          <lb/>virte ich eine Beſuchs⸗Reiſe nach Schleſien zu ma⸗
+          <lb/>chen; wurde aber bey meiner Rückkehr aufs neue
+          <lb/>mit einer ſehr schmerzhaften Krankheit befallen,
+          <lb/>welche eine beſtändige Schwäche in den Beinen nachließ.
+          <lb/>ao. 1754 trug mir der ſelige Jünger an, eine Reiſe
+          <lb/>durch die Schweiz u. Frankreich zu thun, und vors
+          <lb/>erſte den jungen Hen. Rudolph Fiſcher von Barby
+          <lb/>abzuholen, u. zu den Seinigen zu begleiten. Ich
+          <lb/>nahm das an, u. reiſte mit ihm über Straßburg,
+          <lb/>Baſel, Montmirail nach St. Blaiſe, wo wir
+          <lb/>zur großen Freude des Fischerischen Hauſes an⸗
+          <lb/>kamen, u. ich alle zu erdenkende Liebe u. Freundschaft
+          <lb/>genoß. Von da continuirte ich meine Reiſe über
+          <lb/>Geneve nach Lyon, hatte aber in dieſer meiner
+          <lb/>Geburts⸗Stadt wenig Freude, beſuchte ferner in
+          <lb/>verschiedenen Städten in Provence u. Dauphine
+          <lb/>u. in Nimes verschiedene Brüder und Freunde. In
+          <lb/>Bourdeaux hielt ich mich ein Viertel Jahr bey den
+          <lb/>Brüdern auf, u. machte allda einige Bekan̅tschaft
+          <lb/>mit aufgeweckten Leuten, welche ſeitdem durch un⸗
+          <lb/>terschiedene Brüder beſucht worden ſind. Ich reißte
+          <lb/>sodan̅ weiter nach Rochelle, Paris u. kam über
+          <lb/>Strasburg, Worms, Leipzig am 31ten Jul 1755.
+          <lb/><fw type="catch">wohlbehalten</fw>
+          
+        </p>
+        <p n="750">
+          
+          <lb/>wohlbehalten wiederum in Herrnhut an. Im Aug.
+          <lb/>ao. 1756 erhielt ich den Antrag in das neue Admi⸗
+          <lb/>niſtrations⸗Collegium zu kom̅en, u. ich nahm dieſen
+          <lb/>Ruf an. Der liebe Heiland erzeigte mir von
+          <lb/>da an unendliche Barmherzigkeit. Ich lernte mich
+          <lb/>im̅er beſſer ken̅en, u. mich als ein elender und
+          <lb/>Grundverdorbener Mensch allein an die Wunden
+          <lb/>Jeſu u. Sein Heiliges Verdienſt halten. So
+          <lb/>ging ich meinen Gang ſelig fort, wol nicht ohne
+          <lb/>Veränderungen, aber doch im̅er mit einem offenen
+          <lb/>Weg zum Heiland. Er gab mit Troſt, mich mit dem
+          <lb/>Gefühle meiner Sündigkeit u. Verdorbenheit
+          <lb/>an Ihn zu halten. er gab mir ein Ohr das Gna⸗
+          <lb/>de hört, und die Salbung lehrte mich, mich in nichts
+          <lb/>einzulaſſen, oder in nichts zu willigen, was finſter
+          <lb/>war. Und kam je was trübes, wolte ſich das eig⸗
+          <lb/>ne Leben wieder erheben: ſo war mir wehe, ich klagte
+          <lb/>es meinem Herrn ſo bloß, u. ward es im̅er wieder los.
+          <lb/>So hat mich, schreibt er am 11ten Jun 1763 der
+          <lb/>gute Hirte alle dieſe Jahre her, bey Seiner Blut⸗
+          <lb/>Gemeine erhalten; Er half noch ferner u. ſey mir
+          <lb/>nahe; vergebe mir alle Tage aufs neue, u. mache
+          <lb/>mich beym Weinen nach Seiner Seel, im̅er klei⸗
+          <lb/>ner, gebügter u. ſünderhafter, in der Liebe zu
+          <lb/>Ihm u. Seinem Volke im̅er brünſtiger, bis Er
+          <lb/><fw type="catch">vollendet,</fw>
+        </p>
+        <p n="751">
+          
+          <lb/>vollendet, wozu Er mich geſendet, und all Sein
+          <lb/>Rath mit mir geschehe zur Freude Seines Herzens.
+          <lb/>So weit der ſel. Bruder.
+          <lb/>Als nach dem Synodo ao. 1764 ein eigens Col⸗
+          <lb/>legium zur Beſorgung des Oecomomischen Theils
+          <lb/>der Unitaet, unter dem Namen des Vorſteher⸗
+          <lb/>Collegii verichtet wurde, wurde er ein Mitglied
+          <lb/>deſſelben, u. war ſehr fleiſſig im Einrichten und
+          <lb/>Schreiben der Bücher deſſelben, ſo lange bis
+          <lb/>er einen merklichen Abgang an ſeinem Geſichte
+          <lb/>fühlte, dabey er aber doch that, was er kon̅te, ja
+          <lb/>faſt über Vermögen. Weil aber ſein Geſicht
+          <lb/>im̅er schlechter wurde, indem er nur noch auf
+          <lb/>einem Auge ſehen kon̅te, u. ihm in Dresden
+          <lb/>jemand recom̅endirt wurde, der ſonſten glückliche
+          <lb/>Augen⸗Kuren gethan hatte: ſo reiſte er in Beglei⸗
+          <lb/>tung eines Bruders dahin, u. ſtund eine rechte
+          <lb/>harte Kur aus, aber , leider! ohne Wirkung; den̅
+          <lb/>er kam ſo schlecht wieder als er hingereißt war:
+          <lb/>ſo daß er ao. 1769 ſein Geſicht völlig verlor
+          <lb/>u. ganz blind wurde, auch nicht einmal das Son̅enlicht
+          <lb/>erken̅en kon̅te. Dieſes hat er, beſonders da noch
+          <lb/>dazu ſeine Leibes⸗Kräfte ſehr ab, und ſeine Ge⸗
+          <lb/>brechlichkeit zugenom̅en hatten, vor eine schwere
+          <lb/>Heimſuchung gehalten, u. ſich deswegen manchmal
+          <lb/><fw type="catch">ſehr</fw>
+        </p>
+        <p n="752">
+          
+          <lb/>ſehr niedergeschlagenen Gemüthes befunden.
+          <lb/>Doch wußte er wohl,daß er es aus der Hand
+          <lb/>des Heilands, dem er ſich ganz ergeben, anzu⸗
+          <lb/>nehmen habe. Er mußte ſich von da an von
+          <lb/>Brüdern, die ſich zu ſeiner Wertung hergaben,
+          <lb/>wie ein Kind pflegen und führen laßen. So
+          <lb/>schwer es ihm auch wurde, verſäumte er doch nicht
+          <lb/>gerne die Gemein⸗ oder Chor⸗Verſam̅lungen.
+          <lb/>Für einen noch ſo kleinen Liebes⸗Dienst, der
+          <lb/>ihm erzeigt wurde, wußte er ſein dankbares
+          <lb/>und erken̅tliches Herz nicht genug auszudrücken, und
+          <lb/>wen̅ ihn Brüder beſuchten, ſo ließ ſichs gut
+          <lb/>fühlen, daß er lieb hatte, ob er gleich nicht ſahe.
+          <lb/>Seine Gemüths⸗Kräfte nahmen nach und nach ſo
+          <lb/>ab, daß ihm zuweilen die Gedanken wie zu
+          <lb/>vergehen schienen, u. man mit ihm nicht viel zu⸗
+          <lb/>ſam̅enhängendes reden kon̅te. So bald man aber
+          <lb/>nur auf den Heiland und Seine Wunden u. Seine
+          <lb/>Sünderliebe kam, war er wieder da, lebte auf,
+          <lb/>und war kindlich vergnügt und ſelig. Als er
+          <lb/>am lezten Abendmahls⸗Tage d. 28ten Novbr. 1772
+          <lb/>gefragt wurde: Ob er ſich aufs Heilige Abendmahl
+          <lb/>freue? wurde er ganz munter, und bezeugte
+          <lb/>ſeines Herzens ſehnen darauf. Nach demſelben
+          <lb/>wurde er merklich schwächer, und er ſelbst fühlte,
+          <lb/><fw type="catch">daß</fw>
+        </p>
+        <p n="753">
+          <lb/>daß ſeine Auflöſung herannahe; bezeugte auch
+          <lb/>denen ihn beſuchenden Brüdern ſeine Freude, Hof⸗
+          <lb/>nung und ſehlnliches Verlangen nach dieſen sel.en
+          <lb/>Moment, der am 6ten Vormittags unter dem Geſang
+          <lb/>einiger Brüder eintrat, u. den Text des Tages in die
+          <lb/>ſelige Erfüllung brachte: Ich habe Luſt abzuscheiden
+          <lb/>und bey Chriſto zu ſeyn. So vergeht die
+          <lb/>Zeit mit Warte⸗Schmerze, bis zum lezten Puls⸗
+          <lb/>Schlag in Sein Herze! Sein Alter hat er
+          <lb/>gebracht auf 66 Jahr, 4 Monate u. 12 Tage.
+          
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
