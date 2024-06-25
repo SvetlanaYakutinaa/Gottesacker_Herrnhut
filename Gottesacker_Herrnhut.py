@@ -219,9 +219,9 @@ if selection == "Karte":
 elif selection == "Analyse":
     st.title("In Arbeit")
 
-    st.image('wordcloud_w.jpeg', caption='WordCloud von Frauen')
+    st.image('wordcloud_w.png', caption='WordCloud von Frauen')
 
-    st.image('wordcloud_m.jpeg', caption='WordCloud von Männern')
+    st.image('wordcloud_m.png', caption='WordCloud von Männern')
 
 
     
