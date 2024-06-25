@@ -65,7 +65,7 @@ if selection == "Karte":
                 st.subheader("Knud Andersen")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
                 
-                with open("Text/02541.txt", "rb") as file:
+                with open("Text/männlich/02541.txt", "rb") as file:
                        btnn = st.download_button(
                                label="Download Text",
                                data= file,
@@ -84,7 +84,7 @@ if selection == "Karte":
      elif option== "Johann Sebald Ringmacher": 
                st.subheader("Johann Sebald Ringmacher")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/743")
-               with open("Text/03277.txt", "rb") as file:
+               with open("Text/männlich/03277.txt", "rb") as file:
                        btnn = st.download_button(
                                label="Download Text",
                                data= file,
@@ -114,7 +114,7 @@ if selection == "Karte":
      elif option == "Benigna Schüz":
                st.subheader("Benigna Schüz")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766025684/140")
-               with open("Text/00977.txt", "rb") as file:
+               with open("Text/weiblich/00977.txt", "rb") as file:
                        btnn = st.download_button(
                                label="Download Text",
                                data= file,
@@ -158,7 +158,7 @@ if selection == "Karte":
                st.subheader("Maria Magdalena Richter")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/28") 
                
-               with open("Text/02445.txt", "rb") as file:
+               with open("Text/weiblich/02445.txt", "rb") as file:
                        btnn = st.download_button(
                                label="Download Text",
                                data= file,
@@ -184,7 +184,7 @@ if selection == "Karte":
                st.subheader("Gottfried Clemens")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766148077/273") 
                folium.Marker([51.019578, 14.748048], popup="Gottfried Clemens. Stein: 25, Reihe: R5, Feld: B3").add_to(m)
-               with open("Text/05198.txt", "rb") as file:
+               with open("Text/männlich/05198.txt", "rb") as file:
                        btnn = st.download_button(
                                label="Download Text",
                                data= file,
