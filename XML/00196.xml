@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../MA%20DH/3%20Semrster/TEI_Wikiversum_2_4/wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Gemeintags-Lectionen vom Jahr 1806 - GN.A.353 Nachrichten aus der Brüder-Gemeine</title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <resp>Transcription from eScriptorium compiled by</resp>
+          <name>Jolanta</name>
+        </respStmt>
+        <respStmt>
+          <resp>Header and text compiled by</resp>
+          <name>Jolanta</name>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">7</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1806</date>
+        <idno type ="Index-ID" source="https://zenodo.org/records/8228850">00196</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Nachrichten aus der Brüder-Gemeine</title>
+        <biblScope unit="pages">837-843</biblScope> 
+        <idno type="shelfmark">GN.A.353</idno> 
+      </seriesStmt>                                     
+      <sourceDesc>    
+        <bibl> Gemeintags-Lectionen vom Jahr 1806 - GN.A.353 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend = "Handschrift"> 
+          <msIdentifier> 
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type ="URN">urn:nbn:de:bsz:14-db-id17450489018</idno>
+            <idno type ="PURL">http://digital.slub-dresden.de/id1745048901</idno>
+            <idno type = "shelfmark"> GN.A.353 </idno>
+          </msIdentifier> 
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc> 
+      <langUsage> 
+        <language ident ="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Lebensbeschreibung</term>
+          <term>in Herrnhut begraben</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p n="833">
+          
+          <lb/><head>2.) Die am 1tn Decbr: 1805. in Herrnhut
+          ſelig entſchlafene verw. Schw. An̅a Magdalena
+          Elisab. Weiss, geb:</head> 
+          <lb/>Fende, hat von ihrem Gang
+          <lb/>durch dieſe Zeit nichts schriſtliches hinterlaßen,
+          <lb/>daher nur folgendes angeführt werden kann:
+        </p>
+        <p n="834">
+          
+          <lb/>Sie war im Jahr 1719. zu Lasphe in der
+          <lb/>Grafſchaft Witgenstein geboren.
+          <lb/>Bereits in ihrem 9ten Jahre mußte ſie ihr Va⸗
+          <lb/>terland verlaßen, indem ihr Vater es für ſich
+          <lb/>u. ſeine Familie zuträglich fand, nach America
+          <lb/>zu ziehen, woſelbſt er ſich zu Germantown häus⸗
+          <lb/>lich niederließ. Als im Jahr 1741. der ſel. Graf
+          <lb/>v. Zinzendorf mit ſeiner Geſellschaft nach
+          <lb/>Amerika kam, war ſie eine von den Seelen, die
+          <lb/>mit ihm u. den Geschwistern die er bey ſich
+          <lb/>hatte, in Bekan̅tſchaft kamen. Die frohe
+          <lb/>Botſchaft, die ſie zu ihrem ewigen Segen von
+          <lb/>ihnen hörte, daß Jeſus Chriſtus gekom̅en ſey
+          <lb/>in die Welt die Sünder ſelig zu machen, drang mit
+          <lb/>der Gotteskraft, die ſie hat, in ihr Herz hinein,
+          <lb/>u. ſo jung ſie auch noch war, ſo fuhr ſie doch, da es
+          <lb/>Gott gefiel ſich ihrem Herzen zu offenbaren, mit
+          <lb/>einem geraden, ehrlichen Sinne zu, ohne ſich mit
+          <lb/>Fleisch u. Blut zu beſprechen. Sie mußte aber auch
+          <lb/>nicht nur den Widerſpruch der Welt, die Gefallen
+          <lb/>an ihr fand, ſondern was noch weit weher that, das
+        </p>
+        <p n="835">
+          
+          <lb/>Mißfallen ihrer eigenen Eltern an dem
+          <lb/>Entſchluße fühlen, ſich dem B(aum) Gottes
+          <lb/>auf ewig zuzuſagen. Sie wählte endlich den
+          <lb/>Weg, welcher ihr als der ſicherſte klar wurde,
+          <lb/>mit der Geſellſchaft des ſel: Grafen v. Zin⸗
+          <lb/>zendorf Amerika zu verlaßen, u. nach Deutſch⸗
+          <lb/>land zu gehen. Der ſel: Graf, deßen Grund⸗
+          <lb/>ſatz es war, ſich mit keiner Seele einzulaſſen,
+          <lb/>bey welcher Vater oder Mutter, oder ſonſt jemand,
+          <lb/>der ein Recht hatte, in ihren Gang zu ſprechen,
+          <lb/>dawider war, wollte ſie nicht mitnehmen. Das
+          <lb/>kon̅te aber den vesten Entſchluß, den ſie gefaßt
+          <lb/>hatte, nicht rückgängig machen. Ohne ſein
+          <lb/>Wiſſen, ja mit ſeinem Widerspruch machte
+          <lb/>ſie ſich einen Platz auf dem Schiffe aus, das ihn
+          <lb/>nach Europa zurückbringen ſollte. Und da er
+          <lb/>ſie auf dem Schiffe fand, u. ſie zurück wies, ſo
+          <lb/>hatte ſie durch Gnade die Freymüthigkeit ihm zu
+          <lb/>ſagen: Das Schiff iſt nicht Ihre; ich gehe doch mit,
+          <lb/>weil die Anweiſung klar u. veſt in meinem Herzen
+          <lb/>iſt, ich ſolle Ihnen folgen; Sie hatte Anfangs, als
+          <lb/>ſie zuerſt den Entſchluß faßte, ihre Familie
+        </p>
+        <p n="836">
+          
+          <lb/>u. alles das Ihrige zu verlaſſen, etwas von
+          <lb/>ihrem erſparten Gelde zu ſich genom̅en, in
+          <lb/>der Meinung, daß ſie dieſes in der Zukunft,
+          <lb/>wol brauchen werde. Aber ſie wurde in ihrem
+          <lb/>Herzen darüber unruhig u. dachte: Iſt das nicht
+          <lb/>ein Beweis deines Mißtrauens gegen den Hld.,
+          <lb/>als ob Er, auf deßen Wort du aus dem Lande ge⸗
+          <lb/>hoft, dich nicht auch ohne Geld durchbringen
+          <lb/>kön̅te. Sie gab also die paar Thaler, die ſie ſich
+          <lb/>geſam̅elt hatte, wieder ab, u. nun warf ſie
+          <lb/>sich alein in die Arme ihres Heilandes. So kam
+          <lb/>ſie im Jahr 1742. entblößt von allem, worauf
+          <lb/>Menſchen ſonſt ihr Vertrauen ſetzen, in
+          <lb/>Marienborn an, u. der Heiland, der der
+          <lb/>Beyſtand derer iſt, die ſich Ihm überlaſſen,
+          <lb/>baſchäncte ihre Zuverſicht, die ſich auf Ihn ge⸗
+          <lb/>gründet hatte, nicht im mindeſten. Sie fand,
+          <lb/>was ſie geſucht hatte, ihre Gnadenmahl in Jeſu
+          <lb/>Wunden, Troſt aus Seinem Tode, u. die Gewißheit,
+          <lb/>daß ſie durch keinen Riß, auf dieſer Seiner Er⸗
+          <lb/>de je wieder von Ihm ſollte getrennt werden.
+        </p>
+        <p n="837">
+          
+          <lb/>Da die Gnade die ihr wiederfahren war,
+          <lb/>ſich durch ihren Wandel bewährte, ſo wurde ſie bald
+          <lb/>bey ihrem Geſchlechte u. in ihrem Chore im Dienſte
+          <lb/>des Heilands angeſtellt, u. Sein Segen ruhte auf
+          <lb/>ihrer Arbeit. Im Jahr 1745. wurde ſie mit ih⸗
+          <lb/>rem ſel: Manne, dem Br. Jonas Paul Weiss
+          <lb/>zur h. Ehe verbunden. In dieſer Ehe hat ſie theils
+          <lb/>in Gemeinschaft mit ihrem ſel: Man̅e, theils
+          <lb/>in beſondern Aufträgen unter ihrem Geſchlecht
+          <lb/>dem Heiland u. der Gemeine gedient, u. Er war
+          <lb/>mit ihr bey allem, was ſie unternahm. Vorzüg⸗
+          <lb/>lich verdient ihr treuer Dienst in den Anſtalten
+          <lb/>der Unität, u. beſonders in der Mädchenanſtalt
+          <lb/>zu Herrnhut erwähnt zu werden. Alle diazenigen,
+          <lb/>welche Zeugen davon geweſen ſind, was für eine
+          <lb/>treue u. ſorgſame Mutter ſie für die Kinder
+          <lb/>war, haben den Hld. gedankt, der ihr den Sinn ge⸗
+          <lb/>gegeben hatte, Jhm zu dienen, u. alle Kraft dazu aus
+          <lb/>Ihm u. Seiner Fülle zu nehmen. Ihre Ehe war mit
+          <lb/>2. Söhnen u. 2. Töchtern geſegnet, allein ſie hat den
+          <lb/>Schmerz gehabt, 3. von ihren Kindern, da ſie bereits
+          <lb/>erwachſen u. zum Theil im Dienſte Jeſu angeſtellt
+        </p>
+        <p n="836">
+          
+          <lb/>waren, in die Ewigkeit gehen zu ſehen, wohin
+          <lb/>der zweyte Sohn ſchon in zarter Kindheit vor⸗
+          <lb/>angegangen war. Am 7t Sept: 1779. wurde
+          <lb/>ſie Witwe, da ihr Mann hier in Herrnhut aus
+          <lb/>der Zeit ging. Ihr ſtiller exemplariſcher
+          <lb/>Wandel, den ſie ſeitdem unter uns geführt
+          <lb/>hat, war der Wandel einer rechten Witwe, u.
+          <lb/>zeugte von der Gnade, in welcher ihr Herz lebte.
+          <lb/>Es lag ihr an, das Gedeihen u. Beſte der Gemei⸗
+          <lb/>ne u. vorzüglich ihres Chores durch Rath, wo man
+          <lb/>Rath von ihr begehrte, durch Handreichung, wo
+          <lb/>ſie dieſelbe anbringen kon̅te, u. durch ſtille,
+          <lb/>herzliche Seufzer zum HErrn u. Aelteſten der
+          <lb/>Gemeine zu fördern. So ging ſie auf den
+          <lb/>Fußſteigen des HErrn bis an ihr Ende fort,
+          <lb/>wurde durch Gnade von dem Gleiten ihrer
+          <lb/>Tritte bewahrt, u. hat nun das Ziel erreicht, dem
+          <lb/>wir alle nachtrachten. Ihres hohen Alters unge⸗
+          <lb/>achtet genoß ſie bey einem heitren Gemüth auch
+          <lb/>einer guten Geſundheit, die nur zuweilen durch
+          <lb/>einen Huſten etwas unterbrochen wurde. In der
+        </p>
+        <p n="839">
+          
+          <lb/>Mitte des Monats Nov. 1805. wurde ſie von
+          <lb/>einer Art von Steckfluß befallen, der für ihr
+          <lb/>Leben bange machte. Sie erholte ſich zwar davon,
+          <lb/>aber kurz darauf trat ein catarrhaliſches Fieber ein,
+          <lb/>dem ihr vor Alter morſcher Körper nicht mehr
+          <lb/>widerſtehen kon̅te. Sie war wie ein müdes Kind,
+          <lb/>das ſich nach Ruhe ſehnt, voll Verlangen, beym
+          <lb/>HErrn, der ihr Ein u. Alles war, daheim zu
+          <lb/>ſeyn. Ihr gelaßenes Warten auf den ſe⸗
+          <lb/>ligen Augenblick Seiner Erſcheinung, u. ihre
+          <lb/>innige Dankbarkeit für alle Handreichung
+          <lb/>machten ihre lezten Stunden für die Um⸗
+          <lb/>ſtehenden erbaulich u. angenehm.
+          <lb/>Am 1ten Dec. merkte man, daß ihr HErr
+          <lb/>kom̅en werde, ſie heimzuholen. Sie erhielt
+          <lb/>dazu Nachmittags den Segen des HErrn u.
+          <lb/>ihres Chores, unter welchem ſie ſanft und
+          <lb/>ſelig entſchlief, ihres Alters 86. Jahre
+          <lb/>weniger einen Monat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

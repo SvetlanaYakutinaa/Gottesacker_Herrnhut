@@ -23,13 +23,13 @@ if selection == "Karte":
      if add_selectbox == "Digitalisat":
             names_d = ["Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
             "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", 
-            "Christa Dorothea Lintrup", "Maria Magdalena Richter", 
+            "Christa Dorothea Lintrupin", "Maria Magdalena Richter", 
             "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", 
             "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"]
             for name in names_d:
                     st.sidebar.write(name)
      elif add_selectbox == "Text" or "XML":
-             names_a = ["Knud Andersen", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
+             names_a = ["Anna Magdalena Elisabeth Weiss", "Knud Andersen", "Christa Dorothea Lintrupin", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
              for name in names_a:
                      st.sidebar.write(name)
                   
@@ -108,6 +108,18 @@ if selection == "Karte":
      elif option == "Anna Magdalena Elisabeth Weiss":
                 st.subheader("Anna Magdalena Elisabeth Weiss")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1745048901/837")
+                with open("Text/weiblich/00196.txt", "rb") as file:
+                       btnn = st.download_button(
+                               label="Download Text",
+                               data= file,
+                               file_name="00196.txt"
+                       )
+                with open("XML/00977.xml", "rb") as file:
+                       btn = st.download_button(
+                               label="Download XML",
+                               data= file,
+                               file_name="00196.xml"
+                       )
                 st.image("Gottesacker_Julius_Titz/S3R215.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                 folium.Marker([51.019115, 14.748836], popup="Anna Magdalena Elisabeth Weiss. Stein: 15, Reihe: R2, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         
@@ -129,9 +141,21 @@ if selection == "Karte":
                st.image("Gottesacker_Julius_Titz/S1R103.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019103, 14.748604], popup="Benigna Schüz. Stein: 6, Reihe: R5, Feld: B3", icon=folium.Icon(color='red')).add_to(m)
         
-     elif option == "Christa Dorothea Lintrup":
-               st.subheader("Christa Dorothea Lintrup")
+     elif option == "Christa Dorothea Lintrupin":
+               st.subheader("Christa Dorothea Lintrupin")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766034756/143")
+               with open("Text/weiblich/01789.txt", "rb") as file:
+                       btnn = st.download_button(
+                               label="Download Text",
+                               data= file,
+                               file_name="01789.txt"
+                       )
+               with open("XML/01789.xml", "rb") as file:
+                       btn = st.download_button(
+                               label="Download XML",
+                               data= file,
+                               file_name="01789.xml"
+                       )
                st.image("Gottesacker_Julius_Titz/S1R83.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019112, 14.748551], popup="Christa Dorothea Lintrup. Stein: 3, Reihe: R10, Feld: S1", icon=folium.Icon(color='red')).add_to(m)
         

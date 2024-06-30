@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation= "wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Gemeinnachrichten - Beilagen - GN.A.159 Nachrichten aus der Brüder-Gemeine</title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <resp>Transcription from eScriptorium compiled by</resp>
+          <name>Jolanta</name>
+        </respStmt>
+        <respStmt>
+          <resp>Header and text compiled by</resp>
+          <name>Jolanta</name>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">5</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1771</date>
+        <idno type ="Index-ID" source="https://zenodo.org/records/8228850">01789</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Nachrichten aus der Brüder-Gemeine</title>
+        <biblScope unit="pages">143-147</biblScope> 
+        <idno type="shelfmark">GN.A.159</idno> 
+      </seriesStmt>                                     
+      <sourceDesc>    
+        <bibl> Gemeinnachrichten - Beilagen - GN.A.159 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend = "Handschrift"> 
+          <msIdentifier> 
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type ="URN">urn:nbn:de:bsz:14-db-id17660347567</idno>
+            <idno type ="PURL">http://digital.slub-dresden.de/id1766034756</idno>
+            <idno type = "shelfmark"> GN.A.159 </idno>
+          </msIdentifier> 
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc> 
+      <langUsage> 
+        <language ident ="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Lebensbeschreibung</term>
+          <term>in Herrnhut begraben</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+    <body>
+      <div>
+        <p n="139">
+          <lb/><head>3.) Die ſel. Schweſter Chriſta Dor.
+          Lintrupin in Herrnhuth hat folgendes
+          von ſich hinterlaßen :</head>
+          <lb/>Ich bin ao. 1704 d. 5tn Apr. in Seeland
+          <lb/>in Dänemarck geboren, wo mein Vater
+          <lb/>Claus Jürgensen Kastrup, Proprietair war.
+          <lb/>Ich wurde in meiner Kindheit eine vater⸗
+          <lb/>loſe Wayſe, u. weil ich von meinen 7 Geſchw.
+          <lb/>das Aelteſte war, ſo nahmen mich meine
+          <lb/>GrosEltern zu ſich, die mich mit aller Sorg⸗
+          <lb/>falt aber auf eine geſezliche Weiſe erzogen.
+          <lb/>Ich wurde dabey ſehr ängſtlich u. die
+          <lb/>Unruhe meines Herzens vermehrte ſich
+          <lb/>von Zeit zu Zeit; wuſte aber nicht, wo mirs
+          <lb/>eigentl. fehlte. Ao. 1737 kam ich von weitem
+          <lb/>in Bekan̅tſchaft mit erweckten Seelen
+          
+        </p>
+        <p n="140">
+          
+          <lb/>wurde einmal um ihrent willen ſehr ge⸗
+          <lb/>läſtert, faßte aber ein Vertrauen zu
+          <lb/>ihnen, und glaubte daß doch was weſent⸗
+          <lb/>liches vom Hld. unter ihnen zu finden
+          <lb/>ſeyn müßte. Ich ſchloß mich deswegen
+          <lb/>näher an ſie an, und wurde überzeugt,
+          <lb/>daß wen̅ ich ſelig werden ſolte, es mit
+          <lb/>mir anders werden müßte. Weil
+          <lb/>ich aber aufs Ringen und Kämpfen ge⸗
+          <lb/>wieſen wurde, ſo kam ich in Betrübte Um⸗
+          <lb/>ſtände, bis ich ao. 1739 bey meinem Bruder
+          <lb/>in Steppingen zum erſten mal von
+          <lb/>der Gemeine, und des Heilands ver⸗
+          <lb/>dienſtlichen Leiden hörte. Ich wagte mich
+          <lb/>zum Heiland, der die Sünder ſo lieb
+          <lb/>hat, wurde Troſtreich von Ihm angeblickt
+          <lb/>u. konte glauben, daß Er auch für mich
+          <lb/>ſein Blut vergoßen.
+          <lb/>Dadurch entſtand das ſehnliche Verlangen
+          <lb/>bey mir, in nähere bekantſchaft mit der
+          <lb/>Gemeine zu kom̅en, welches mir der
+          <lb/>Heiland ao. 1741 gewährte, da ich zu mei⸗
+          <lb/>nem Troſt in Marienborn ankam.
+          <lb/>Ich wurde im folgenden Jahre der
+          <lb/>Gemeine gnaden theilhaftig; ging
+          <lb/>ao. 43 mit der Pilgergemeine von
+          <lb/>Hhuth nach Gnadeck u. von da wieder
+        </p>
+        <p n="141">
+          <lb/>auf den Hhaag. Der Heiland ſezte Seine
+          <lb/>Gnaden⸗Arbeit an mir fort, als ich
+          <lb/>einmal ſehr verlegen über mich war,
+          <lb/>ging ich in den Busch, und bat den
+          <lb/>Heiland mit viel Sündern Thränen
+          <lb/>daß Er mir möchte halten ſeinen theurn
+          <lb/>Eid, daß ich noch ſolte werden, Seine
+          <lb/>ganze Freud. Und Er ſahe meine Bitte
+          <lb/>gnädig an, und trat mir ganz be⸗
+          <lb/>ſonders vors Herz, daß mich auf
+          <lb/>einmal ein ſolcher Strahl der Gnade
+          <lb/>rührte, der mein ganzes Herz
+          <lb/>Zerſchmelzte. Ao. 1745. Wurde ich
+          <lb/>zur Acoluthie angenomen u. Ao. 46
+          <lb/>mit meinem l. ſel. Man̅ Severin
+          <lb/>Lintrup getraut, mit welchem ich
+          <lb/>12 Jahr eine vergnügte Ehe geführt.
+          <lb/>Anno 1758 wurde ich Wittwe, und
+          <lb/>der Heiland tröſtete mich bey der
+          <lb/>Veränderung auf eine ganz beſon⸗
+          <lb/>dere Weiſe.
+          <lb/>Am 13ten May deßelben Jahres wurde
+          <lb/>ich zu meiner Beſchämung zur Diaco⸗
+          <lb/>nisse eingeſegnet und kam im Jul.
+          <lb/>darauf nach Hennersdorf, in die
+          <lb/>Oeconomie, wo ich 5te halb Jahr blieb.
+          
+        </p>
+        <p n="142">
+          
+          <lb/>So weit ihre Worte.
+          <lb/>Ihr Gang in der Gemeine war ſtill
+          <lb/>und vergnügt, und man ſahe ihr den
+          <lb/>kindlichen Umgang mit dem Heiland
+          <lb/>und das von Seinem Todt u. Schmerze
+          <lb/>hingenommene Herz gar mercklich an.
+          <lb/>Sie wurde ſo wol in Familien als
+          <lb/>bey Kindern nüzlich gebraucht u. im
+          <lb/>Chorhauſe der Wittwen verſahe ſie
+          <lb/>5te halb Jahr das Kranckenwärter
+          <lb/>Amt mit unermüdeter Treue, Fleiß
+          <lb/>und Sorgfalt. Es war ihr ueberhauchs
+          <lb/>die gröſte Freude, wen̅ ſie ihrem Chor
+          <lb/>oder einzelnen Geſchwiſtern in etwas
+          <lb/>dienen kon̅te. In Erkentniß ihrer
+          <lb/>ſelbſt war ſie ſünderhaft gebeugt,
+          <lb/>und weinte vor Gebrech u. Fehl
+          <lb/>nach Chriſti Seel, wobey gar ofte
+          <lb/>der Seufzer entſtand; hätt Er ſich
+          <lb/>nicht zu erſt an mich gehangen; ich wär
+          <lb/>von ſelbſt Ihn wol nicht ſuchen gangen,
+          <lb/>und was Er thut, das ſind Barmher⸗
+          <lb/>zigkeiten auf allen Seiten. Seit ei⸗
+          <lb/>nem halben Jahr nahmen ihre Kräfte
+          <lb/>mercklich ab u. zu Anfang des Mon. May
+          <lb/>bekam ſie eine Bruſt u. Gallen⸗Kranckheit.
+          <lb/>Sie bezeugte dabey daß ſie ihrem l. Herrn
+        </p>
+        <p n="143">
+          <lb/>zu ſehen wolle, was Er mit ihr thun werde,
+          <lb/>ſie sey gänzlich Ihm überlaßen. Als ſie ſich
+          <lb/>einmahl umſahe, und merckte, daß eine
+          <lb/>neben ihr liegende Schweſter zum Heiland
+          <lb/>gehen würde, reichten ſie einander die
+          <lb/>Hände, und nahmen in der Stille Zärtlichen
+          <lb/>Abſchied. Der Freund ihrer Seele, der auch
+          <lb/>mit ihr nach Hauſe eilte, nahm ſie am 6ten
+          <lb/>May mit dem Segen der Gemeine und
+          <lb/>ihres Chores zu ſich, nach dem ſie ihr Alter
+          <lb/>gebracht auf 67. Jahr u. 4 Monate.
+        </p>
+          
+      </div>
+    </body>
+  </text>
+</TEI>
