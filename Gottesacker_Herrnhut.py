@@ -109,12 +109,12 @@ if selection == "Karte":
                 st.subheader("Anna Magdalena Elisabeth Weiss")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1745048901/837")
                 with open("Text/weiblich/00196.txt", "rb") as file:
-                       btnn = st.download_button(
+                        btnn = st.download_button(
                                label="Download Text",
                                data= file,
                                file_name="00196.txt"
                        )
-                with open("XML/00977.xml", "rb") as file:
+                with open("XML/00196.xml", "rb") as file:
                        btn = st.download_button(
                                label="Download XML",
                                data= file,
