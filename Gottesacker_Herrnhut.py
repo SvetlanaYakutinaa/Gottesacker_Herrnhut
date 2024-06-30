@@ -246,12 +246,3 @@ elif selection == "Analyse":
     st.image('wordcloud_m.png', caption='WordCloud von Männern')
 
     st.image('grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
-
-
-    
-
-
-
-    
-
-    
