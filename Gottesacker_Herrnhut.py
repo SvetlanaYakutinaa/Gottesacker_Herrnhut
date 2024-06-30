@@ -8,101 +8,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
-#neue
-
-import streamlit as st
-import folium
-
-st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
-
 # Seitenleiste mit Links zu verschiedenen Seiten erstellen
-st.sidebar.title('Navigation')
-selection = st.sidebar.radio("Gehe zu", ["Karte", "Analyse"])
-
-def display_names(names):
-    for name in names:
-        st.sidebar.write(name)
-
-# Seiteninhalt basierend auf der Auswahl des Benutzers
-if selection == "Karte":
-    add_selectbox = st.sidebar.radio("Wählen Sie aus", ("Digitalisat", "Text", "XML"))
-
-    if add_selectbox == "Digitalisat":
-        names_d = ["Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens",
-                   "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz",
-                   "Christa Dorothea Lintrup", "Maria Magdalena Richter",
-                   "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb",
-                   "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"]
-        display_names(names_d)
-    else:
-        names_a = ["Knud Andersen", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
-        display_names(names_a)
-
-    st.title("Gottesacker Herrnhut")
-    start_coordinates = (51.019419, 14.748778)
-    m = folium.Map(location=start_coordinates, zoom_start=18)
-
-    if 'visibility' not in st.session_state:
-        st.session_state.visibility = "visible"
-
-    if 'disabled' not in st.session_state:
-        st.session_state.disabled = False
-
-    option = st.selectbox(
-        "Wählen Sie den Name",
-        ("Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", "Johann Sebald Ringmacher",
-         "Abraham Dürninger", "Benigna Schüz", "Christa Dorothea Lintrup", "Maria Magdalena Richter",
-         "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", "Mädgen Cornelia Louisa von Goldenberg",
-         "Maria Luley", "Maria Magdalena Bezold"),
-        label_visibility=st.session_state.visibility,
-        disabled=st.session_state.disabled,
-    )
-
-    data = {
-        "Hans Hansen": {
-            "url": "http://digital.slub-dresden.de/id1766125301/524",
-            "image": "Gottesacker_Julius_Titz/Hansen.jpg",
-            "coords": [51.019574, 14.748516],
-            "popup": "Hans Hansen. Stein: 6, Reihe: R3, Feld: B2"
-        },
-        "Knud Andersen": {
-            "url": "http://digital.slub-dresden.de/id1766116418/66",
-            "text_file": "Text/männlich/02541.txt",
-            "xml_file": "XML/02541.xml",
-            "image": "Gottesacker_Julius_Titz/Andersen.jpeg",
-            "coords": [51.019529, 14.748889],
-            "popup": "Knud Andersen. Stein: 7, Reihe: R3, Feld: B2"
-        },
-        # Fügen Sie hier die Daten für andere Personen hinzu...
-    }
-
-    if option in data:
-        person = data[option]
-        st.subheader(option)
-        st.link_button("Digitalisat", person["url"])
-        if "text_file" in person:
-            with open(person["text_file"], "rb") as file:
-                st.download_button(label="Download Text", data=file, file_name=person["text_file"].split("/")[-1])
-        if "xml_file" in person:
-            with open(person["xml_file"], "rb") as file:
-                st.download_button(label="Download XML", data=file, file_name=person["xml_file"].split("/")[-1])
-        st.image(person["image"], width=350, use_column_width="always", caption="© Julius Titz")
-        folium.Marker(person["coords"], popup=person["popup"]).add_to(m)
-
-    # Speichere die Karte in einer HTML-Datei
-    m.save("map.html")
-
-    # Lese die HTML-Datei und zeige sie in Streamlit an
-    with open("map.html", "r", encoding="utf-8") as f:
-        map_html = f.read()
-
-    # Zeige die HTML-Karte in der Streamlit-Anwendung
-    st.components.v1.html(map_html, height=500)
-
-
-
-
-"""# Seitenleiste mit Links zu verschiedenen Seiten erstellen
 st.sidebar.title('Navigation')
 selection = st.sidebar.radio("Gehe zu", ["Karte", "Analyse"])
 
@@ -307,9 +213,8 @@ if selection == "Karte":
             map_html = f.read()
 
      # Zeige die HTML-Karte in der Streamlit-Anwendung
-     st.components.v1.html(map_html, height=500)"""
-
-
+     st.components.v1.html(map_html, height=500)
+     
 elif selection == "Analyse":
     st.title("In Arbeit")
 
