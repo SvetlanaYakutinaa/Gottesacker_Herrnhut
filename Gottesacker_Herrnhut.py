@@ -227,7 +227,8 @@ if selection == "Karte":
                st.subheader("Herrmann Reinhard Schick")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419") 
                folium.Marker([51.019360, 14.748201], popup="Herrmann Reinhard Schick. Stein: 10, Reihe: R7, Feld: B1").add_to(m)
-     
+     else:
+             st.subheader("Wählen Sie bitte einen Name aus")
      
      # Speichere die Karte in einer HTML-Datei
      m.save("map.html")
