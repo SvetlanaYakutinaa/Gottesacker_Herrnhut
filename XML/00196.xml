@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../MA%20DH/3%20Semrster/TEI_Wikiversum_2_4/wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+ xsi:noNamespaceSchemaLocation="wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -8,11 +8,11 @@
         <editor>Evangelische Brüder-Unität</editor>
         <respStmt>
           <resp>Transcription from eScriptorium compiled by</resp>
-          <name>Jolanta</name>
+          <name>Jolanta Billig</name>
         </respStmt>
         <respStmt>
           <resp>Header and text compiled by</resp>
-          <name>Jolanta</name>
+          <name>Jolanta Billig</name>
           <name>Svetlana Yakutina</name>
         </respStmt>
       </titleStmt>

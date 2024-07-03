@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="wikiversum_schema.xsd"> <!-- Das Schema ist unter https://zenodo.org/records/10508075 verfügbar -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Gemeinnachrichten - Beilagen - GN.A.163 Nachrichten aus der Brüder-Gemeine</title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <resp>Transcription from eScriptorium compiled by</resp>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+        <respStmt>
+          <resp>Header and text compiled by</resp>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">12</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1772</date>
+        <idno type ="Index-ID" source="https://zenodo.org/records/8228850">02490</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Nachrichten aus der Brüder-Gemeine</title>
+        <biblScope unit="pages">419-430</biblScope> 
+        <idno type="shelfmark">GN.A.163</idno> 
+      </seriesStmt>                                     
+      <sourceDesc>    
+        <bibl> Gemeinnachrichten - Beilagen - GN.A.163 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend = "Handschrift"> 
+          <msIdentifier> 
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type ="URN">urn:nbn:de:bsz:14-db-id17661158373</idno>
+            <idno type ="PURL">http://digital.slub-dresden.de/id1766115837</idno>
+            <idno type = "shelfmark"> GN.A.163 </idno>
+          </msIdentifier> 
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc> 
+      <langUsage> 
+        <language ident ="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Lebensbeschreibung</term>
+          <term>in Herrnhut begraben</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p n="415">
+          <lb/>10.) Der verwittwete Bruder Herrman Reinhard
+          <lb/>Schick in Herrnhuth hat von seiner Gange
+          <lb/>durch diese Zeit ein weitläuftiges Diarium
+          <lb/>geführt, daraus aber ſelbſt folgenden Aus-
+          <lb/>zug verfertiget:
+          <lb/>Ich bin den 1th Dec. 1704 zu Eckenheim,
+          <lb/>ohnemit Frankfurt am Mayn geboren. So
+          <lb/>weit ich mich zurück beſinnen kan, das iſt bis auf
+          <lb/>mein drittes Jahr, habe ich im̄er von lebendiges
+          <lb/>Gefühl vom Heiland in meinem Herzen gehabt,
+          <lb/>und solches nie verloren. Die Liebe zu Ihm
+          <lb/>war ſo zart und reigend, daß ich Ihn öfters
+          <lb/>bat, mich balde zu ſich zu nehmen. Dazu ga-
+          <lb/>ben mir die Erzehlungen meines Vaters, von
+          <lb/>Jeſu Menſchwerdung, leiden und Sterben, An-
+          <lb/>laß. Von ihm hörte ich auch, daß es zweyer-
+          <lb/>ley Menſchen in der Welt gäbe, nämlich die
+          <lb/>
+        </p>
+        <p n="416">
+          <lb/>linder Gottes und
+          <lb/>die lieber der Welt. Den
+          <lb/>wenn ich unter die Nachbars Liederfer, die mich
+          <lb/>übel behandelten, und ich solches meiner Vater
+          <lb/>klagte, ſagte er, ſie könten nicht anders, den sie
+          <lb/>wären von der Welt. Ich keigte daher im̄er
+          <lb/>mehr Übschen von derſelben und wünchſte nichts
+          <lb/>mehr, als daß mich der Heiland zu ſich machen
+          <lb/>möchte. Dazu werde auch meine Hofnung, ſehr
+          <lb/>gestärkt, als ich in meinem 8tn Jahre so tödlich
+          <lb/>krank wurde, daß mich der Doctor selbst auf-
+          <lb/>gab. Den̅och aber genaß ich wieder davon, zur
+          <lb/>Freude meiner Eltern, mir aber zum betrebnißt.
+          <lb/>Darauf wurde ich in die Schule verschikt.
+          <lb/>Meine Vorgeſezten krigten mich lieb, und weil
+          <lb/>sie ein fähiges Gerüth bey mir merkten; so
+          <lb/>riethen sie meinere Vater mich ſtudiren zu
+          <lb/>loßen.
+          <lb/>Er hatte ſich auch zwar dazu entschloßen
+          <lb/>weil er aber ao. 1716 verstarb und meine
+          <lb/>Mutter es nicht ausführen konte; so mußte
+          <lb/>ich in Winter Dienſte gehen.
+          <lb/>Als ich in der Unter-
+          <lb/>richt zum heiligen Abendmahl kam, schenkte mir
+          <lb/>der Pfarrer eine Bibel, mit der Worten: weil
+          <lb/>er sähe, daß der gute Geiſt Gottes ſein bei
+          <lb/>ſonder Werk mit mir habe, und meine Mutter
+          <lb/>arm ſey, so wolle er mir hiermit eine Bibel ſchen-
+          <lb/>kte, darinen ſolte ich fleißig lesen, so würde
+          <lb/>ich im̄ermehr auf dem rechten Wege fortgeleitet werden
+          <lb/><fw type="catch">Bey</fw>
+        </p>
+        <p n="417">
+          <lb/>bey der Confirmation habe ich bey den Worten:
+          <lb/>Nim hin den heiligen Geist p. gewiß etwas
+          <lb/>vom Geiste Jeſu empfangen und das Abend-
+          <lb/>Mahl war das Siegel darauf. Ich erwehlte
+          <lb/>mir von da an, einen über mein Alter gehenden
+          <lb/>ernſthaften Gang, und wolte in der Welt als
+          <lb/>im Christ, ohne Scham vor der Schwach, leben.
+          <lb/>Auf Anrathen meines Vettern erwahlte ich
+          <lb/>mir das Schehreiner-Handwerk. In meiner
+          <lb/>20th Jahre kam ich durch einen genießen Anfechten
+          <lb/>bald in Verzweifelung, der die Sünde wolte
+          <lb/>mir zu ſtark werden: Der Unglaube aus
+          <lb/>ferte sich bey mir im höchſten Grade; ſo daß
+          <lb/>ich am Heiland, ſo wie überhaupt an Gott und
+          <lb/>an der ganzen Bibel, iree wurde. Darüber
+          <lb/>hatte ſich 3 Wochenlang eine Höllene Angſt aus„
+          <lb/>zuſtehen, die ich niewanden beſchreiben kon̄te,
+          <lb/>es ſtritte eben Licht und Finſterniß in mir
+          <lb/>Endlich aber drang mir der xxx: Schwiege
+          <lb/>dich auf zu demer DoOtt, da betrübte Frele-
+          <lb/>So göttlich in mein Herz, daß mir auf einmal
+          <lb/>alle Angst und Noth weg genom̄en wurde und
+          <lb/>ich die Verſöhnung Jesu Chriſti von Herzen
+          <lb/>glauben kon̄te. Darauf trigte ich einen staer-
+          <lb/>ken Trieb, der Heider das Iwangelium zu ver-
+          <lb/>kündigen. Weil ich aber vor nöthig erachtete
+          <lb/>erſt zu Studiren; so ſprach ich mit einem Pfarrer
+          
+        </p>
+        <p n="418">
+          <lb/>darüber.
+          <lb/>Der rieth mir, nach einigen gemag-
+          <lb/>ten Schwierigkeiten, erst noch ein paar Jahre
+          <lb/>in die Schule zu gehen und daselbſt mein
+          <lb/>Brodt mit ſingen zu verdienen. Als ich und
+          <lb/>mit diesen Gedanken umging, sang einmal
+          <lb/>mein Lehr „Meister:
+          <lb/>Du bist ein Menich,
+          <lb/>das weißt du wohl, was strebst du den noch
+          <lb/>Diegen, die Gott, der Höchset alleine soll und
+          <lb/>kan zu Werte bringen. Dabey wurde mir
+          <lb/>klar, daß solches meine einer Wahl serh
+          <lb/>weswegen ich ſogleich davon abstand und in
+          <lb/>Gottes Namen aufh meiner Profeßion in
+          <lb/>die Fremde ging. Da gewan ich einer Schuhe
+          <lb/>trecht, der einen Bund mit mir machte, sich
+          <lb/>ganz zu bekehren. Im Jahr 1728 kam ich
+          <lb/>wieder nach Frankfunt, und lebte 2 Jahre in
+          <lb/>der Stille für mich. Redlich wurde mr die
+          <lb/>Witwe Maria Margar. Minerin zur Ehr
+          <lb/>empfohlen.
+          <lb/>Weil ich den Willen Gottes in
+          <lb/>der sache merkte, ſo verlobte ich mich ao. 1731
+          <lb/>mit ihr und mit 33 Heyrathete ich sie. Daras
+          <lb/>fing ich, auf Anratthen etlicher wohleregeendet
+          <lb/>Bürger, an, kleine geistliche xxx zu
+          <lb/>ſchreiben. Als ſich in eben dem Jahre allhier
+          <lb/>die Versammlungen der Erweckten anfiegen,
+          <lb/>und ich auch mit hinnnen ging, wiederseyte sich
+          <lb/>wol Anfangs meine Frau heftig; endlich aber
+          <lb/><fw type="catch">wurde.</fw>
+        </p>
+        <p n="419">
+          <lb/>419
+          <lb/>wurde sie ſelbſt bewogen mit zu gehen, um
+          <lb/>das nicht ohne Egen. Jm Jahr 1735 hörte ich
+          <lb/>die erſte zuverläßiege Nachricht vom Grafen
+          <lb/>v. Z. und der Gemeine in Herenhuth. Der
+          <lb/>bewog, mich an den Grafen zu ſchreiben, und
+          <lb/>des Werk Gottes in Frankfurt in ſein Ge-
+          <lb/>bet zu empfehlen. Schtrigte auch bald darum
+          <lb/>zur freude [unſers ganzen Häufleins, eine
+          <lb/>gar schöne Antwort. Als des Jahr darauf
+          <lb/>die Fron Grädie, nebſt vielen lieben Ge-
+          <lb/>schwiſtern ſieher zogen; so hatten wir Ge-
+          <lb/>legenheit, täglich das Wort Gottes zu hören
+          <lb/>Wir wurden auch zu einer Gemeine ein-
+          <lb/>gerichtet, und das mir übertragene Ausſeher
+          <lb/>Amt, beugte mich gar ſehr. Ich untersuchte
+          <lb/>mich gründlich, und fand allerley bey mir; der
+          <lb/>ich wolte nur im̄er Heilig ſeye, und der Hei-
+          <lb/>lend wolte einen armen Sünder aus mir machen
+          <lb/>Das machte mir wol manche trübe Stunde,
+          <lb/>aber der Heiland  hat mir auch da heraus ge-
+          <lb/>ſolten. Anno 1737 reiſte ich mit der Frau
+          <lb/>Grädie zum Beſuch noch Herrnhuth. Was
+          <lb/>ich da gefühlt, das kan ich nicht beschreiben
+          <lb/>Anno 1738 hatte ich die [Sende] mit der
+          <lb/>Gemeine in Marienborn zum Heiligen Abend-
+          <lb/>Mahl zu gehen. Darauf wurde ich zum Ael-
+          <lb/>testen des Häufleins in Frankfurt eingeſegdet,
+        </p>
+        <p n="420">
+          
+          <lb/>und nahm die Versammlungen in mein Haus
+          <lb/>Als das Consicdorium dieselben verbieten wol-
+          <lb/>te, ſo proteſtirte ich ſchriftlich dagegen und ſet-
+          <lb/>te ſie getroft fort.
+          <lb/>Nach einer wiederholten
+          <lb/>Verbot, übergab ich dem Magihtrat eine in
+          <lb/>sehr wurden Gründen abgefaßte Schrift. Da-
+          <lb/>rauf hatten wer friede und erhielten mehr frei-
+          <lb/>heit, als wie zuvor gedacht. Ao. 1739 zog ich
+          <lb/>auf erhaltenen Ruf, nach Herrnhaag. In Dec-
+          <lb/>deßelben Jahrs trat ich meine Beſuchtsreiſen
+          <lb/>an, nach Gotha, Erfurt, Jena, Quedlinburg,
+          <lb/>Berlin, Stettin, Stralsund, Insel Rügen
+          <lb/>Bilgerruh, und von daſelbst 1741 wieder nach
+          <lb/>der Insel Rügen.
+          <lb/>Ich lernte mich  je länger,
+          <lb/>je mehr, als einen Fünder kenne und meine
+          <lb/>Unzulänglichkeit einſehen. Anno 1742 in
+          <lb/>Oct: wurde ich daselbſt abgerufen und kam
+          <lb/>bephärt und fünderhaft in Herrnhaag an-
+          <lb/>Anno 1743 reiſte ich mit meiner Frau nach
+          <lb/>Schlesien und ao. 44 nach Herrnhuth, wo ich
+          <lb/>das Waiſee. “Vater “ Amt bekleidete. xxx 1745
+          <lb/>ging ich auf den Synodum nach Marienborn,
+          <lb/>und nach demſelben trigte ich meinen Postre
+          <lb/>in Neudietendorf, die Thuringische] Diaspore
+          <lb/>zu bedienen. Daselbst müßtte ich auch vor
+          <lb/>der Comiſsion ſtehre ao. 1747 wurden wit
+          <lb/>in Genhäften nach Bilgerenh gephickt. Dafeße
+          <lb/>mit
+        </p>
+        <p n="421">
+          
+          <lb/>mir und zwar in der Einſamkeit, aber doch
+          <lb/>nicht zum Schaden für unser Herzen.
+          <lb/>ao. 1750 krigten wir den erfreulicher Ruf
+          <lb/>nach Herrnhuth zu kommen. Hier dachte ich
+          <lb/>und ausſerte mich auch so, in dem Nächte zu
+          <lb/>erſterben; aber es war noch nicht Zeit zum
+          <lb/>Ruhne. Den ao. 1751 krigte ich nebſt meiner
+          <lb/>fran einen Auf nach Barby, der uns und
+          <lb/>vielen Seelen zum Segen gereichte. Auf er-
+          <lb/>haltenen Ubrus zogen wir ao. 1756 wieder
+          <lb/>nach Herrhuth, wo ich ao. 1758 zum Dia-
+          <lb/>cono der Brüder Cirche eingeſegnet wurde.
+          <lb/>Nun, Herr Jeſu, daß ich im Glied an der-
+          <lb/>nem leibe bin, deßen tröste ich mich von Herren,
+          <lb/>von die ich ungeschieden bleib, in aller Noth
+          <lb/>und Schmerzen. Amen!
+          <lb/>So weit geht des ſeligen Bruders Aubzug-
+          <lb/>Was noch vor seinen lezten Lebend. Jahren
+          <lb/>merkwürdig iſt, beſteht etwa in Folgendem:
+          <lb/>Im Dec. 1764 wurd ſeine liebe. Frau in ich
+          <lb/>vom 81te Jahre zur einigen Rufe heimberufen.
+          <lb/>Er merkt dabey an, daß die Ermerung an ſeine
+          <lb/>nicht allemal jeſus mäsſige Behandlung derſebs
+          <lb/>ben, ihre hinternach oft Schmerz und thränen
+          <lb/>versacht habe. Die Rufe. Zeit im Witwer.
+          <lb/>Lorhauſe machte er ſich, nach so vieler Arbeit
+          <lb/>zum Segen für ſein Herz zu nuze.
+        </p>
+        <p n="422">
+          
+          <lb/>Jm Jahr 1766 that er, auf Anweiſung des
+          <lb/>Heilandes, einen abermaligen Beſuch nach Frank-
+          <lb/>furt und in die dortige und Pfälzische Diaspo-
+          <lb/>ra, zu seinem und anderer Segen; und nach
+          <lb/>einem Jahre kam er wieder hinher zurück.
+          <lb/>Vom Jahr 1769 iſt Folgendes Lind von ihm ge-
+          <lb/>fanden worden, welches von ſeinem leben
+          <lb/>digen Glauben und Anhängen an den Hei-
+          <lb/>land zwinget:
+          <lb/>Das treuſte Herz ist Jeſus Christ.
+          <lb/>Das Jagt nur meine Seel
+          <lb/>Weils Herze weint, wenns ihn vermißt
+          <lb/>So tross Immanuel.
+          <lb/>Das Elend und Gebrechlichkeit
+          <lb/>in mir, ist ihm bewüßt;
+          <lb/>Er hat an meiner Schrecklichkeit
+          <lb/>wol gar noch ſeine Luſt.
+          <lb/>Doch weil die SelbſtGefälligkeit
+          <lb/>im Gründe ihm verhasst;
+          <lb/>so ſieht Er auf die Niedrigkeit
+          <lb/>die ihm ſelbſt angepaßt.
+          <lb/>Herr Jeſu: die ſey ewig Dank
+          <lb/>daß du den God gebetst
+          <lb/>und haſt mit deinem Leiders Krank
+          <lb/>mein menſchlich Leid versüßt.
+          <lb/>Du gregſt im xxx 30 Jahr
+          <lb/>warst neidung, und gering,
+          <lb/><fw type="catch">hattest</fw>
+        </p>
+        <p n="423">
+          <lb/>hattest nicht Bestalle an die, fürwahr
+          <lb/>Du Schöpfer aller Ding
+          <lb/>Leit mir das Licht ins Herz geſtrahlt
+          <lb/>daß ich erlöhet bin;
+          <lb/>und meine Schuld dem Blut bezahlt
+          <lb/>so sink ich vor dir hin:
+          <lb/>Und zeriſe deinen blutgen Lob
+          <lb/>Der mich dem Tod entriße;
+          <lb/>mein Elend und was heißet Roth
+          <lb/>heitzt du ja durch dein Lüßie
+          <lb/>Jn dieſer Schule lere ich ine
+          <lb/>mein Plem theier schäre,
+          <lb/>ich tom in demen S under nehe,
+          <lb/>die bleiben mege frgotz u.
+          <lb/>Am klein ſeye loß mich nehmen zu,
+          <lb/>ich bin nichts ohne dich;
+          <lb/>Vorm groß ſeyn ſiegle mich ganz zu
+          <lb/>in deinen Seiten Stich
+          <lb/>So lebe den in mir, ich leb
+          <lb/>mit dir, in Erigknit;
+          <lb/>ich bin am Weinſtock eine Keb-
+          <lb/>Dein Blut hat mich gekleidt.
+          <lb/>Im Jahr 1770 iſt in ſelner Tagesbuch
+          <lb/>angemerkt, daß er zu xxx,
+          <lb/>aber das ſich hin und da in der Gemeine
+          <lb/>außerede Misvergungen dem Heilend bittern
+          <lb/>Thränen vorgemeint, und ſich in dieſer Verle-
+          <lb/><fw type="catch">genheit.</fw>
+        </p>
+        <p n="424">
+          <lb/>genheit die Loosung aufgeschlagen habe: Ich
+          <lb/>will uns ein einträchtig Herz geben. Die
+          <lb/>Kirchen Bemein um Chor „Feste find ihm,
+          <lb/>nach seinem eigenen Geständniß allemal
+          <lb/>Gnaden und Segnes Tage geweſen; wie er
+          <lb/>den überhaupt alles, was zu genieſſen war
+          <lb/>zu genieſſen getrachtet hat. Dene Leibe noch
+          <lb/>hatte er eine ziemlich beſchwerliche Wallkerth.
+          <lb/>durch dieſe Zeit. Er iſt aber, wie er ſchreibt
+          <lb/>des Trankens ſo gewehet gewesen, daß er
+          <lb/>ſich nicht leicht beklagt hat; sondern in den
+          <lb/>Willen Gottes ergeben war, mit dem Groste,
+          <lb/>daß einſt Schwachheit und Verdruß liegen
+          <lb/>würde unter seinem Fuß.
+          <lb/>Was nun des ſeligen Bruders Gang im
+          <lb/>Witwer Chore betrift; so iſt er vom An-
+          <lb/>fang bis zum ſeligen Ende jedem erbaulich ge-
+          <lb/>weſen. Man sahe um hörte von ihm nichts
+          <lb/>anders, als einen ununterbrochenen Umgang
+          <lb/>mit dem Heilend. So xxx sein Unſer
+          <lb/>hen war; ſo kindlich und Liebhabend war sein
+          <lb/>Umgang; und ſeine Reden waren immer davon
+          <lb/>woll, wie er ſich und ſeie Elend bey allen Ghe-
+          <lb/>legenheiten genomer kennen lernen. Er redte
+          <lb/>und dachte geninog von ſich. Bey jedem Sprechen
+          <lb/>zum ſeil. Abendmahl hielt er aufrichtige Herz-
+          <lb/>zung Banden aller ſeiner Gedanken und Regungen <fw type="catch">und,</fw>
+        </p>
+        <p n="425">
+          <lb/>und seine Chränen redten oſte mehr von der
+          <lb/>Röche und der Freundlichkeit ſeines lieben Herr,
+          <lb/>die er bey, Tag um Nacht genoß, als es ſein
+          <lb/>Mund auszusprechen in Hand war.
+          <lb/>So schwächlich als er schon etliche Jahre war,
+          <lb/>ſo hat er doch selten eine Gelegenheit auf dem
+          <lb/>Gemein Seele verſäumt; ſondern dieſelben
+          <lb/>mit Begierde besucht, bis vor einem halben
+          <lb/>Jahre, da ers nicht mehr im ſtande war; da
+          <lb/>er ſich den mit der Erzehlung was vorge-
+          <lb/>kommen, begnügen müßte. Über zum hei-
+          <lb/>ligen Abendsmahl ging er im̄er mit auf den
+          <lb/>Saal. Um 10te Sept. genoß er es zum lez-
+          <lb/>tenmal mit ſeinem Ehere, und that sich da-
+          <lb/>bey viel zu gute; glaubte auch, daß es das
+          <lb/>leztemal ſeyn würde, weil ſeine Schwachheit
+          <lb/>zunahm. Er war aber ſonſt noch munten
+          <lb/>und täglich auf; jedoch freute er sich, daß
+          <lb/>er nun balde in Seines Herren Freude
+          <lb/>eingehen würde.
+          <lb/>Um 20r Septembris als dem Sage sei-
+          <lb/>nes Heingangs, werkte man, daß er an-
+          <lb/>fing etwas ſchwächer als gewöhnlich zu wer-
+          <lb/>den. Abends waren noch einige Brüder
+          <lb/>bey ihm, mit denen er vieles, sonderlich
+          <lb/>auch vom Heingehen redte. Als ſie weg-
+          <lb/>gegangen waren, ſo legte er ſich zu Bette,
+        </p>
+        <p n="426">
+          <lb/>und fing an einzuschlafen. Es blieb
+          <lb/>aber ein Bruder bey ihm, und als derſelbe
+          <lb/>eine kleine Bewegung an ihm merkte; so
+          <lb/>würden noch ein paar Brüder herzu ge-
+          <lb/>rufen, die ihm einige Segens. Verſe-
+          <lb/>sungen; und er war ohne weitere Bewegung
+          <lb/>eingeschlafen, und kam nicht wieder zu sich.
+          <lb/>Sein Sterbens=Leben hat er auf 67 Jahr
+          <lb/>weniger 2 Monate gebracht.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
