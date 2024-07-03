@@ -50,7 +50,12 @@ if selection == "Karte":
 
 
      option = st.selectbox(
-               "Wählen Sie den Name", name,
+               "Wählen Sie den Name", 
+               ("Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
+            "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", 
+            "Christa Dorothea Lintrupin", "Maria Magdalena Richter", 
+            "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", 
+            "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"),
                label_visibility=st.session_state.visibility,
                disabled=st.session_state.disabled,
                )
@@ -223,21 +228,21 @@ if selection == "Karte":
 
           
      elif option == "Herrmann Reinhard Schick":
-        st.subheader("Herrmann Reinhard Schick")
-        st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419")
-        with open("Text/weiblich/02490.txt", "rb") as file:
+                st.subheader("Herrmann Reinhard Schick")
+                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419")
+                with open("Text/weiblich/02490.txt", "rb") as file:
                         btnn = st.download_button(
                                label="Download Text",
                                data= file,
                                file_name="02490.txt"
                        )
-        with open("XML/02490.xml", "rb") as file:
+                with open("XML/02490.xml", "rb") as file:
                        btn = st.download_button(
                                label="Download XML",
                                data= file,
                                file_name="02490.xml"
                        ) 
-        folium.Marker([51.019360, 14.748201], popup="Herrmann Reinhard Schick. Stein: 10, Reihe: R7, Feld: B1").add_to(m)
+                folium.Marker([51.019360, 14.748201], popup="Herrmann Reinhard Schick. Stein: 10, Reihe: R7, Feld: B1").add_to(m)
      
      # Speichere die Karte in einer HTML-Datei
      m.save("map.html")
