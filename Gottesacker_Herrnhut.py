@@ -50,8 +50,7 @@ if selection == "Karte":
 
 
      option = st.selectbox(
-               "Wählen Sie den Name",
-               ("Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", "Christa Dorothea Lintrup", "Maria Magdalena Richter", "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"),
+               "Wählen Sie den Name", name,
                label_visibility=st.session_state.visibility,
                disabled=st.session_state.disabled,
                )
