@@ -241,8 +241,8 @@ if selection == "Karte":
 elif selection == "Analyse":
     st.title("In Arbeit")
 
-    st.image('wordcloud_w.png', caption='WordCloud von Frauen')
+    st.image('Output/wordcloud_w.png', caption='WordCloud von Frauen')
 
-    st.image('wordcloud_m.png', caption='WordCloud von Männern')
+    st.image('Output/wordcloud_m.png', caption='WordCloud von Männern')
 
-    st.image('grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
+    st.image('Output/grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
