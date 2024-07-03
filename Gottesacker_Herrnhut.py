@@ -230,7 +230,7 @@ if selection == "Karte":
      elif option == "Herrmann Reinhard Schick":
                 st.subheader("Herrmann Reinhard Schick")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419")
-                with open("Text/weiblich/02490.txt", "rb") as file:
+                with open("Text/männlich/02490.txt", "rb") as file:
                         btnn = st.download_button(
                                label="Download Text",
                                data= file,
