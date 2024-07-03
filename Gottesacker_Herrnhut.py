@@ -29,7 +29,7 @@ if selection == "Karte":
             for name in names_d:
                     st.sidebar.write(name)
      elif add_selectbox == "Text" or "XML":
-             names_a = ["Anna Magdalena Elisabeth Weiss", "Knud Andersen", "Christa Dorothea Lintrupin", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
+             names_a = ["Herrmann Reinhard Schick", "Anna Magdalena Elisabeth Weiss", "Knud Andersen", "Christa Dorothea Lintrupin", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
              for name in names_a:
                      st.sidebar.write(name)
                   
@@ -223,9 +223,21 @@ if selection == "Karte":
 
           
      elif option == "Herrmann Reinhard Schick":
-               st.subheader("Herrmann Reinhard Schick")
-               st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419") 
-               folium.Marker([51.019360, 14.748201], popup="Herrmann Reinhard Schick. Stein: 10, Reihe: R7, Feld: B1").add_to(m)
+        st.subheader("Herrmann Reinhard Schick")
+        st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419")
+        with open("Text/weiblich/02490.txt", "rb") as file:
+                        btnn = st.download_button(
+                               label="Download Text",
+                               data= file,
+                               file_name="02490.txt"
+                       )
+        with open("XML/02490.xml", "rb") as file:
+                       btn = st.download_button(
+                               label="Download XML",
+                               data= file,
+                               file_name="02490.xml"
+                       ) 
+        folium.Marker([51.019360, 14.748201], popup="Herrmann Reinhard Schick. Stein: 10, Reihe: R7, Feld: B1").add_to(m)
      
      # Speichere die Karte in einer HTML-Datei
      m.save("map.html")
