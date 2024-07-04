@@ -16,7 +16,7 @@ selection = st.sidebar.radio("Gehen Sie zu", ["Karte", "Analyse"])
 if selection == "Karte":
      
      add_selectbox = st.sidebar.radio(
-        "Wählen Sie aus",
+        "Download",
         ("Digitalisat", "Text und XML")
     )
 
