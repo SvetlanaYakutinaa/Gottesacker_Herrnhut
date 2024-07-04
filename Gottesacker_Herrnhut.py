@@ -258,10 +258,17 @@ if selection == "Gottesacker Digital":
      st.components.v1.html(map_html, height=500)
      
 elif selection == "Analyse":
-    st.title("In Arbeit")
+    st.title("Analye")
 
-    st.image('Output/wordcloud_w.png', caption='WordCloud von Frauen')
+    add_selectbox = st.sidebar.radio(
+        "Wortwolken",
+        ("Lemmata (w)", "Lemmata (m)"),
+        index=None
+    )
 
-    st.image('Output/wordcloud_m.png', caption='WordCloud von Männern')
+    if add_selectbox == "Lemmata (w)":
+        st.image('Output/wordcloud_w.png', caption='WordCloud von Frauen')
+    elif add_selectbox == "Lemmata (m)": 
+        st.image('Output/wordcloud_m.png', caption='WordCloud von Männern')
 
-    st.image('Output/grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
+#    st.image('Output/grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
