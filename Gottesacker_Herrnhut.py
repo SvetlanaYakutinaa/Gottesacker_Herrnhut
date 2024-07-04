@@ -56,6 +56,8 @@ if selection == "Karte":
             "Christa Dorothea Lintrupin", "Maria Magdalena Richter", 
             "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", 
             "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"),
+        index = None,
+        placeholder = "Wählen Sie einen Name...",
                label_visibility=st.session_state.visibility,
                disabled=st.session_state.disabled,
                )
