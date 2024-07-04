@@ -49,15 +49,14 @@ if selection == "Karte":
                st.session_state.disabled = False
 
 
-     option = st.selectbox(
-               "Wählen Sie den Name", 
+     option = st.selectbox( 
                ("Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
             "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", 
             "Christa Dorothea Lintrupin", "Maria Magdalena Richter", 
             "Anna Magdalena Elisabeth Weiss", "Dorothea Maria Ahlsleb", 
             "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"),
         index = None,
-        placeholder = "Wählen Sie einen Name...",
+        placeholder = "Wählen Sie einen Name aus",
                label_visibility=st.session_state.visibility,
                disabled=st.session_state.disabled,
                )
