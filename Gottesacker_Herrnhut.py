@@ -10,14 +10,14 @@ st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
 # Seitenleiste mit Links zu verschiedenen Seiten erstellen
 st.sidebar.title('Navigation')
-selection = st.sidebar.radio("Gehe zu", ["Karte", "Analyse"])
+selection = st.sidebar.radio("Gehen Sie zu", ["Karte", "Analyse"])
 
 # Seiteninhalt basierend auf der Auswahl des Benutzers
 if selection == "Karte":
      
      add_selectbox = st.sidebar.radio(
         "Wählen Sie aus",
-        ("Digitalisat", "Text", "XML")
+        ("Digitalisat", "Text und XML")
     )
 
      if add_selectbox == "Digitalisat":
@@ -28,7 +28,7 @@ if selection == "Karte":
             "Mädgen Cornelia Louisa von Goldenberg", "Maria Luley", "Maria Magdalena Bezold"]
             for name in names_d:
                     st.sidebar.write(name)
-     elif add_selectbox == "Text" or "XML":
+     elif add_selectbox == "Text und XML":
              names_a = ["Herrmann Reinhard Schick", "Anna Magdalena Elisabeth Weiss", "Knud Andersen", "Christa Dorothea Lintrupin", "Maria Magdalena Richter", "Gottfried Clemens", "Johann Sebald Ringmacher", "Benigna Schüz"]
              for name in names_a:
                      st.sidebar.write(name)
