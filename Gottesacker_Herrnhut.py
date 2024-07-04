@@ -262,13 +262,16 @@ elif selection == "Analyse":
 
     add_selectbox = st.sidebar.radio(
         "Wortwolken",
-        ("Lemmata (w)", "Lemmata (m)"),
+        ("Lemmata (w)", "Lemmata (m)", "Beide"),
         index=None
     )
 
     if add_selectbox == "Lemmata (w)":
         st.image('Output/wordcloud_w.png', caption='WordCloud von Frauen')
     elif add_selectbox == "Lemmata (m)": 
+        st.image('Output/wordcloud_m.png', caption='WordCloud von Männern')
+    elif add_selectbox == "Beide":
+        st.image('Output/wordcloud_w.png', caption='WordCloud von Frauen')
         st.image('Output/wordcloud_m.png', caption='WordCloud von Männern')
 
 #    st.image('Output/grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
