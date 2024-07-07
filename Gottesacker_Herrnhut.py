@@ -265,6 +265,20 @@ elif selection == "Analyse":
     
     st.image('Output/wordcloud_m.png', caption='WordCloud von Männern')
 
+    st.write("""Die durchschnittliche Textlänge (Abb.) der von uns 
+             transkribierten und untersuchten Lebensbeschreibungen
+              unterscheidet sich signifikant zwischen den Geschlechtern. 
+             Während die Texte von Frauen im Durchschnitt etwas weniger als 
+             900 Wörter aufweisen, sind die Texte der Männer mit ca. 2100 
+             Wörtern mehr als 2x so lang. Diese Ergebnisse sind keineswegs 
+             repräsentativ für die Gesamtheit der Lebensbeschreibungen, eine 
+             klare Tendenz ist in unserer zufällig ausgewählten Stichprobe von 
+             acht Texten jedoch erkennbar. Während zwei von Männern verfasste Texte mehr als 2500 Wörter umfassen, 
+             beinhaltet der längste Text einer Frau nur etwas mehr als 1000 Wörter.
+ """)
+
+    st.image ("Output/textlänge.png", caption="Abbild")
+
 
 #    st.image('Output/grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
 
