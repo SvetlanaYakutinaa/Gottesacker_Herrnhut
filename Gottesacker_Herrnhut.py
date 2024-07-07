@@ -263,11 +263,25 @@ elif selection == "Analyse":
 
 
 ######################
-    add_selectbox = st.sidebar.button (
-        "Download",
-        st.sidebar.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/28")
+    
+    folder_path = "/XML"
+    files = os.listdir(folder_path)
 
-    )
+    for file_name in files:
+        file_path = os.path.join(folder_path, file_name)
+        
+        with open(file_path, "rb") as file:
+                btnn = st.sidebar.download_button (
+                label=f"Download {file_name}",
+                data=file,
+                file_name=file_name        
+                )
+                
+                
+                #add_selectbox = st.sidebar.button (
+       # st.sidebar.link_button("XML", "")
+
+   # )
 
 
 
