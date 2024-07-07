@@ -269,7 +269,10 @@ Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und in For
     
     st.image('Output/wordcloud_m.png', caption='Abbild 2: WordCloud von Männern')
 
-    st.write("Da die Autor:innen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen und ihr eigenes Leben fokussiert sind, findet sich in den Texten häufig der Ge-brauch von Pronomina (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche Autor:innen sprechen oft über Gott, den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen Bestandteil ihres Lebens hin.")
+    st.write(""""Da die Autor:innen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen
+              und ihr eigenes Leben fokussiert sind, findet sich in den Texten häufig der Ge-brauch von Pronomina 
+             (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche Autor:innen sprechen oft über Gott,
+              den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen Bestandteil ihres Lebens hin.""")
 
     st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata (Männer vs. Frauen)')
 
