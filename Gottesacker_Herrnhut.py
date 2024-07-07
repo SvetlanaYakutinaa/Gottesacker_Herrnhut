@@ -259,7 +259,7 @@ if selection == "Digitaler Gottesacker":
      st.components.v1.html(map_html, height=500)
      
 elif selection == "Analyse":
-    st.title("Analye") 
+    st.title("Analyse") 
     
     st.write("""Die folgende Analyse untersucht die Lebensbeschreibungen von acht Mitgliedern der Herrnhuter Brüdergemeine. 
              Es handelt sich um vier Frauen und vier Männer. Die Texte stammen aus den Jahren 1770 bis 1806 und wurden nach 
@@ -268,11 +268,12 @@ elif selection == "Analyse":
              Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte die Frage beantworten Wie unterscheiden 
              sich die Lebensbeschreibungen von Männern und Frauen in Bezug auf Textlänge, Satzlänge, häufigste Wörter/Wortarten und Inhalt.
              Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und in Form einer Wortwolke visualisiert (Abb. 1 und 2).
-              Zunächst wurde eine Liste von häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten 
+             Zunächst wurde eine Liste von häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten 
              (z.B.: ja, weil, was, wo, derselbe usw.) und aus der Analyse ausgeschlossen. Dies ermöglichte es, sich auf die für 
              den Inhalt relevanten Wörter zu konzentrieren. Die Visualisierung wurde für die Texte von Frauen und Männern getrennt
-              erstellt, wobei Wörter, die mindestens dreimal in den Texten vorkamen, in die Wortwolke aufgenommen wurden. 
+             erstellt, wobei Wörter, die mindestens dreimal in den Texten vorkamen, in die Wortwolke aufgenommen wurden. 
              Die einzelnen Wörter wurden je nach Häufigkeit unterschiedlich groß dargestellt.""")
+    
     st.image('Output/wordcloud_w.png', caption='Abbild 1: WordCloud von Frauen')
     
     st.image('Output/wordcloud_m.png', caption='Abbild 2: WordCloud von Männern')
