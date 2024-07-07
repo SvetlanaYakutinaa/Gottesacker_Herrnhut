@@ -265,7 +265,7 @@ elif selection == "Analyse":
 ######################
     add_selectbox = st.sidebar.button (
         "Download",
-        st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/28")
+        st.sidebar.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/28")
 
     )
 
