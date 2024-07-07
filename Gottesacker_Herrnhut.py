@@ -6,16 +6,19 @@ import streamlit.components.v1 as components
 import os
 
 
-
+#Erstellung Webseite
 st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
-# Seitenleiste mit Links zu verschiedenen Seiten erstellen
+# Erstellung einer Seitenleiste mit Links zu verschiedenen Seiten 
 st.sidebar.title('Navigation')
 selection = st.sidebar.radio("Gehen Sie zu", ["Digitaler Gottesacker", "Analyse"])
 
-# Seiteninhalt basierend auf der Auswahl des Benutzers
+###################### Seite "Digitaler Gottesacker"
+
 if selection == "Digitaler Gottesacker":
      
+     #################### Siedebar
+
      add_selectbox = st.sidebar.radio(
         "Dateiformat auswählen und Namensliste erhalten",
         ("Digitalisat", "Text und XML"),
@@ -35,7 +38,8 @@ if selection == "Digitaler Gottesacker":
              for name in names_a:
                      st.sidebar.write(name)
                   
-
+################################## 
+                     
      with st.container():
         
         st.title("Gottesacker Herrnhut")
@@ -50,7 +54,8 @@ if selection == "Digitaler Gottesacker":
         if 'disabled' not in st.session_state:
                st.session_state.disabled = False
 
-
+############################## Kodierung von Auswahlmöglichkeit von Personen und ihrem Inhalt
+                
      option = st.selectbox( 
              "Wählen Sie bitte einen Name aus",
                ("Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
@@ -63,6 +68,9 @@ if selection == "Digitaler Gottesacker":
                label_visibility=st.session_state.visibility,
                disabled=st.session_state.disabled,
                )
+     
+     #################################### Personen und Inhalt
+
      if option == "Hans Hansen":
                 st.subheader("Hans Hansen")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
@@ -230,7 +238,6 @@ if selection == "Digitaler Gottesacker":
                                file_name="05198.xml"
                        )
 
-          
      elif option == "Herrmann Reinhard Schick":
                 st.subheader("Herrmann Reinhard Schick")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419")
@@ -247,7 +254,9 @@ if selection == "Digitaler Gottesacker":
                                file_name="02490.xml"
                        ) 
                 folium.Marker([51.019360, 14.748201], popup="Herrmann Reinhard Schick. Stein: 10, Reihe: R7, Feld: B1").add_to(m)
-     
+
+################################   Kartevisualisierung 
+                   
      # Speichere die Karte in einer HTML-Datei
      m.save("map.html")
 
@@ -257,7 +266,11 @@ if selection == "Digitaler Gottesacker":
 
      # Zeige die HTML-Karte in der Streamlit-Anwendung
      st.components.v1.html(map_html, height=500)
-     
+
+############################## Kodierung der Seite "Analyse"
+# die Analyse wurde in den separaten Jupyter - Notebooks durchgefürt
+# Notebooks sind im Repositorium zugänglich
+          
 elif selection == "Analyse":
     st.title("Analyse") 
     
