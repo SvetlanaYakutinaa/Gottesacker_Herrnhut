@@ -280,8 +280,12 @@ elif selection == "Analyse":
     st.write("""Da die AutorInnen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen
               und ihr eigenes Leben fokussiert sind, findet sich in den Texten häufig der Gebrauch von Pronomina 
              (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche AutorInnen sprechen oft über Gott,
-              den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen Bestandteil ihres Lebens hin.""")
-
+              den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen Bestandteil ihres Lebens hin.
+              Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen,
+              was sich in der Verwendung von Begriffen wie "Reisen" oder "Reise" widerspiegelt.
+              Zudem finden sich in den männlichen Texten häufig Berichte über ihre Bildungserfahrungen 
+             (siehe Abbildung 2). Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (siehe Abbildung 1).""")
+    st.write("Abbildung 3 veranschaulicht den Vergleich der Worthäufigkeit zwischen Männern und Frauen.")
     st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata (Männer vs. Frauen)')
 
     st.write("""Die durchschnittliche Textlänge (Abb. 4) der von uns 
@@ -294,10 +298,6 @@ elif selection == "Analyse":
              klare Tendenz ist in unserer zufällig ausgewählten Stichprobe von 
              acht Texten jedoch erkennbar. Während zwei von Männern verfasste Texte mehr als 2500 Wörter umfassen, 
              beinhaltet der längste Text einer Frau nur etwas mehr als 1000 Wörter.
-             Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen,
-              was sich in der Verwendung von Begriffen wie "Reisen" oder "Reise" widerspiegelt.
-              Zudem finden sich in den männlichen Texten häufig Berichte über ihre Bildungserfahrungen 
-             (siehe Abbildung 2). Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (siehe Abbildung 1).
  """)
 
     st.image ("Output/textlänge.png", caption="Abbild 4: Durchschnittliche Textlänge")
