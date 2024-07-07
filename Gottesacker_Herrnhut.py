@@ -11,10 +11,10 @@ st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
 # Seitenleiste mit Links zu verschiedenen Seiten erstellen
 st.sidebar.title('Navigation')
-selection = st.sidebar.radio("Gehen Sie zu", ["Gottesacker Digital", "Analyse"])
+selection = st.sidebar.radio("Gehen Sie zu", ["Digitaler Gottesacker", "Analyse"])
 
 # Seiteninhalt basierend auf der Auswahl des Benutzers
-if selection == "Gottesacker Digital":
+if selection == "Digitaler Gottesacker":
      
      add_selectbox = st.sidebar.radio(
         "Dateiformat auswählen und Namensliste erhalten",
