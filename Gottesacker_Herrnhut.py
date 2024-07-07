@@ -287,7 +287,7 @@ elif selection == "Analyse":
 
     st.write("POS: Insgesamt verwenden Männer und Frauen in unserer Stichprobe ähnlich häufig die verschiedenen Wortarten (Abb. 6). Es gibt jedoch ein paar Ausnahmen. Deutlich häufiger als Männer verwenden Frauen Pronomina. Vorherrschend sind hier “ich”, “sie”, “ihr” und “mir”, wie auch in der Wortwolke erkennbar ist. Ebenfalls etwas häufiger kommen in den weiblichen Texten Hilfsverben vor. Bei den von Männern verfassten Texten kommen dagegen häufiger Eigennamen vor.")
 
-    st.image("Output/POS.png", caption= "Abbild 6: Part-Of-Speech")
+    st.image("Output/POS.png", caption= "Abbild 6: Relative Häufigkeit der verschiedenen Wortarten (Männer vs. Frauen)")
 
 
 
