@@ -265,7 +265,7 @@ elif selection == "Analyse":
     
     st.image('Output/wordcloud_m.png', caption='Abbild 2: WordCloud von Männern')
 
-    st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
+    st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata (Männer vs. Frauen)')
 
     st.write("""Die durchschnittliche Textlänge (Abb. 4) der von uns 
              transkribierten und untersuchten Lebensbeschreibungen
