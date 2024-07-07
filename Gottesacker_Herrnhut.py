@@ -259,43 +259,7 @@ if selection == "Gottesacker Digital":
      st.components.v1.html(map_html, height=500)
      
 elif selection == "Analyse":
-    st.title("Analye")
-
-
-######################
-    
-    # Ordnerpfad
-folder_path = "XML"
-
-# Auflisten aller Dateien im Ordner
-files = os.listdir(folder_path)
-
-# Erstellen eines Download-Buttons für jede Datei in der Sidebar
-for file_name in files:
-    file_path = os.path.join(folder_path, file_name)
-    
-    with open(file_path, "rb") as file:
-        btnn = st.sidebar.download_button(
-            label=f"Download {file_name}",
-            data=file,
-            file_name=file_name        
-        )
-                
-                
-                #add_selectbox = st.sidebar.button (
-       # st.sidebar.link_button("XML", "")
-
-   # )
-
-
-
-    
-
-
-
-
-
-#######################    
+    st.title("Analye") 
 
     add_selectbox = st.sidebar.radio(
         "Wortwolken",
@@ -313,13 +277,3 @@ for file_name in files:
 
 #    st.image('Output/grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
 
-# Ordnerpfad
-        folder_path = "Text/weiblich"
-
-# Auflisten aller Dateien im Ordner
-        files = os.listdir(folder_path)
-
-# Sidebar-Überschrift
-st.sidebar.header("Download Textdateien")
-
-# Erstellen eines Download-Buttons für jede Datei in der Sidebar
