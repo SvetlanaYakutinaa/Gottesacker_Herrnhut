@@ -261,17 +261,29 @@ if selection == "Gottesacker Digital":
 elif selection == "Analyse":
     st.title("Analye") 
     
-    st.write("""Die folgende Analyse untersucht die Lebensbeschreibungen von acht Mitgliedern der Herrnhuter Brüdergemeine. Es handelt sich um vier Frauen und vier Männer. Die Texte stammen aus den Jahren 1770 bis 1806 und wurden nach dem Zufalls-prinzip für die Analyse ausgewählt. Zunächst wurden die Digitalisate mit dem Tool eScriptorium transkribiert und die Texte normalisiert, um eine konsistente Analyse zu ermöglichen. 
-Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte die Fra-ge beantworten Wie unterscheiden sich die Lebensbeschreibungen von Männern und Frauen in Bezug auf Textlänge, Satzlänge, häufigste Wörter/Wortarten und In-halt?
-Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und in Form einer Wortwolke visualisiert (Abb. 1 und 2). Zunächst wurde eine Liste von häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten (z.B.: ja, weil, was, wo, derselbe usw.). Dies ermöglichte es, sich auf die für den Inhalt relevanten Wörter zu konzentrieren. Die Visualisierung wurde für die Texte von Frauen und Männern getrennt erstellt, wobei Wörter, die mindestens dreimal in den Texten vorkamen, in die Wortwolke aufgenommen wurden. Die einzelnen Wörter wurden je nach Häufigkeit unterschiedlich groß dargestellt. 
+    st.write("""Die folgende Analyse untersucht die Lebensbeschreibungen von acht Mitgliedern der Herrnhuter Brüdergemeine. 
+             Es handelt sich um vier Frauen und vier Männer. Die Texte stammen aus den Jahren 1770 bis 1806 und wurden nach 
+             dem Zufalls-prinzip für die Analyse ausgewählt. Zunächst wurden die Digitalisate mit dem Tool eScriptorium 
+             transkribiert und die Texte normalisiert, um eine konsistente Analyse zu ermöglichen. 
+
+             Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte die Frage beantworten Wie unterscheiden 
+             sich die Lebensbeschreibungen von Männern und Frauen in Bezug auf Textlänge, Satzlänge, häufigste Wörter/Wortarten und Inhalt?
+
+
+             Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und in Form einer Wortwolke visualisiert (Abb. 1 und 2).
+              Zunächst wurde eine Liste von häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten 
+             (z.B.: ja, weil, was, wo, derselbe usw.) und aus der Analyse ausgeschlossen. Dies ermöglichte es, sich auf die für 
+             den Inhalt relevanten Wörter zu konzentrieren. Die Visualisierung wurde für die Texte von Frauen und Männern getrennt
+              erstellt, wobei Wörter, die mindestens dreimal in den Texten vorkamen, in die Wortwolke aufgenommen wurden. 
+             Die einzelnen Wörter wurden je nach Häufigkeit unterschiedlich groß dargestellt. 
 """)
     st.image('Output/wordcloud_w.png', caption='Abbild 1: WordCloud von Frauen')
     
     st.image('Output/wordcloud_m.png', caption='Abbild 2: WordCloud von Männern')
 
-    st.write(""""Da die Autor:innen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen
-              und ihr eigenes Leben fokussiert sind, findet sich in den Texten häufig der Ge-brauch von Pronomina 
-             (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche Autor:innen sprechen oft über Gott,
+    st.write(""""Da die AutorInnen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen
+              und ihr eigenes Leben fokussiert sind, findet sich in den Texten häufig der Gebrauch von Pronomina 
+             (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche AutorInnen sprechen oft über Gott,
               den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen Bestandteil ihres Lebens hin.""")
 
     st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata (Männer vs. Frauen)')
