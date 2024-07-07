@@ -294,6 +294,10 @@ elif selection == "Analyse":
              klare Tendenz ist in unserer zufällig ausgewählten Stichprobe von 
              acht Texten jedoch erkennbar. Während zwei von Männern verfasste Texte mehr als 2500 Wörter umfassen, 
              beinhaltet der längste Text einer Frau nur etwas mehr als 1000 Wörter.
+             Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen,
+              was sich in der Verwendung von Begriffen wie "Reisen" oder "Reise" widerspiegelt.
+              Zudem finden sich in den männlichen Texten häufig Berichte über ihre Bildungserfahrungen 
+             (siehe Abbildung 2). Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (siehe Abbildung 1).
  """)
 
     st.image ("Output/textlänge.png", caption="Abbild 4: Durchschnittliche Textlänge")
