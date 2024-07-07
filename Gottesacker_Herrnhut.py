@@ -3,6 +3,7 @@ import folium
 from streamlit.components.v1 import html
 import branca
 import streamlit.components.v1 as components
+import os
 
 
 
@@ -260,6 +261,8 @@ if selection == "Gottesacker Digital":
 elif selection == "Analyse":
     st.title("Analye")
 
+
+
     add_selectbox = st.sidebar.radio(
         "Wortwolken",
         ("Lemmata (w)", "Lemmata (m)", "Beide"),
@@ -275,3 +278,22 @@ elif selection == "Analyse":
         st.image('Output/wordcloud_m.png', caption='WordCloud von Männern')
 
 #    st.image('Output/grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
+
+# Ordnerpfad
+folder_path = "Text/weiblich"
+
+# Auflisten aller Dateien im Ordner
+files = os.listdir(folder_path)
+
+# Sidebar-Überschrift
+st.sidebar.header("Download Textdateien")
+
+# Erstellen eines Download-Buttons für jede Datei in der Sidebar
+for file_name in files:
+    file_path = os.path.join(folder_path, file_name)
+    with open(file_path, "rb") as file:
+        btnn = st.sidebar.download_button(
+            label=f"Download {file_name}",
+            data=file,
+            file_name=file_name
+        )
