@@ -261,11 +261,13 @@ if selection == "Gottesacker Digital":
 elif selection == "Analyse":
     st.title("Analye") 
     
-    st.image('Output/wordcloud_w.png', caption='WordCloud von Frauen')
+    st.image('Output/wordcloud_w.png', caption='Abbild 1: WordCloud von Frauen')
     
-    st.image('Output/wordcloud_m.png', caption='WordCloud von Männern')
+    st.image('Output/wordcloud_m.png', caption='Abbild 2: WordCloud von Männern')
 
-    st.write("""Die durchschnittliche Textlänge (Abb.) der von uns 
+    st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
+
+    st.write("""Die durchschnittliche Textlänge (Abb. 4) der von uns 
              transkribierten und untersuchten Lebensbeschreibungen
               unterscheidet sich signifikant zwischen den Geschlechtern. 
              Während die Texte von Frauen im Durchschnitt etwas weniger als 
@@ -277,7 +279,16 @@ elif selection == "Analyse":
              beinhaltet der längste Text einer Frau nur etwas mehr als 1000 Wörter.
  """)
 
-    st.image ("Output/textlänge.png", caption="Abbild")
+    st.image ("Output/textlänge.png", caption="Abbild 4: Durchschnittliche Textlänge")
+
+    st.write(" Interessanterweise  zeigt sich ein ganz ähnliches Diagramm auch bei der durchschnittlichen Satzlänge. Obwohl ein kürzerer Text nicht zwingend mit kürzeren durchschnittlichen Sätzen korrelieren müsste, sind auch hier die durchschnittlichen Sätze der Männer mit 108 Wörtern etwa 2,5 mal so lang wie die Sätze der Frauentexte mit 38 Wörtern.")
+
+    st.image("Output/satzlänge.png", caption= "Abbild 5: Durchschnittliche Satzlänge")
+
+    st.write("POS: Insgesamt verwenden Männer und Frauen in unserer Stichprobe ähnlich häufig die verschiedenen Wortarten (Abb. 6). Es gibt jedoch ein paar Ausnahmen. Deutlich häufiger als Männer verwenden Frauen Pronomina. Vorherrschend sind hier “ich”, “sie”, “ihr” und “mir”, wie auch in der Wortwolke erkennbar ist. Ebenfalls etwas häufiger kommen in den weiblichen Texten Hilfsverben vor. Bei den von Männern verfassten Texten kommen dagegen häufiger Eigennamen vor.")
+
+    st.image("Output/POS.png", caption= "Abbild 6: Part-Of-Speech")
+
 
 
 #    st.image('Output/grafik.png', caption='Häufigkeit der Top 50 Lemmata - Männer vs. Frauen')
