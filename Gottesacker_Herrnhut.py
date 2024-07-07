@@ -264,18 +264,22 @@ elif selection == "Analyse":
 
 ######################
     
-    folder_path = "/XML"
-    files = os.listdir(folder_path)
+    # Ordnerpfad
+folder_path = "XML"
 
-    for file_name in files:
-        file_path = os.path.join(folder_path, file_name)
-        
-        with open(file_path, "rb") as file:
-                btnn = st.sidebar.download_button (
-                label=f"Download {file_name}",
-                data=file,
-                file_name=file_name        
-                )
+# Auflisten aller Dateien im Ordner
+files = os.listdir(folder_path)
+
+# Erstellen eines Download-Buttons für jede Datei in der Sidebar
+for file_name in files:
+    file_path = os.path.join(folder_path, file_name)
+    
+    with open(file_path, "rb") as file:
+        btnn = st.sidebar.download_button(
+            label=f"Download {file_name}",
+            data=file,
+            file_name=file_name        
+        )
                 
                 
                 #add_selectbox = st.sidebar.button (
