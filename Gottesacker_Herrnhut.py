@@ -276,11 +276,13 @@ elif selection == "Analyse":
     
     st.write("""Die folgende Analyse untersucht die Lebensbeschreibungen von acht Mitgliedern der Herrnhuter Brüdergemeine. 
              Es handelt sich um vier Frauen und vier Männer. Die Texte stammen aus den Jahren 1770 bis 1806 und wurden nach 
-             dem Zufallsprinzip für die Analyse ausgewählt. Zunächst wurden die Digitalisate mit dem Tool eScriptorium 
+             dem Zufallsprinzip für die Analyse ausgewählt.""")
+    st.write ("""Zunächst wurden die Digitalisate mit dem Tool eScriptorium 
              transkribiert und die Texte normalisiert, um eine konsistente Analyse zu ermöglichen. 
-             Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte die Frage beantworten Wie unterscheiden 
+             Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte die Frage beantworten: Wie unterscheiden 
              sich die Lebensbeschreibungen von Männern und Frauen in Bezug auf Textlänge, Satzlänge, häufigste Wörter/Wortarten und Inhalt.
-             Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und in Form einer Wortwolke visualisiert (Abb. 1 und 2).
+             """)
+    st.write("""Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und in Form einer Wortwolke visualisiert (Abb. 1 und 2).
              Zunächst wurde eine Liste von häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten 
              (z.B.: ja, weil, was, wo, derselbe usw.) und aus der Analyse ausgeschlossen. Dies ermöglichte es, sich auf die für 
              den Inhalt relevanten Wörter zu konzentrieren. Die Visualisierung wurde für die Texte von Frauen und Männern getrennt
@@ -295,11 +297,14 @@ elif selection == "Analyse":
               und ihr eigenes Leben fokussiert sind, findet sich in den Texten häufig der Gebrauch von Pronomina 
              (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche AutorInnen sprechen oft über Gott,
               den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen Bestandteil ihres Lebens hin.
-              Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen,
+              """)
+    st.write("""Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen,
               was sich in der Verwendung von Begriffen wie "Reisen" oder "Reise" widerspiegelt.
               Zudem finden sich in den männlichen Texten häufig Berichte über ihre Bildungserfahrungen 
              (siehe Abbildung 2). Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (siehe Abbildung 1).""")
+    
     st.write("Abbildung 3 veranschaulicht den Vergleich der Worthäufigkeit zwischen Männern und Frauen.")
+    
     st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata (Männer vs. Frauen)')
 
     st.write("""Die durchschnittliche Textlänge (Abb. 4) der von uns 
