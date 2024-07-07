@@ -17,7 +17,7 @@ selection = st.sidebar.radio("Gehen Sie zu", ["Gottesacker Digital", "Analyse"])
 if selection == "Gottesacker Digital":
      
      add_selectbox = st.sidebar.radio(
-        "Download",
+        "Dateiformat auswählen und Namensliste erhalten",
         ("Digitalisat", "Text und XML"),
         index=None
     )
