@@ -74,7 +74,7 @@ if selection == "Digitaler Gottesacker":
                  vom Hauptweg (Abb. 1) (vgl. Hennig 1922: 11–12). """)
 
         ################## Bild
-        st.image("plan_gottesacker_hrrh.jpeg", caption= "Abbild 1: Plan des Gottesackers Herrnhut, 1822")
+        st.image("plan_gottesacker_hrrh.jpeg", caption= "Abbild 1: [Plan des Gottesackers Herrnhut, 1822](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=)")
         st.markdown("Qulle: [Staatsbibliothek Berlin](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=)")
 
         ################# Text
