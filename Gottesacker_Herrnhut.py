@@ -55,12 +55,37 @@ if selection == "Digitaler Gottesacker":
                st.session_state.disabled = False
 
 ############################## Inhalt
-        st.write("Text")
+               
+        ################# Text
+        st.write("""Der Begräbnisplatz in Herrnhut (Oberlausitz) wurde im Jahr 1727 gegründet. 
+                 Dieser Friedhof ist durch streng rechteckige, gleich große, von Bäumen umgebene 
+                 Rasenflächen charakterisiert. Dies solle die religiösen Überzeugungen der 
+                 Gemeinschaft widerspiegeln. (vgl. Fischer 1996: 50–51). Auf dem Friedhof, 
+                 in der Ge-meinde von Brüdern und Schwestern, wurden die Verstorbenen 
+                 unabhängig von ihrem irdischen Stand als gleich angesehen, da die Unterschiede zwischen 
+                 den Menschen im Tod nicht mehr sichtbar sind (vgl. Hennig 1922: 11). 
+                 Im Zeitalter der Aufklärung und Revolution wurde dieser Begräbnisplatz 
+                 als Beispiel für eine egali-täre und ästhetisch ansprechende Friedhofsgestaltung 
+                 angesehen (vgl. Fischer 1996: 50–51).""")
+        st.write("""Die gesamte Anlage des Gottesackers wurde über die Jahre stetig erweitert 
+                 und umfasst verschiedene Felder. Einige ältere Gräber blieben unberührt, obwohl 
+                 durch nachträglich angelegte Wege einige Grabsteine zwischen den benachbarten 
+                 Reihen verschoben wurden. Die ältesten Gräben beginnen auf dem Feld A und B links 
+                 vom Hauptweg (Abb. 1) (vgl. Hennig 1922: 11–12). """)
 
+        ################## Bild
         st.image("plan_gottesacker_hrrh.jpeg", caption= "Abbild 1: Plan des Gottesackers Herrnhut, 1822")
         st.markdown("Qulle: [Staatsbibliothek Berlin](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=)")
 
-        st.write("Text")
+        ################# Text
+        st.write("""Wenn Sie die Dropdown-Liste verwenden, können Sie einfach den Namen 
+                 der Person auswählen, über die Sie mehr erfahren möchten. Nach der 
+                 Auswahl erhalten Sie Zugang zu verschiedenen Informationen: Sie 
+                 können das Digitalisat der Lebensbeschreibung dieser Person einsehen, 
+                 die Datei im XML-Format und den normalisierten Text der Lebensbeschreibung 
+                 herunterladen. Zusätzlich erfahren Sie die genaue Lage des Grabes dieser 
+                 Person, einschließlich kurzer Informationen über die Reihe, das Feld und 
+                 die Steinnummer. Ein Foto des Grabes ist ebenfalls verfügbar.""")
 
 
 ############################## Kodierung von Auswahlmöglichkeit von Personen und ihrem Inhalt
@@ -77,7 +102,7 @@ if selection == "Digitaler Gottesacker":
                label_visibility=st.session_state.visibility,
                disabled=st.session_state.disabled,
                )
-     
+
      #################################### Personen und Inhalt
 
      if option == "Hans Hansen":
@@ -290,34 +315,57 @@ if selection == "Digitaler Gottesacker":
 elif selection == "Analyse":
     st.title("Analyse") 
     
-    st.write("""Die folgende Analyse untersucht die Lebensbeschreibungen von acht Mitgliedern der Herrnhuter Brüdergemeine. 
-             Es handelt sich um vier Frauen und vier Männer. Die Texte stammen aus den Jahren 1770 bis 1806 und wurden nach 
-             dem Zufallsprinzip für die Analyse ausgewählt.""")
-    st.write ("""Zunächst wurden die Digitalisate mit dem Tool eScriptorium 
-             transkribiert und die Texte normalisiert, um eine konsistente Analyse zu ermöglichen. 
-             Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte die Frage beantworten: Wie unterscheiden 
-             sich die Lebensbeschreibungen von Männern und Frauen in Bezug auf Textlänge, Satzlänge, häufigste Wörter/Wortarten und Inhalt.
-             """)
-    st.write("""Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und in Form einer Wortwolke visualisiert (Abb. 1 und 2).
-             Zunächst wurde eine Liste von häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten 
-             (z.B.: ja, weil, was, wo, derselbe usw.) und aus der Analyse ausgeschlossen. Dies ermöglichte es, sich auf die für 
-             den Inhalt relevanten Wörter zu konzentrieren. Die Visualisierung wurde für die Texte von Frauen und Männern getrennt
-             erstellt, wobei Wörter, die mindestens dreimal in den Texten vorkamen, in die Wortwolke aufgenommen wurden. 
+    st.write("""Die Entstehung des Verfassens von Lebensläufen lässt sich auf die Mitte des 18. 
+             Jahrhunderts zurückführen. Ein entscheidender Impuls dafür war vermutlich der 22. 
+             Juni 1747, als Graf Zinzendorf anlässlich des Todes eines Bruders anordnete, dass 
+             bei Todesfällen zukünftig in der Singstunde „eine kurze Nachricht von dem Bruder 
+             oder der Schwester, die heimgegangen, der Gemeine mitgeteilt“ (Jüngerhausdiarium 
+             vom 22.06.1747, zitiert nach Böß 2016: 66) werden solle. Dies diente als eine 
+             Möglichkeit des Abschiednehmens von Gestorbenen. Seit 1752 finden sich kurze 
+             Lebensläufe von verstorbenen Gemeindegliedern in dritter Person, beispielweise 
+             von Angehörigen oder Mitgliedern des jeweiligen Chores.""")
+    st.write("""Ab 1757 werden im Jüngerhausdiarium auch Lebensläufe in Ich-Form wiedergegeben. 
+             In diesen Texten sollte das Wirken Gottes und des Heilands bezeugt werden. Bereits 
+             1753 wurde betont, dass sie „nichts als lauter Wahrheit besagen. Sonst verschrickt 
+             den Jünger (Zinzendorf), und gibt keinen süßen Geruch“ (Extract von den Ratskonferenzen 
+             von 1753, zitiert nach Böß 2016: 67). Zurzeit sind nur im Unitätsarchiv Herrnhut mehr 
+             als 30 000 Lebensläufe aufbewahrt (vgl. Böß 2016: 66¬67, 77).""")
+    st.write("""Die Schreibenden in den Lebensläufen der Herrnhuter Brüdergemeine haben das Ziel, 
+             ausführlich über die Gnadenführung Christi in ihren Seelen zu berichten und zu zeigen, 
+             wie wichtig jeder einzelne Mensch für Jesus ist. Dabei spielt das Alter oder die 
+             Erlebnisvielfalt eines Lebens keine Rolle, da es darum geht, Gottes Führung und einen 
+             seligen Tod zu beschreiben und zu preisen. Selbst wenn das Leben kurz oder wenig 
+             ereignisreich war, wird die göttliche Gnade deutlich und zum Lob Gottes hervorgehoben (vgl. ebd.: 70–71).""")
+    st.write("""Die folgende Analyse untersucht die Lebensbeschreibungen von acht Mitgliedern der 
+             Herrnhuter Brüdergemeine. Es handelt sich um vier Frauen und vier Männer. Die Texte 
+             stammen aus den Jahren 1770 bis 1806 und wurden nach dem Zufallsprinzip für die 
+             Analyse ausgewählt. Zunächst wurden die Digitalisate mit dem Tool eScriptorium 
+             transkribiert und die Texte normalisiert, um eine konsistente Analyse zu ermöglichen.""")
+    st.write ("""Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte folgende 
+              Frage beantworten: Wie unterscheiden sich die Lebensbeschreibungen von Männern und Frauen in 
+              Bezug auf Textlänge, Satzlänge, häufigste Wörter/Wortarten und Inhalt?""")
+    st.write("""Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und 
+             in Form einer Wortwolke visualisiert (Abb. 1 und 2). Zunächst wurde eine Liste von 
+             häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten 
+             (z. B.: ja, weil, was, wo, derselbe usw.) und aus der Analyse ausgeschlossen. 
+             Dies ermöglichte es, sich auf die für den Inhalt relevanten Wörter zu konzentrieren. 
+             Die Visua-lisierung wurde für die Texte von Frauen und Männern getrennt erstellt, 
+             wobei Wörter, die mindestens dreimal in den Texten vorkamen, in die Wortwolke aufgenommen wurden. 
              Die einzelnen Wörter wurden je nach Häufigkeit unterschiedlich groß dargestellt.""")
     
     st.image('Output/wordcloud_w.png', caption='Abbild 1: WordCloud von Frauen')
     
     st.image('Output/wordcloud_m.png', caption='Abbild 2: WordCloud von Männern')
 
-    st.write("""Da die AutorInnen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen
-              und ihr eigenes Leben fokussiert sind, findet sich in den Texten häufig der Gebrauch von Pronomina 
-             (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche AutorInnen sprechen oft über Gott,
-              den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen Bestandteil ihres Lebens hin.
-              """)
-    st.write("""Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen,
-              was sich in der Verwendung von Begriffen wie "Reisen" oder "Reise" widerspiegelt.
-              Zudem finden sich in den männlichen Texten häufig Berichte über ihre Bildungserfahrungen 
-             (vgl. Abb. 2). Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (vgl. Abb. 1).""")
+    st.write("""Da die Autor:innen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen und ihr 
+             eigenes Leben fokussiert sind, findet sich in den Texten häufig der Gebrauch von Pronomina 
+             (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche Autor:innen sprechen oft über Gott, 
+             den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen 
+             Bestandteil ihres Lebens hin.""")
+    st.write("""Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen, was sich in 
+             der Verwendung von Begriffen wie "Reisen" oder "Reise" widerspiegelt. Zudem finden sich 
+             in den männlichen Texten häufig Berichte über ihre Bildungserfahrungen (vgl. Abb. 2). 
+             Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (vgl. Abb. 1).""")
     
     st.write("Abbild 3 veranschaulicht den Vergleich der Worthäufigkeit zwischen Männern und Frauen.")
 
