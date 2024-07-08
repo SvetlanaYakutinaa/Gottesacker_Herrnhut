@@ -59,7 +59,7 @@ if selection == "Digitaler Gottesacker":
 
         st.image("plan_gottesacker_hrrh.jpeg", caption= "Abbild 1: Plan des Gottesackers Herrnhut, 1822")
         st.link_button("Quelle", "https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=")
-        st.url("Quelle", "https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=")
+        st.write("URL: https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=")
 
 
 ############################## Kodierung von Auswahlmöglichkeit von Personen und ihrem Inhalt
