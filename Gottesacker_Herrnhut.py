@@ -61,11 +61,11 @@ if selection == "Digitaler Gottesacker":
                  Dieser Friedhof ist durch streng rechteckige, gleich große, von Bäumen umgebene 
                  Rasenflächen charakterisiert. Dies solle die religiösen Überzeugungen der 
                  Gemeinschaft widerspiegeln. (vgl. Fischer 1996: 50–51). Auf dem Friedhof, 
-                 in der Ge-meinde von Brüdern und Schwestern, wurden die Verstorbenen 
+                 in der Gemeinde von Brüdern und Schwestern, wurden die Verstorbenen 
                  unabhängig von ihrem irdischen Stand als gleich angesehen, da die Unterschiede zwischen 
                  den Menschen im Tod nicht mehr sichtbar sind (vgl. Hennig 1922: 11). 
                  Im Zeitalter der Aufklärung und Revolution wurde dieser Begräbnisplatz 
-                 als Beispiel für eine egali-täre und ästhetisch ansprechende Friedhofsgestaltung 
+                 als Beispiel für eine egalitäre und ästhetisch ansprechende Friedhofsgestaltung 
                  angesehen (vgl. Fischer 1996: 50–51).""")
         st.write("""Die gesamte Anlage des Gottesackers wurde über die Jahre stetig erweitert 
                  und umfasst verschiedene Felder. Einige ältere Gräber blieben unberührt, obwohl 
@@ -304,9 +304,9 @@ if selection == "Digitaler Gottesacker":
 ##############################
      with st.container():
         st.header("Literatur")
-        st.write("Fischer, Norbert (1996): Vom Gottesacker zum Krematorium: eine Sozialgeschichte der Friedhöfe in Deutschland seit dem 18. Jahrhundert. Diss. Staats-und Universi-tätsbibliothek Hamburg Carl von Ossietzky.")
-        st.write("Hennig, Paul Otto (1922): Der Hutberg. Führer über den Gottesacker der Brüder-gemeine : der Gemeine Herrnhut zu ihrem 200 jährigen Bestehen gewidmet. Herrnhut.")
-        st.write("N.A. (1822): Der Gottes-Acker zu Herrnhut. Bei der einhundertjährigen Jubel-Feier des am 17ten Juny 1722 begonnenen Anbaues böhmisch-mährischer Brüder der Evangelischen Brüdergemeine, gewidmet von einigen hierzu vereinigten Freunden Hirschberg 1822, Unitätsarchiv Herrnhut, Signatur R 121315 / 36-1.")
+        st.write("Fischer, Norbert (1996): Vom Gottesacker zum Krematorium: eine Sozialgeschichte der Friedhöfe in Deutschland seit dem 18. Jahrhundert. Diss. Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky.")
+        st.write("Hennig, Paul Otto (1922): Der Hutberg. Führer über den Gottesacker der Brüdergemeine : der Gemeine Herrnhut zu ihrem 200 jährigen Bestehen gewidmet. Herrnhut.")
+        st.write("N.A. (1822): Der Gottes-Acker zu Herrnhut. Bei der einhundertjährigen JubelFeier des am 17ten Juny 1722 begonnenen Anbaues böhmischmährischer Brüder der Evangelischen Brüdergemeine, gewidmet von einigen hierzu vereinigten Freunden Hirschberg 1822, Unitätsarchiv Herrnhut, Signatur R 121315 / 36-1.")
 
 ############################## Kodierung der Seite "Analyse"
 # die Analyse wurde in den separaten Jupyter - Notebooks durchgefürt
@@ -349,7 +349,7 @@ elif selection == "Analyse":
              häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten 
              (z. B.: ja, weil, was, wo, derselbe usw.) und aus der Analyse ausgeschlossen. 
              Dies ermöglichte es, sich auf die für den Inhalt relevanten Wörter zu konzentrieren. 
-             Die Visua-lisierung wurde für die Texte von Frauen und Männern getrennt erstellt, 
+             Die Visualisierung wurde für die Texte von Frauen und Männern getrennt erstellt, 
              wobei Wörter, die mindestens dreimal in den Texten vorkamen, in die Wortwolke aufgenommen wurden. 
              Die einzelnen Wörter wurden je nach Häufigkeit unterschiedlich groß dargestellt.""")
     
@@ -359,7 +359,7 @@ elif selection == "Analyse":
 
     st.write("""Da die AutorInnen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen und ihr 
              eigenes Leben fokussiert sind, findet sich in den Texten häufig der Gebrauch von Pronomina 
-             (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche Autor:innen sprechen oft über Gott, 
+             (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche AutorInnen sprechen oft über Gott, 
              den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen 
              Bestandteil ihres Lebens hin.""")
     st.write("""Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen, was sich in 
