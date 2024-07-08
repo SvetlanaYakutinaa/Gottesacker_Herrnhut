@@ -54,6 +54,11 @@ if selection == "Digitaler Gottesacker":
         if 'disabled' not in st.session_state:
                st.session_state.disabled = False
 
+############################## Inhalt
+        st.write("Text")
+
+        st.image("plan_gottesacker.jpeg")
+
 ############################## Kodierung von Auswahlmöglichkeit von Personen und ihrem Inhalt
                 
      option = st.selectbox( 
@@ -301,10 +306,10 @@ elif selection == "Analyse":
     st.write("""Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen,
               was sich in der Verwendung von Begriffen wie "Reisen" oder "Reise" widerspiegelt.
               Zudem finden sich in den männlichen Texten häufig Berichte über ihre Bildungserfahrungen 
-             (siehe Abbildung 2). Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (siehe Abbildung 1).""")
+             (vgl. Abb. 2). Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (vgl. Abb. 1).""")
     
-    st.write("Abbildung 3 veranschaulicht den Vergleich der Worthäufigkeit zwischen Männern und Frauen.")
-    
+    st.write("Abbild 3 veranschaulicht den Vergleich der Worthäufigkeit zwischen Männern und Frauen.")
+
     st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata (Männer vs. Frauen)')
 
     st.write("""Die durchschnittliche Textlänge (Abb. 4) der von uns 
