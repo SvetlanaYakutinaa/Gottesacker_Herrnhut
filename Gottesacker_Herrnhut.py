@@ -57,7 +57,7 @@ if selection == "Digitaler Gottesacker":
 ############################## Inhalt
         st.write("Text")
 
-        st.image("plan_gottesacker.jpeg")
+        st.image("plan_gottesacker_hrrh.jpeg")
 
 ############################## Kodierung von Auswahlmöglichkeit von Personen und ihrem Inhalt
                 
