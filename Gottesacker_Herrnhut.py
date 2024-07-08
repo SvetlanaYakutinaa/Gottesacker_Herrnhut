@@ -58,7 +58,9 @@ if selection == "Digitaler Gottesacker":
         st.write("Text")
 
         st.image("plan_gottesacker_hrrh.jpeg", caption= "Abbild 1: Plan des Gottesackers Herrnhut, 1822")
-        st.markdown("Qulle: [Staatsbibliothek Berlin](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=).")
+        st.markdown("Qulle: [Staatsbibliothek Berlin](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=)")
+
+        st.write("Text")
 
 
 ############################## Kodierung von Auswahlmöglichkeit von Personen und ihrem Inhalt
@@ -274,6 +276,13 @@ if selection == "Digitaler Gottesacker":
      # Zeige die HTML-Karte in der Streamlit-Anwendung
      st.components.v1.html(map_html, height=500)
 
+##############################
+     with st.container():
+        st.write("Literatur")
+        st.write("Fischer, Norbert (1996): Vom Gottesacker zum Krematorium: eine Sozialgeschichte der Friedhöfe in Deutschland seit dem 18. Jahrhundert. Diss. Staats-und Universi-tätsbibliothek Hamburg Carl von Ossietzky.")
+        st.write("Hennig, Paul Otto (1922): Der Hutberg. Führer über den Gottesacker der Brüder-gemeine : der Gemeine Herrnhut zu ihrem 200 jährigen Bestehen gewidmet. Herrnhut")
+        st.write("N.A. (1822): Der Gottes-Acker zu Herrnhut. Bei der einhundertjährigen Jubel-Feier des am 17ten Juny 1722 begonnenen Anbaues böhmisch-mährischer Brüder der Evangelischen Brüdergemeine, gewidmet von einigen hierzu vereinigten Freunden Hirschberg 1822, Unitätsarchiv Herrnhut, Signatur R 121315 / 36-1.")
+
 ############################## Kodierung der Seite "Analyse"
 # die Analyse wurde in den separaten Jupyter - Notebooks durchgefürt
 # Notebooks sind im Repositorium zugänglich
@@ -342,5 +351,8 @@ elif selection == "Analyse":
 
     st.image("Output/POS.png", caption= "Abbild 6: Relative Häufigkeit der verschiedenen Wortarten (Männer vs. Frauen)")
 
+    with st.container():
+            st.write("Literatur")
+            st.write("Böß, Stephanie (2016): Gottesacker-Geschichten als Gedächtnis. Eine Ethnographie zur Herrnhuter Erinnerungskultur am Beispiel von Neudietendorfer Lebensläufen. Münster/ New York: Waxmann.")
 
 
