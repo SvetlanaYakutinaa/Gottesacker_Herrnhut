@@ -75,7 +75,7 @@ if selection == "Digitaler Gottesacker":
 
         ################## Bild
         st.image("plan_gottesacker_hrrh.jpeg", caption= "Abbild 1: Plan des Gottesackers Herrnhut, 1822")
-        st.markdown("Qulle: [Staatsbibliothek Berlin](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=)")
+        st.markdown("Quelle: [Staatsbibliothek Berlin](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=)")
 
         ################# Text
         st.write("""Wenn Sie die Dropdown-Liste verwenden, können Sie einfach den Namen 
