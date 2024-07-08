@@ -66,7 +66,7 @@ if selection == "Digitaler Gottesacker":
 ############################## Kodierung von Auswahlmöglichkeit von Personen und ihrem Inhalt
                 
      option = st.selectbox( 
-             "Wählen Sie bitte einen Name aus",
+             "Die Namen finden Sie im linken Seitenbereich der Benutzeoberfläche",
                ("Knud Andersen", "Hans Hansen", "Herrmann Reinhard Schick", "Gottfried Clemens", 
             "Johann Sebald Ringmacher", "Abraham Dürninger", "Benigna Schüz", 
             "Christa Dorothea Lintrupin", "Maria Magdalena Richter", 
@@ -280,7 +280,7 @@ if selection == "Digitaler Gottesacker":
      with st.container():
         st.write("Literatur")
         st.write("Fischer, Norbert (1996): Vom Gottesacker zum Krematorium: eine Sozialgeschichte der Friedhöfe in Deutschland seit dem 18. Jahrhundert. Diss. Staats-und Universi-tätsbibliothek Hamburg Carl von Ossietzky.")
-        st.write("Hennig, Paul Otto (1922): Der Hutberg. Führer über den Gottesacker der Brüder-gemeine : der Gemeine Herrnhut zu ihrem 200 jährigen Bestehen gewidmet. Herrnhut")
+        st.write("Hennig, Paul Otto (1922): Der Hutberg. Führer über den Gottesacker der Brüder-gemeine : der Gemeine Herrnhut zu ihrem 200 jährigen Bestehen gewidmet. Herrnhut.")
         st.write("N.A. (1822): Der Gottes-Acker zu Herrnhut. Bei der einhundertjährigen Jubel-Feier des am 17ten Juny 1722 begonnenen Anbaues böhmisch-mährischer Brüder der Evangelischen Brüdergemeine, gewidmet von einigen hierzu vereinigten Freunden Hirschberg 1822, Unitätsarchiv Herrnhut, Signatur R 121315 / 36-1.")
 
 ############################## Kodierung der Seite "Analyse"
