@@ -61,7 +61,7 @@ if selection == "Digitaler Gottesacker":
                  Dieser Friedhof ist durch streng rechteckige, gleich große, von Bäumen umgebene 
                  Rasenflächen charakterisiert. Dies solle die religiösen Überzeugungen der 
                  Gemeinschaft widerspiegeln. (vgl. Fischer 1996: 50–51). Auf dem Friedhof, 
-                 in der Gemeinde von Brüdern und Schwestern, wurden die Verstorbenen 
+                 in der Gemeine von Brüdern und Schwestern, wurden die Verstorbenen 
                  unabhängig von ihrem irdischen Stand als gleich angesehen, da die Unterschiede zwischen 
                  den Menschen im Tod nicht mehr sichtbar sind (vgl. Hennig 1922: 11). 
                  Im Zeitalter der Aufklärung und Revolution wurde dieser Begräbnisplatz 
@@ -74,7 +74,7 @@ if selection == "Digitaler Gottesacker":
                  vom Hauptweg (Abb. 1) (vgl. Hennig 1922: 11–12). """)
 
         ################## Bild
-        st.image("plan_gottesacker_hrrh.jpeg", caption= "Abbild 1: [Plan des Gottesackers Herrnhut, 1822](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=)")
+        st.image("plan_gottesacker_hrrh.jpeg", caption= "Abbild 1: Plan des Gottesackers Herrnhut, 1822")
         st.markdown("Qulle: [Staatsbibliothek Berlin](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN657385352&PHYSID=PHYS_0115&DMDID=)")
 
         ################# Text
