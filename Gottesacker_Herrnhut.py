@@ -11,7 +11,7 @@ st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
 # Erstellung einer Seitenleiste mit Links zu verschiedenen Seiten 
 st.sidebar.title('Navigation')
-selection = st.sidebar.radio("Gehen Sie zu", ["Digitaler Gottesacker", "Analyse"])
+selection = st.sidebar.radio("Gehen Sie zu", ["Digitaler Gottesacker"])
 
 ###################### Seite "Digitaler Gottesacker"
 
@@ -311,11 +311,13 @@ if selection == "Digitaler Gottesacker":
 ############################## Kodierung der Seite "Analyse"
 # die Analyse wurde in den separaten Jupyter - Notebooks durchgefürt
 # Notebooks sind im Repositorium zugänglich
-          
-elif selection == "Analyse":
-    st.title("Analyse") 
+        
+selection = st.sidebar.radio("Analyse")
+
+if  selection == "Analyse":
+        st.title("Analyse") 
     
-    st.write("""Die Entstehung des Verfassens von Lebensläufen lässt sich auf die Mitte des 18. 
+        st.write("""Die Entstehung des Verfassens von Lebensläufen lässt sich auf die Mitte des 18. 
              Jahrhunderts zurückführen. Ein entscheidender Impuls dafür war vermutlich der 22. 
              Juni 1747, als Graf Zinzendorf anlässlich des Todes eines Bruders anordnete, dass 
              bei Todesfällen zukünftig in der Singstunde „eine kurze Nachricht von dem Bruder 
@@ -324,27 +326,27 @@ elif selection == "Analyse":
              Möglichkeit des Abschiednehmens von Gestorbenen. Seit 1752 finden sich kurze 
              Lebensläufe von verstorbenen Gemeindegliedern in dritter Person, beispielweise 
              von Angehörigen oder Mitgliedern des jeweiligen Chores.""")
-    st.write("""Ab 1757 werden im Jüngerhausdiarium auch Lebensläufe in Ich-Form wiedergegeben. 
+        st.write("""Ab 1757 werden im Jüngerhausdiarium auch Lebensläufe in Ich-Form wiedergegeben. 
              In diesen Texten sollte das Wirken Gottes und des Heilands bezeugt werden. Bereits 
              1753 wurde betont, dass sie „nichts als lauter Wahrheit besagen. Sonst verschrickt 
              den Jünger (Zinzendorf), und gibt keinen süßen Geruch“ (Extract von den Ratskonferenzen 
              von 1753, zitiert nach Böß 2016: 67). Zurzeit sind nur im Unitätsarchiv Herrnhut mehr 
              als 30 000 Lebensläufe aufbewahrt (vgl. Böß 2016: 66¬67, 77).""")
-    st.write("""Die Schreibenden in den Lebensläufen der Herrnhuter Brüdergemeine haben das Ziel, 
+        st.write("""Die Schreibenden in den Lebensläufen der Herrnhuter Brüdergemeine haben das Ziel, 
              ausführlich über die Gnadenführung Christi in ihren Seelen zu berichten und zu zeigen, 
              wie wichtig jeder einzelne Mensch für Jesus ist. Dabei spielt das Alter oder die 
              Erlebnisvielfalt eines Lebens keine Rolle, da es darum geht, Gottes Führung und einen 
              seligen Tod zu beschreiben und zu preisen. Selbst wenn das Leben kurz oder wenig 
              ereignisreich war, wird die göttliche Gnade deutlich und zum Lob Gottes hervorgehoben (vgl. ebd.: 70–71).""")
-    st.write("""Die folgende Analyse untersucht die Lebensbeschreibungen von acht Mitgliedern der 
+        st.write("""Die folgende Analyse untersucht die Lebensbeschreibungen von acht Mitgliedern der 
              Herrnhuter Brüdergemeine. Es handelt sich um vier Frauen und vier Männer. Die Texte 
              stammen aus den Jahren 1770 bis 1806 und wurden nach dem Zufallsprinzip für die 
              Analyse ausgewählt. Zunächst wurden die Digitalisate mit dem Tool eScriptorium 
              transkribiert und die Texte normalisiert, um eine konsistente Analyse zu ermöglichen.""")
-    st.write ("""Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte folgende 
+        st.write ("""Die Analyse wurde mit Hilfe von Python-Skripten durchgeführt und sollte folgende 
               Frage beantworten: Wie unterscheiden sich die Lebensbeschreibungen von Männern und Frauen in 
               Bezug auf Textlänge, Satzlänge, häufigste Wörter/Wortarten und Inhalt?""")
-    st.write("""Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und 
+        st.write("""Die häufigsten Wörter in den Lebensbeschreibungen wurden analysiert und 
              in Form einer Wortwolke visualisiert (Abb. 1 und 2). Zunächst wurde eine Liste von 
              häufig vorkommenden Wörtern erstellt, die keine signifikante Information enthalten 
              (z. B.: ja, weil, was, wo, derselbe usw.) und aus der Analyse ausgeschlossen. 
@@ -353,25 +355,25 @@ elif selection == "Analyse":
              wobei Wörter, die mindestens dreimal in den Texten vorkamen, in die Wortwolke aufgenommen wurden. 
              Die einzelnen Wörter wurden je nach Häufigkeit unterschiedlich groß dargestellt.""")
     
-    st.image('Output/wordcloud_w.png', caption='Abbild 1: WordCloud von Frauen')
+        st.image('Output/wordcloud_w.png', caption='Abbild 1: WordCloud von Frauen')
     
-    st.image('Output/wordcloud_m.png', caption='Abbild 2: WordCloud von Männern')
+        st.image('Output/wordcloud_m.png', caption='Abbild 2: WordCloud von Männern')
 
-    st.write("""Da die AutorInnen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen und ihr 
+        st.write("""Da die AutorInnen von Lebensbeschreibungen stark auf ihre eigenen Erfahrungen und ihr 
              eigenes Leben fokussiert sind, findet sich in den Texten häufig der Gebrauch von Pronomina 
              (vgl. Abb. 1 und 2). Sowohl männliche als auch weibliche AutorInnen sprechen oft über Gott, 
              den Heiland und Herrnhut. Dies weist auf die Textsorte und den Glauben als zentralen 
              Bestandteil ihres Lebens hin.""")
-    st.write("""Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen, was sich in 
+        st.write("""Männliche Autoren berichten besonders häufig über ihre Reiseerfahrungen, was sich in 
              der Verwendung von Begriffen wie "Reisen" oder "Reise" widerspiegelt. Zudem finden sich 
              in den männlichen Texten häufig Berichte über ihre Bildungserfahrungen (vgl. Abb. 2). 
              Frauen hingegen thematisieren häufig Kinder und soziale Aktivitäten wie den Chor (vgl. Abb. 1).""")
     
-    st.write("Abbild 3 veranschaulicht den Vergleich der Worthäufigkeit zwischen Männern und Frauen.")
+        st.write("Abbild 3 veranschaulicht den Vergleich der Worthäufigkeit zwischen Männern und Frauen.")
 
-    st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata (Männer vs. Frauen)')
+        st.image('Output/grafik.png', caption='Abbild 3: Häufigkeit der Top 50 Lemmata (Männer vs. Frauen)')
 
-    st.write("""Die durchschnittliche Textlänge (Abb. 4) der von uns 
+        st.write("""Die durchschnittliche Textlänge (Abb. 4) der von uns 
              transkribierten und untersuchten Lebensbeschreibungen
               unterscheidet sich signifikant zwischen den Geschlechtern. 
              Während die Texte von Frauen im Durchschnitt etwas weniger als 
@@ -383,23 +385,23 @@ elif selection == "Analyse":
              beinhaltet der längste Text einer Frau nur etwas mehr als 1000 Wörter.
  """)
 
-    st.image ("Output/textlänge.png", caption="Abbild 4: Durchschnittliche Textlänge")
+        st.image ("Output/textlänge.png", caption="Abbild 4: Durchschnittliche Textlänge")
 
-    st.write("""Interessanterweise  zeigt sich ein ganz ähnliches Diagramm auch bei der durchschnittlichen Satzlänge.
+        st.write("""Interessanterweise  zeigt sich ein ganz ähnliches Diagramm auch bei der durchschnittlichen Satzlänge.
               Obwohl ein kürzerer Text nicht zwingend mit kürzeren durchschnittlichen Sätzen korrelieren müsste, sind 
              auch hier die durchschnittlichen Sätze der Männer mit 108 Wörtern etwa 2,5 mal so lang wie die Sätze der Frauentexte mit 38 Wörtern.""")
 
-    st.image("Output/satzlänge.png", caption= "Abbild 5: Durchschnittliche Satzlänge")
+        st.image("Output/satzlänge.png", caption= "Abbild 5: Durchschnittliche Satzlänge")
 
-    st.write("""Insgesamt verwenden Männer und Frauen in unserer Stichprobe ähnlich häufig die verschiedenen Wortarten (Abb. 6). 
+        st.write("""Insgesamt verwenden Männer und Frauen in unserer Stichprobe ähnlich häufig die verschiedenen Wortarten (Abb. 6). 
              Es gibt jedoch ein paar Ausnahmen. Deutlich häufiger als Männer verwenden Frauen Pronomina. Vorherrschend sind 
              hier “ich”, “sie”, “ihr” und “mir”, wie auch in der Wortwolke (Abb. 1 und 2) erkennbar ist. 
              Ebenfalls etwas häufiger kommen in den weiblichen Texten Hilfsverben vor. Bei den von Männern 
              verfassten Texten kommen dagegen häufiger Eigennamen vor.""")
 
-    st.image("Output/POS.png", caption= "Abbild 6: Relative Häufigkeit der verschiedenen Wortarten (Männer vs. Frauen)")
+        st.image("Output/POS.png", caption= "Abbild 6: Relative Häufigkeit der verschiedenen Wortarten (Männer vs. Frauen)")
 
-    with st.container():
+        with st.container():
             st.header("Literatur")
             st.write("Böß, Stephanie (2016): Gottesacker-Geschichten als Gedächtnis. Eine Ethnographie zur Herrnhuter Erinnerungskultur am Beispiel von Neudietendorfer Lebensläufen. Münster/ New York: Waxmann.")
 
