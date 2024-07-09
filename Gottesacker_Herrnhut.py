@@ -11,7 +11,7 @@ st.set_page_config(page_title="Gottesacker Herrnhut", layout="wide")
 
 # Erstellung einer Seitenleiste mit Links zu verschiedenen Seiten 
 st.sidebar.title('Navigation')
-selection = st.sidebar.radio("Gehen Sie zu", ["Digitaler Gottesacker"])
+selection = st.sidebar.radio("Gehen Sie zu", ["Digitaler Gottesacker", "Analyse"])
 
 ###################### Seite "Digitaler Gottesacker"
 
@@ -311,10 +311,8 @@ if selection == "Digitaler Gottesacker":
 ############################## Kodierung der Seite "Analyse"
 # die Analyse wurde in den separaten Jupyter - Notebooks durchgefürt
 # Notebooks sind im Repositorium zugänglich
-        
-selection = st.sidebar.radio("Analyse")
 
-if  selection == "Analyse":
+elif selection == "Analyse":
         st.title("Analyse") 
     
         st.write("""Die Entstehung des Verfassens von Lebensläufen lässt sich auf die Mitte des 18. 
