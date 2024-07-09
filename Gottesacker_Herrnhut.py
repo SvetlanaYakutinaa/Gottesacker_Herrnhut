@@ -116,6 +116,9 @@ if selection == "Digitaler Gottesacker":
        
      elif option == "Knud Andersen":
                 st.subheader("Knud Andersen")
+                st.write("Geburtsdatum: 23.10.1714")
+                st.write("Sterbedatum: 29.11.1771")
+                st.write("Geburtsort: Skamby, Fühnen")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766116418/66")
                 
                 with open("Text/männlich/02541.txt", "rb") as file:
@@ -135,6 +138,9 @@ if selection == "Digitaler Gottesacker":
                 
      elif option== "Johann Sebald Ringmacher": 
                st.subheader("Johann Sebald Ringmacher")
+               st.write("Geburtsdatum: 24.07.1706")
+               st.write("Sterbedatum: 06.12.1772")
+               st.write("Geburtsort: Lyon, Frankreich")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/743")
                with open("Text/männlich/03277.txt", "rb") as file:
                        btnn = st.download_button(
@@ -153,12 +159,17 @@ if selection == "Digitaler Gottesacker":
         
      elif option == "Abraham Dürninger":
                st.subheader("Abraham Dürninger")
+               st.write("Geburtsdatum: 22.12.1706")
+               st.write("Sterbedatum: 13.02.1773")
+               st.write("Geburtsort: Straßburg")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/182")
                st.image("Gottesacker_Julius_Titz/20240525_160853.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019577, 14.748488], popup="Abraham Dürninger. Stein: 7, Reihe: R3, Feld: B2").add_to(m)
         
      elif option == "Anna Magdalena Elisabeth Weiss":
                 st.subheader("Anna Magdalena Elisabeth Weiss")
+                st.write("Geburtsdatum: 16.10.1748")
+                st.write("Sterbedatum: 03.06.1780")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1745048901/837")
                 with open("Text/weiblich/00196.txt", "rb") as file:
                         btnn = st.download_button(
@@ -177,6 +188,9 @@ if selection == "Digitaler Gottesacker":
         
      elif option == "Benigna Schüz":
                st.subheader("Benigna Schüz")
+               st.write("Geburtsdatum: 20.09.1745")
+               st.write("Sterbedatum: 27.04.1770")
+               st.write("Geburtsort: Herrnhut")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766025684/140")
                with open("Text/weiblich/00977.txt", "rb") as file:
                        btnn = st.download_button(
@@ -195,6 +209,9 @@ if selection == "Digitaler Gottesacker":
         
      elif option == "Christa Dorothea Lintrupin":
                st.subheader("Christa Dorothea Lintrupin")
+               st.write("Geburtsdatum: 05.04.1704")
+               st.write("Sterbedatum: 06.05.1771")
+               st.write("Geburtsort: Insel Seeland, Dänemark")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766034756/143")
                with open("Text/weiblich/01789.txt", "rb") as file:
                        btnn = st.download_button(
@@ -213,18 +230,27 @@ if selection == "Digitaler Gottesacker":
         
      elif option == "Dorothea Maria Ahlsleb":
                st.subheader("Dorothea Maria Ahlsleb")
+               st.write("Geburtsdatum: 03.01.1732")
+               st.write("Sterbedatum: 03.07.1772")
+               st.write("Geburtsort: Hecklingen, Bernburg, Anhalt")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/394")
                st.image("Gottesacker_Julius_Titz/20240525_154421.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019036, 14.748669], popup="Dorothea Maria Ahlsleb. Stein: 1, Reihe: R1, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         
      elif option == "Maria Luley":
                st.subheader("Maria Luley")
+               st.write("Geburtsdatum: 16.06.1696")
+               st.write("Sterbedatum: 13.10.1772")
+               st.write("Geburtsort: Grenzdorf")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/628")
                st.image("Gottesacker_Julius_Titz/S3R47.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019057, 14.748774], popup="Maria Luley. Stein: 7, Reihe: R4, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
         
      elif option == "Maria Magdalena Bezold":
                st.subheader("Maria Magdalena Bezold")
+               st.write("Geburtsdatum: 26.11.1700")
+               st.write("Sterbedatum: 17.02.1773")
+               st.write("Geburtsort: Meerane, Sa.")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125816/180")
                st.image("Gottesacker_Julius_Titz/S3R411.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019082, 14.748807], popup="Maria Magdalena Bezold. Stein: 11, Reihe: R4, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
@@ -232,8 +258,10 @@ if selection == "Digitaler Gottesacker":
         
      elif option == "Maria Magdalena Richter":
                st.subheader("Maria Magdalena Richter")
+               st.write("Geburtsdatum: 14.08.1750")
+               st.write("Sterbedatum: 11.05.1771")
+               st.write("Geburtsort: Emmerleff, Jütland")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/28") 
-               
                with open("Text/weiblich/02445.txt", "rb") as file:
                        btnn = st.download_button(
                                label="Download Text",
@@ -251,6 +279,9 @@ if selection == "Digitaler Gottesacker":
         
      elif option == "Mädgen Cornelia Louisa von Goldenberg":
                st.subheader("Mädgen Cornelia Louisa von Goldenberg")
+               st.write("Geburtsdatum: 16.11.1759")
+               st.write("Sterbedatum: 24.08.1772")
+               st.write("Geburtsort: Neuwied/Rhein/Rhein")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/527") 
                st.image("Gottesacker_Julius_Titz/S3R12.jpg", width=350, use_column_width="always", caption= "© Julius Titz")
                folium.Marker([51.019050, 14.748683], popup="Mädgen Cornelia Louisa von Goldenberg. Stein: 2, Reihe: R1, Feld: S3", icon=folium.Icon(color='red')).add_to(m)
@@ -258,6 +289,9 @@ if selection == "Digitaler Gottesacker":
         
      elif option == "Gottfried Clemens":
                st.subheader("Gottfried Clemens")
+               st.write("Geburtsdatum: 01.09.1706")
+               st.write("Sterbedatum: 23.03.1776")
+               st.write("Geburtsort: Berlin")
                st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766148077/273") 
                folium.Marker([51.019578, 14.748048], popup="Gottfried Clemens. Stein: 25, Reihe: R5, Feld: B3").add_to(m)
                with open("Text/männlich/05198.txt", "rb") as file:
@@ -276,6 +310,9 @@ if selection == "Digitaler Gottesacker":
 
      elif option == "Herrmann Reinhard Schick":
                 st.subheader("Herrmann Reinhard Schick")
+                st.write("Geburtsdatum: 01.09.1706")
+                st.write("Sterbedatum: 23.03.1776")
+                st.write("Geburtsort: Berlin")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766115837/419")
                 with open("Text/männlich/02490.txt", "rb") as file:
                         btnn = st.download_button(
