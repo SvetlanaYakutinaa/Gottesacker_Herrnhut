@@ -107,6 +107,9 @@ if selection == "Digitaler Gottesacker":
 
      if option == "Hans Hansen":
                 st.subheader("Hans Hansen")
+                st.write("Geburtsdatum: 15.07.1720")
+                st.write("Sterbedatum: 20.08.1772")
+                st.write("Geburtsort: Auenbüll, Nordfriesland")
                 st.link_button("Digitalisat", "http://digital.slub-dresden.de/id1766125301/524")
                 st.image("Gottesacker_Julius_Titz/Hansen.jpg", width=150, use_column_width="always", caption= "© Julius Titz")
                 folium.Marker([51.019574, 14.748516], popup="Hans Hansen. Stein: 6, Reihe: R3, Feld: B2").add_to(m)
@@ -127,7 +130,6 @@ if selection == "Digitaler Gottesacker":
                                data= file,
                                file_name="02541.xml"
                        )
-        
                 st.image("Gottesacker_Julius_Titz/Andersen.jpeg", width=350, use_column_width="always", caption= "© Julius Titz")
                 folium.Marker([51.019529, 14.748889], popup="Knud Andersen. Stein: 7, Reihe: R3, Feld: B2").add_to(m)
                 
