@@ -347,7 +347,7 @@ if selection == "Digitaler Gottesacker":
         st.write("Hennig, Paul Otto (1922): Der Hutberg. Führer über den Gottesacker der Brüdergemeine : der Gemeine Herrnhut zu ihrem 200 jährigen Bestehen gewidmet. Herrnhut.")
         st.write("N.A. (1822): Der Gottes-Acker zu Herrnhut. Bei der einhundertjährigen JubelFeier des am 17ten Juny 1722 begonnenen Anbaues böhmischmährischer Brüder der Evangelischen Brüdergemeine, gewidmet von einigen hierzu vereinigten Freunden Hirschberg 1822, Unitätsarchiv Herrnhut, Signatur R 121315 / 36-1.")
         st.write("Internetquelle")
-        st.markdown("[Archiv der Evangelischen Brüder-Unität](https://www.unitaetsarchiv.findbuch.net/php/main.php#null")
+        st.markdown("Archiv der Evangelischen Brüder-Unität(https://www.unitaetsarchiv.findbuch.net/php/main.php#null")
 ############################## Kodierung der Seite "Analyse"
 # die Analyse wurde in den separaten Jupyter - Notebooks durchgefürt
 # Notebooks sind im Repositorium zugänglich
